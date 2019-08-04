@@ -1,7 +1,7 @@
 <template>
 
-  <div>
-<p> Ce component et le pied de page :/ </p>
+  <div class="content-center content-between">
+    <p> Ce component et le pied de page :/ </p>
     <div class="links">
       <a
         href="https://nuxtjs.org/"
@@ -17,20 +17,17 @@
       >
         Internship
       </a>
-      <a
-        href="https://github.com/nuxt/nuxt.js"
+      <a href="https://github.com/nuxt/nuxt.js"
         target="_blank"
-        class="button--grey"
-      >
+        class="button--grey">
         Agenda
       </a>
-      <a
-        href="https://github.com/nuxt/nuxt.js"
+      <a href="https://github.com/nuxt/nuxt.js"
         target="_blank"
-        class="button--grey"
-      >
-        Stats
+        class="button--grey">
+        Contact
       </a>
+
     </div>
   </div>
 

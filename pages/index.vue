@@ -1,23 +1,20 @@
 <template>
   <div class="container">
-    <div>
-
-      <logo />
-
-    </div>
-
+    <logo/>
+    <div class="content-center">
     <TheNavfooter/>
+    </div>
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
-import TheNavfooter from '@/components/NavFooter'
+import TheNavfooter from '~/components/NavFooter'
 
 export default {
   components: {
     Logo,
-      TheNavfooter,
+      TheNavfooter
 
   }
 }
