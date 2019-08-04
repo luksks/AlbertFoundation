@@ -23,6 +23,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '~/assets/css/tailwind.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -45,10 +46,16 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    postcss: {
+      plugins: {
+        tailwindcss: './tailwind.config.js'
+      }
+    },
     /*
     ** You can extend webpack config here
     */
     extend(config, ctx) {
     }
   }
-}
+  }
+
