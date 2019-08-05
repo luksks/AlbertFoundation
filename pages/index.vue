@@ -1,9 +1,11 @@
 <template>
-  <div class="container">
-    <logo/>
-    <div class="content-center">
-    <TheNavfooter/>
-    </div>
+  <div class="flex flex-col h-full">
+    <main class="pt-24">
+      <logo/>
+    </main>
+    <footer>
+      <TheNavfooter/>
+    </footer>
   </div>
 </template>
 
