@@ -1,12 +1,13 @@
 <template>
-  <div class="flex justify-around " >
+  <div class="flex justify-around" >
     <div class="text-center px-4 py-2 m-2">
       <p>
         <a href="https://www.artstation.com/albertl" target="_blank"><img
           src="~/assets/img/indexImageArtstation.png"
           width="210"
           height="auto"
-          alt="Mon Artstation"/></a>
+          alt="Mon Artstation"
+          class="left"/></a>
       </p>
     </div>
     <div class="text-center px-4 py-2 m-2">
@@ -22,7 +23,8 @@
         ><img
           src="~/assets/img/indexImageGithub.png"
           width="210"
-          alt="Mon Github"/></a>
+          alt="Mon Github"
+          class="right"/></a>
       </p>
     </div>
   </div>

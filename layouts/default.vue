@@ -4,20 +4,14 @@
     <div class="container">
       <div class="flex flex-col h-full">
         <nuxt/>
-        <logo/>
         <footer>
           <TheNavfooter/>
         </footer>
       </div>
+
     </div>
   </div>
 
-
-<!--  <template>-->
-<!--    <div class="container ArrierePlan">-->
-<!--      <nuxt/>-->
-<!--    </div>-->
-<!--  </template>-->
 
 
 </template>
