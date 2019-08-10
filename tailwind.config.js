@@ -1,5 +1,3 @@
-// J'ai copier comme un lache tout ce que tu as fait peut être que mes classes marche pas car j'ai pas déclarer ce qu'il faut
-
 module.exports = {
   prefix: '',
   important: true,

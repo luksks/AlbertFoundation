@@ -12,7 +12,7 @@
     <div class="text-center px-4 py-2 m-2">
       <a href="https://linkedin.com/in/albertlanne/" target="_blank">
         <img
-          src="~/assets/img/indexImageProfil.jpg"
+          src="~/assets/img/indexImageProfil.png"
           width="230"
           alt="Albert Lanne"/></a>
     </div>
