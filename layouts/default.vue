@@ -1,8 +1,8 @@
 <template>
   <div class="ArrierePlan">
-    <div class="container">
-    <div class="flex flex-col h-full">
-    <nuxt/>
+      <div class="container">
+        <div class="flex flex-col h-full">
+        <nuxt/>
 
 
       <main class="pt-24">
@@ -15,24 +15,10 @@
 
       </footer>
 
+      </div>
+
     </div>
-
   </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </template>
@@ -49,10 +35,6 @@
         }
     }
 </script>
-
-
-
-
 
 
 <style>
@@ -81,20 +63,6 @@
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
 .button--one {
   display: inline-block;
   border-radius: 40px;
@@ -107,7 +75,7 @@
 
 .button--one:hover {
   color: #F2B441;
-  background-color: #73224F;
+  background-color: #211426;
   border: 1px solid #F2B441;
 }
 
@@ -127,7 +95,6 @@
     font-weight: 300;
     font-size: 100px;
     color: #e2e8f0;
-    letter-spacing: 1px;
   }
 
   .subtitle {
@@ -138,7 +105,4 @@
     padding-bottom: 15px;
   }
 
-  .links {
-    padding-top: 15px;
-  }
 </style>
