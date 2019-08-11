@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-around" >
-    <div class="text-center px-4 py-2 m-2 zoom">
+    <div class="text-center px-4 py-2 m-2 zoom item-center">
       <p>
         <a href="https://www.artstation.com/albertl" target="_blank"  ><img
           src="~/assets/img/indexImageArtstation.png"
