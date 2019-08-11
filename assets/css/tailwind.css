@@ -5,9 +5,9 @@
 
 
 
-.ArrierePlan {
-  background-color: #211426;
-}
+/*.ArrierePlan {*/
+/*  background-color: #211426;*/
+/*}*/
 .text {
   color: #f2cd27;
 }
@@ -47,6 +47,24 @@ html {
   background-color: #211426;
   border: 1px solid #F2B441;
 }
+/*======================================================================================*/
+.button--two {
+  display: inline-block;
+  border-radius: 40px;
+  border: 1px solid #F25CCA;
+  color: #F25CCA;
+  text-decoration: none;
+  padding: 15px 30px;
+  margin-left: 50px;
+}
+
+.button--two:hover {
+  color: #f20625;
+  background-color: #211426;
+  border: 1px solid #f20625;
+}
+/*======================================================================================*/
+
 
 .container {
   margin: 0 auto;
@@ -63,14 +81,37 @@ html {
   'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
-  color: #e2e8f0;
+  font-size: 72px;
+  color: #D9814E;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
-  color: #fff;
+  font-size: 22px;
+  color: #f2cd27;
   word-spacing: 5px;
   padding-bottom: 15px;
+}
+
+.zoom{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.zoom:hover{
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.zoomImage{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.zoomImage:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }

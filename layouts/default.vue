@@ -1,5 +1,5 @@
-<template>
-  <div class="ArrierePlan">
+<template >
+
 
     <div class="container">
       <div class="flex flex-col h-full">
@@ -8,18 +8,16 @@
           <TheNavfooter/>
         </footer>
       </div>
-
     </div>
-  </div>
-
 
 
 </template>
 
+
 <script>
+
     import Logo from '~/components/Logo.vue'
     import TheNavfooter from '~/components/NavFooter'
-
 
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta

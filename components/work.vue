@@ -1,10 +1,10 @@
 <template>
-    <h1>Contact Page </h1>
+<h1> text page </h1>
 </template>
 
 <script>
     export default {
-        name: "contact"
+        name: "work"
     }
 </script>
 

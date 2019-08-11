@@ -1,26 +1,31 @@
 <template>
-  <div>
-    <nuxt-link to="/" class="button--one">
+  <div class="zoomImage">
+
+    <nuxt-link to="./contact.vue" class="button--two zoomImage">
       Work
     </nuxt-link>
 
-    <nuxt-link to="/" class="button--one">
+    <nuxt-link to="internship" class="button--one zoomImage">
       Internship
     </nuxt-link>
 
-    <nuxt-link to="/" class="button--one">
+    <nuxt-link to="/" class="button--two zoomImage">
       Agenda
     </nuxt-link>
-    <nuxt-link to="/contact" class="button--one">
+
+    <nuxt-link to="components/contact.vue" class="button--two zoomImage">
       Contact
     </nuxt-link>
+
   </div>
 
 </template>
 
 <script>
+
+
     export default {
-        name: "Barre"
+        name: "Barre",
     }
 </script>
 

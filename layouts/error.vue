@@ -8,8 +8,7 @@
       {{ message }}
     </div>
     <p v-if="statusCode === 404">
-
-    <nuxt-link to="/" class="button--one">
+    <nuxt-link to="/" class="button--one zoom">
         Return to homepage
       </nuxt-link>
     </p>
