@@ -1,7 +1,7 @@
 <template>
   <div class="zoomImage justify-between">
 
-    <nuxt-link to="./contact.vue" class="button--two zoomImage">
+    <nuxt-link to="./posts/how" class="button--two zoomImage">
       Work
     </nuxt-link>
 
@@ -17,7 +17,11 @@
       Contact
     </nuxt-link>
 
+    <div class="bg-gray-200 p-4">
+      <"_id/work"/>
+    </div>
   </div>
+
 
 </template>
 
@@ -25,7 +29,7 @@
 
 
     export default {
-        name: "Barre",
+        name: "Barre"
     }
 </script>
 

@@ -14,7 +14,7 @@
 
 <script>
     import barre from '~/components/barre.vue'
-    import Logo from '~/components/Logo.vue'
+    import Logo from '~/components/logo.vue'
 
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta

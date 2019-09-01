@@ -16,7 +16,7 @@
 
 <script>
 
-    import Logo from '~/components/Logo.vue'
+    import logo from '~/components/logo.vue'
     import TheNavfooter from '~/components/NavFooter'
 
     export default {
@@ -35,7 +35,7 @@
             }
         },
         components: {
-            Logo,
+            logo,
             TheNavfooter
 
         }

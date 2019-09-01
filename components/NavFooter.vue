@@ -3,7 +3,7 @@
   <div class="footer ArrierePlan ">
     <div class="ArrierePlan p-100">
       <div class="block text-center px-2 py-2 mt-2">
-       <h2> 🚩 AlbertFoundation est que mon site personnel 🚩</h2>
+        <h2> 🚩 AlbertFoundation est que mon site personnel 🚩</h2>
       </div>
     </div>
   </div>
