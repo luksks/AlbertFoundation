@@ -1,28 +1,34 @@
 <template>
-<!--  Le style pour le footer ce trouve en bas de la page -->
-  <div class="footer ArrierePlan ">
-    <div class="ArrierePlan p-100">
-      <div class="block text-center px-2 py-2 mt-2">
-        <h2> 🚩 AlbertFoundation est que mon site personnel 🚩</h2>
+  <!--  Le style pour le footer ce trouve en bas de la page -->
+
+
+    <div class="flex mb-4">
+      <div class="w-1/4 bg-gray-500 h-12">
+        <p><a href="albertfoundation.com" target="_blank"><img
+          src="~/assets/img/AF_logo_2.png"
+          width="210"
+          alt="Mon Github"
+          class="right"/></a></p>
       </div>
-    </div>
+      <div class="w-1/4 bg-gray-500 h-12">
+        <p>Ressources</p>
+      </div>
+      <div class="w-1/4 bg-gray-500 h-12">
+        <p>Plus</p>
+      </div>
+      <div class="w-1/4 bg-gray-500 h-12">
+        <p>Contact</p>
+      </div>
+
+
+
   </div>
 </template>
 
 <script>
+
     export default {
         name: "NavFooter"
     }
 </script>
 
-<style>
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    /*background-color: red;*/
-    /*color: white;*/
-    text-align: center;
-  }
-</style>

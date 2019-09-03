@@ -10,8 +10,24 @@ module.exports = {
       xl: '1280px',
     },
     colors: {
+      background: {
+        // 'premiere': '#ffffff',
+        // 'deuxieme': '#e4f5ef',
+        // 'troisieme': '#758ca1',
+        // 'quatrieme': '#2c3e50',Z
+        // // 'premiere': '#1d2935',
+        // // 'deuxieme': '#4f6f7f',
+        // // 'troisieme': '#758ca1',
+        // // 'quatrieme': '#e4f5ef',
+        // premiere: 'var(--bg-background-premiere)',
+        // deuxieme: 'var(--bg-background-deuxieme)',
+        // troisieme: 'var(--bg-background-troisieme)',
+        // quatrieme: 'var(--bg-background-quatrieme)',
+
+
+
+      },
       transparent: 'transparent',
-      mycolor: '#211426',
 
       black: '#000',
       white: '#fff',

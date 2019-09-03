@@ -1,7 +1,7 @@
 <template>
   <div class="zoomImage justify-between">
 
-    <nuxt-link to="./posts/how" class="button--two zoomImage">
+    <nuxt-link to="./posts/how" class="button--one zoomImage">
       Work
     </nuxt-link>
 
@@ -9,17 +9,14 @@
       Internship
     </nuxt-link>
 
-    <nuxt-link to="/" class="button--two zoomImage ">
+    <nuxt-link to="/" class="button--one zoomImage ">
       Agenda
     </nuxt-link>
 
-    <nuxt-link to="components/contact.vue" class="button--two zoomImage">
+    <nuxt-link to="components/contact.vue" class="button--one zoomImage">
       Contact
     </nuxt-link>
 
-    <div class="bg-gray-200 p-4">
-      <"_id/work"/>
-    </div>
   </div>
 
 
