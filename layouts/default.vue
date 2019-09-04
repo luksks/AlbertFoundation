@@ -1,17 +1,24 @@
 <template>
-  <div class=" bg-background-primary bg-premiere flex flex-col" :class="theme">
+
+  <div class=" bg-background-primary bg-premiere flex flex-col content-center w-full" :class="theme">
     <div class="container">
-      <div class="flex flex-col h-full">
+      <div class="text-copy-primary m-8">
+        <h1> Albertfoundation</h1>
+      </div>
+      <div class="flex flex-col h-full content-center w-full">
         <nuxt />
-        <a
-          href="#"
-          class="text-gray-800 hover:text-gray-600"
-          @click.prevent="toggleTheme"
-        >T</a>
+
+          <a
+            href="#"
+            class="text-gray-800 hover:text-gray-600"
+            @click.prevent="toggleTheme"
+          >Theme</a>
+
 
         <footer>
-          <TheNavfooter />
+          <TheNavfooter/>
         </footer>
+
       </div>
     </div>
   </div>
@@ -37,15 +44,14 @@ export default {
     },
     data() {
         return {
-        theme: "theme-dark"
-              }
-        },
-  methods: {
-    toggleTheme() {
-      this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
-    }
-  },
-
+            theme: "theme-dark"
+        }
+    },
+    methods: {
+        toggleTheme() {
+            this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
+        }
+    },
   components: {
     logo,
     TheNavfooter

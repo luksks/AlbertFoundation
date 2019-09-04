@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-around" >
-    <div class=" text-center px-4 py-2 m-2 zoom item-center">
+  <div class="flex justify-around flex w-full content-center" >
+    <div class="w-1/4  h-12 flex mx-8 zoom">
       <p>
         <a href="https://www.artstation.com/albertl" target="_blank"  ><img
           src="~/assets/img/indexImageArtstation.png"
@@ -11,17 +11,15 @@
       </p>
     </div>
 
-    <div class="text-center px-4 py-2 m-2 zoom">
+    <div class="w-1/4  h-12 flex mx-8 zoom">
       <a href="https://linkedin.com/in/albertlanne/" target="_blank">
         <img
-
-          src="~/assets/img/indexImageProfil.png"
-<!--          src="~/assets/img/indexImageProfil. png"-->
+        src="~/assets/img/indexImageProfil.png"
           width="230"
           alt="Albert Lanne"/></a>
     </div>
 
-    <div class=" text-center px-4 py-2 m-2 zoom">
+    <div class="w-1/4  h-12 flex mx-8 zoom">
       <p>
         <a href="https://github.com/AlbertFoundation" target="_blank"
         ><img
@@ -31,5 +29,11 @@
           class="right"/></a>
       </p>
     </div>
+
+
+
+
+
+
   </div>
 </template>

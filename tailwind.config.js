@@ -12,16 +12,6 @@ module.exports = {
     colors: {
       background: {
 
-        'premiere': '#ffffff',
-        'deuxieme': '#e4f5ef',
-        'troisieme': '#758ca1',
-        'quatrieme': '#2c3e50',
-
-        'premiere': '#1d2935',
-        'deuxieme': '#4f6f7f',
-        'troisieme': '#758ca1',
-        'quatrieme': '#e4f5ef',
-
         primary: 'var(--bg-background-primary)',
         secondary: 'var(--bg-background-secondary)',
         tertiary: 'var(--bg-background-tertiary)',
@@ -34,7 +24,7 @@ module.exports = {
         secondary: 'var(--text-copy-hover)',
       },
 
-      'border-color': {
+      'b  order-color': {
         primary: 'var(--border-border-color-primary)',
       },
 

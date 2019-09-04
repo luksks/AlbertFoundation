@@ -1,5 +1,5 @@
 <template>
-  <div class="ColorTheme-bg-premiere zoomImage justify-between ">
+  <div class="w-full">
 
     <nuxt-link to="./posts/how" class="button zoomImage text-copy-primary">
       Work
