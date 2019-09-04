@@ -11,22 +11,33 @@ module.exports = {
     },
     colors: {
       background: {
-        // 'premiere': '#ffffff',
-        // 'deuxieme': '#e4f5ef',
-        // 'troisieme': '#758ca1',
-        // 'quatrieme': '#2c3e50',Z
-        // // 'premiere': '#1d2935',
-        // // 'deuxieme': '#4f6f7f',
-        // // 'troisieme': '#758ca1',
-        // // 'quatrieme': '#e4f5ef',
-        // premiere: 'var(--bg-background-premiere)',
-        // deuxieme: 'var(--bg-background-deuxieme)',
-        // troisieme: 'var(--bg-background-troisieme)',
-        // quatrieme: 'var(--bg-background-quatrieme)',
 
+        'premiere': '#ffffff',
+        'deuxieme': '#e4f5ef',
+        'troisieme': '#758ca1',
+        'quatrieme': '#2c3e50',
 
+        'premiere': '#1d2935',
+        'deuxieme': '#4f6f7f',
+        'troisieme': '#758ca1',
+        'quatrieme': '#e4f5ef',
 
+        primary: 'var(--bg-background-primary)',
+        secondary: 'var(--bg-background-secondary)',
+        tertiary: 'var(--bg-background-tertiary)',
+
+        form: 'var(--bg-background-form)',
       },
+
+      copy: {
+        primary: 'var(--text-copy-primary)',
+        secondary: 'var(--text-copy-hover)',
+      },
+
+      'border-color': {
+        primary: 'var(--border-border-color-primary)',
+      },
+
       transparent: 'transparent',
 
       black: '#000',

@@ -1,8 +1,14 @@
 <template>
-  <div class="theme-dark flex flex-col">
+  <div class=" bg-background-primary bg-premiere flex flex-col" :class="theme">
     <div class="container">
       <div class="flex flex-col h-full">
         <nuxt />
+        <a
+          href="#"
+          class="text-gray-800 hover:text-gray-600"
+          @click.prevent="toggleTheme"
+        >T</a>
+
         <footer>
           <TheNavfooter />
         </footer>
@@ -17,18 +23,29 @@ import TheNavfooter from "~/components/NavFooter";
 
 export default {
   // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
-  head() {
-    return {
-      titleTemplate: "%s - AlbertFoundation",
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content: "The main page of my personal website"
-        }
-      ]
-    };
+    head() {
+        return {
+            titleTemplate: "%s - AlbertFoundation",
+            meta: [
+                {
+                    hid: "description",
+                    name: "description",
+                    content: "The main page of my personal website"
+                }
+            ]
+        };
+    },
+    data() {
+        return {
+        theme: "theme-dark"
+              }
+        },
+  methods: {
+    toggleTheme() {
+      this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
+    }
   },
+
   components: {
     logo,
     TheNavfooter
