@@ -24,7 +24,7 @@ module.exports = {
         secondary: 'var(--text-copy-hover)',
       },
 
-      'b  order-color': {
+      'border-color': {
         primary: 'var(--border-border-color-primary)',
       },
 

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center pb-24 h-banner"
+    class="container px-3 mt-12 flex flex-wrap flex-col md:flex-row items-center pb-24 h-banner"
   >
     <Logo />
     <barre />

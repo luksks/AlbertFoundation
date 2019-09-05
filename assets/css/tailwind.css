@@ -10,7 +10,7 @@
 
 .theme-light {
   --bg-background-primary: white;
-  --bg-background-secondary: #758ca1;
+  --bg-background-secondary: #c6f9ed;
   --bg-background-tertiary: #c4daf5;
 
   --bg-background-button: #e4f5ef;
@@ -23,7 +23,7 @@
 }
 .theme-dark {
   --bg-background-primary: #1d2935;
-  --bg-background-secondary: #4f6f7f;
+  --bg-background-secondary: #202c39;
   --bg-background-tertiary: #e4f5ef;
 
   --bg-background-button: #2c3e50;
