@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-around flex w-full content-center" >
+  <div class="flex justify-center flex w-full content-center mb-64" >
     <div class="w-1/4  h-12 flex mx-8 zoom">
       <p>
         <a href="https://www.artstation.com/albertl" target="_blank"  ><img

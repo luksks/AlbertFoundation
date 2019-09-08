@@ -1,8 +1,7 @@
 <template>
-  <div
-    class="container px-3 mt-12 flex flex-wrap flex-col md:flex-row items-center pb-24 h-banner"
-  >
-    <Logo />
+  <div class="justify-center px-3 mt-12 my-12 flex flex-wrap flex-col md:flex-row items-center h-banner">
+
+     <Logo />
     <barre />
   </div>
 </template>

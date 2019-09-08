@@ -140,18 +140,6 @@ nav .active {
   transition: .3s ease-in-out;
 }
 .zoom:hover{
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-}
-
-.zoomImage{
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-
-.zoomImage:hover{
-  -webkit-transform: scale(1.1);
+  -webkit-transform: scale(0.2);
   transform: scale(1.1);
 }
