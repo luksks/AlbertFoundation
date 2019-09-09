@@ -2,13 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@tailwind base;
-
-@tailwind components;
-
-@tailwind utilities;
-
 .theme-light {
+
   --bg-background-primary: white;
   --bg-background-secondary: #c6f9ed;
   --bg-background-tertiary: #c4daf5;
@@ -30,7 +25,7 @@
   --bg-background-button-clicked: #4f6f7f;
 
   --text-copy-primary: #cbd5e0;
-  --text-copy-secondary: #e2e8f0;
+  --text-copy-secondary: #7e8286;
 
   --border-border-color-primary:  #1a202c;
 }

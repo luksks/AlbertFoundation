@@ -13,12 +13,10 @@
       <div class="flex flex-col h-full content-center w-full">
         <nuxt/>
 
-        <a
-          href="#"
+        <a href="#"
           class="text-gray-800 hover:text-gray-600"
           @click.prevent="toggleTheme"
-          >Theme</a
-        >
+          >Theme</a>
         <footer>
           <TheNavfooter />
         </footer>

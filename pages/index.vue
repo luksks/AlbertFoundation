@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import barre from "~/components/barre.vue";
+import barre from "~/components/NavButtonBar.vue";
 import Logo from "~/components/logo.vue";
 
 export default {

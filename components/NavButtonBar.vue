@@ -6,7 +6,7 @@
     </nuxt-link>
 
     <nuxt-link to="internship" class="-mt-4 button zoomImage text-copy-primary flex-auto text-center">
-      Internship
+      internships
     </nuxt-link>
 
     <nuxt-link to="/" class="-mt-4 button zoomImage text-copy-primary flex-auto text-center">
@@ -16,9 +16,7 @@
     <nuxt-link to="components/contact.vue" class="-mt-4 button zoomImage text-copy-primary flex-auto text-center">
       Contact
     </nuxt-link>
-
   </div>
-
 </template>
 
 <script>

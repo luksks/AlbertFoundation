@@ -14,7 +14,9 @@
     <div class="w-1/4  h-12 flex mxt-8 zoom">
       <a href="https://linkedin.com/in/albertlanne/" target="_blank">
         <img
-        src="~/assets/img/indexImageProfil.png"
+          src="~/assets/img/indexImageArstation.png"
+<!--          src="~/assets/img/indexImageProfil.png"-->
+
           width="230"
           alt="Albert Lanne"/></a>
     </div>
