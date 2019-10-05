@@ -1,9 +1,9 @@
 <template>
   <div
-    class=" bg-background-primary bg-premiere flex flex-col content-center"
+    class=" bg-background-primary bg-premiere flex flex-col h-full content-center"
     :class="theme"
   >
-    <div class="text-copy-primary m-8">
+    <div class="container mx-auto text-copy-primary m-8 md:flex-1">
       <h1>
         <nuxt-link to="/">
           Albertfoundation
@@ -13,17 +13,25 @@
       <div class="flex flex-col h-full content-center w-full">
         <nuxt/>
 
+
         <a href="#"
           class="text-gray-800 hover:text-gray-600"
           @click.prevent="toggleTheme"
           >Theme</a>
-        <footer>
-          <TheNavfooter />
-        </footer>
+
       </div>
     </div>
+    <footer class="bg-background-secondary">
+      <TheNavfooter />
+    </footer>
   </div>
 </template>
+
+<style>
+  #__layout, #__nuxt, body, html {
+    height: 100%;
+  }
+</style>
 
 <script>
 import logo from "~/components/logo.vue";
