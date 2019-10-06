@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .theme-light {
-
   --bg-background-primary: white;
   --bg-background-secondary: #c6f9ed;
   --bg-background-tertiary: #cafff3;
@@ -19,7 +18,6 @@
 .theme-dark {
   --bg-background-primary: #1d2935;
   --bg-background-secondary: #202c39;
-  /*--bg-background-tertiary: #e4f5ef;*/
   --bg-background-tertiary: #263443;
 
   --bg-background-button: #2c3e50;
@@ -138,4 +136,5 @@ nav .active {
 .zoom:hover{
   -webkit-transform: scale(0.2);
   transform: scale(1.1);
+  /*transform: translateX(-25%) translateY(-25%);*/
 }
