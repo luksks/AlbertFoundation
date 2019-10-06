@@ -8,7 +8,7 @@
 
 <script>
 import barre from "~/components/NavButtonBar.vue";
-import Logo from "~/components/logo.vue";
+import Logo from "~/components/Navlogo.vue";
 
 export default {
   // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-metav

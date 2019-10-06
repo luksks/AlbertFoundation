@@ -6,7 +6,7 @@
 
   --bg-background-primary: white;
   --bg-background-secondary: #c6f9ed;
-  --bg-background-tertiary: #c4daf5;
+  --bg-background-tertiary: #cafff3;
 
   --bg-background-button: #e4f5ef;
   --bg-background-button-clicked: #c4daf5;
@@ -19,7 +19,8 @@
 .theme-dark {
   --bg-background-primary: #1d2935;
   --bg-background-secondary: #202c39;
-  --bg-background-tertiary: #e4f5ef;
+  /*--bg-background-tertiary: #e4f5ef;*/
+  --bg-background-tertiary: #263443;
 
   --bg-background-button: #2c3e50;
   --bg-background-button-clicked: #4f6f7f;
