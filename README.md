@@ -1,22 +1,17 @@
-# AlbertFoundation
+# DEPLOYEMENT
 
-> My personal first website
+**Vers un VPS**
 
-## Build Setup
+-> Le repo sur le serveur `/var/www/html`
 
-``` bash
-# install dependencies
-$ npm run install
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+# STRUCTURE
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+**index.vue**
 
-# generate static project
-$ npm run generate
-```
+Prédefinis la structure
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+**default.vue**
+
+Le navFoooter ce trouve dans le default.vue !

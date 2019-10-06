@@ -1,5 +1,5 @@
 <template>
-  <div class="justify-center px-3 mt-12 my-12 flex flex-wrap flex-col md:flex-row items-center h-banner">
+  <div>
 
      <Logo />
     <barre />
