@@ -4,9 +4,9 @@
             :class="theme">
 
         <div class="bg-background-tertiary">
-            <div class=" container mx-24 text-copy-primary m-4 md:flex-1">
-                <h1 class="text-2xl hover:text-green-600 text-4xl">
-                    <nuxt-link to="/">
+            <div class=" container px-24 text-copy-primary m-4 ">
+                <h1 class="text-xl tracking-tight ">
+                    <nuxt-link to="/" class="">
                         Albertfoundation
                     </nuxt-link>
                 </h1>
@@ -68,7 +68,9 @@
             </div>
         </footer>
     </div>
+
 </template>
+
 <!--Permet de maintenir la hauteur à 100% pour plus avoir de blanc-->
 <style>
     #__layout, #__nuxt, body, html {
@@ -106,6 +108,7 @@
         },
         components: {
             logo,
+
 
         }
     };

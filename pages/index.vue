@@ -1,14 +1,13 @@
 <template>
-  <div>
-
-     <Logo />
-    <barre />
+  <div class="bg-background-primary">
+     <Logo/>
+      <AboutMe/>
   </div>
 </template>
 
 <script>
-import barre from "~/components/NavButtonBar.vue";
 import Logo from "~/components/Navlogo.vue";
+import AboutMe from "~/components/AboutMe.vue";
 
 export default {
   // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-metav
@@ -18,8 +17,8 @@ export default {
     };
   },
   components: {
-    barre,
-    Logo
+    Logo,
+      AboutMe
   }
 };
 </script>
