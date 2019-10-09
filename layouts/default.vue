@@ -4,8 +4,8 @@
 
         <!--============================== BARRE SUPERIEUR ALBERTFOUNDATION ========================================-->
         <div class="bg-background-tertiary ">
-            <div class=" container px-24 text-copy-primary m-4 ">
-                <h1 class=" tracking-tight ">
+            <div class=" container text-copy-primary m-4 ">
+                <h1 class="">
                     <nuxt-link to="/" class="text-2xl">
                         Albertfoundation 📡
                     </nuxt-link>
