@@ -88,7 +88,7 @@
                     </a>
                     <a
                             class="text-center  no-underline shadow-lg  border border-gray-400 hover:border-gray-500 hover:shadow-xl px-3 py-2 m-2 rounded hover:text-blue-700"
-                            href="https://linkedin.com/in/albertlanne/"
+                            href="https://twitter.com/TheAlexLichter"
                             target="_blank"
                             title="My online Curriculum vitae ♟"
 
@@ -102,7 +102,7 @@
 
         <!--============================== Hey You ! presentation text========================================-->
         <div class="flex flex-col flex-wrap items-center bg-background-primary pt-8 animated fade-in">
-            <div class="justify-around items-center w-5/6 md:w-1/2 mx-auto pb-8 md:pb-0">
+            <div class="justify-around items-center w-5/6 md:w-1/2 mx-auto  pb-8 md:pb-0">
                 <p class="text-xl md:text-2xl   text-copy-primary  mb-2 hover:text-green-600">
                     Hey you!
                 </p>
@@ -133,9 +133,9 @@
 
         <!--============================== BOX TEXT========================================-->
       <!-- incoming animated main coponent-->
-
-
-
+<!--        <div class=" items-center bg-background-primary pt-8 bg-blue-100">-->
+<!--            mainpage here-->
+<!--        </div>-->
 
 
 
@@ -154,7 +154,7 @@
 
                 <div class="w-1/4 my-3 ">
                     <p class=" mb-4 hover:text-green-600 text-xl">Ressources</p>
-                    <p class="hover:text-red-900 my-2">- CV</p>
+                    <p class="hover:text-red-600 my-2">- CV</p>
                     <!--          <p class="hover:text-red-900 my-2 my-2">- Incoming</p>-->
                     <!--          <p class="hover:text-red-900 my-2 my-2">- Incoming</p>-->
                     <!--          <p class="hover:text-red-900 my-2 my-2">- Incoming</p>-->
