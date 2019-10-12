@@ -1,6 +1,6 @@
 <template>
     <div class=" bg-background-primary bg-premiere flex flex-col h-full content-center"
-            :class="theme">
+         :class="theme">
 
         <!--============================== BARRE SUPERIEUR ALBERTFOUNDATION ========================================-->
         <div class="bg-background-tertiary ">
@@ -10,7 +10,23 @@
                         Albertfoundation 📡
                     </nuxt-link>
                 </h1>
+
+<!--                <button>-->
+
+<!--                    <svg class="stroke-current bg-background-tertiary inline-block h-12 w-12" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">-->
+<!--                        <circle cx="8" cy="21" r="2"></circle>-->
+<!--                        <circle cx="20" cy="21" r="2"></circle>-->
+<!--                        <path d="M5.67 6H23l-1.68 8.39a2 2 0 0 1-2 1.61H8.75a2 2 0 0 1-2-1.74L5.23 2.74A2 2 0 0 0 3.25 1H1"></path>-->
+<!--                    </svg>-->
+<!--                    <img class="fill-current bg-background-primary stroke-current bg-green-200"-->
+<!--                         href="ftp://92.222.224.108"-->
+<!--                         target="_blank"-->
+<!--                         title="Access to the FTP server"-->
+<!--                         src="~/assets/img/BDD.svg">-->
+
+<!--                </button>-->
             </div>
+
         </div>
 
         <!--============================== PHOTO ALBERT + BOUTTON ========================================-->
@@ -22,7 +38,7 @@
                             height="256"
                             width="256"
                             alt="Young man (Albert Lanne) wearing a suite, nature in the background"
-                            src="~/assets/img/indexImageProfil.png"
+                            src="~/assets/img/indexImageProfil.jpg"
                     >
                 </picture>
                 <div class="mt-4">
@@ -30,7 +46,7 @@
                         Albert Lanne
                     </h1>
                     <h2 class="text-copy-secondary -mt-1 text-base md:text-xl">
-                        Developer &bull; Student &bull; 3D Artist
+                        Developer &bull; Student &bull; Network Technician
                     </h2>
                 </div>
 
@@ -46,6 +62,16 @@
 
                         Github
                         <!--                <Icon path="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z" />-->
+                    </a>
+                    <a
+                            class="text-center  no-underline shadow-lg  border border-gray-400 hover:border-gray-500 hover:shadow-xl px-3 py-2 m-2 rounded hover:text-blue-700"
+                            href="https://www.linkedin.com/in/albertlanne/"
+                            target="_blank"
+                            title="My online Curriculum vitae ♟"
+
+                    >
+                        Linkedin
+                        <!--                <Icon path="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50" />-->
                     </a>
                     <a
                             class="text-center  no-underline shadow-lg  border border-gray-400 hover:border-gray-500 hover:shadow-xl px-3 py-2 m-2 rounded hover:text-red-600"
@@ -86,16 +112,7 @@
                         Instagram
                         <!--                <Icon path="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50" />-->
                     </a>
-                    <a
-                            class="text-center  no-underline shadow-lg  border border-gray-400 hover:border-gray-500 hover:shadow-xl px-3 py-2 m-2 rounded hover:text-blue-700"
-                            href="https://twitter.com/TheAlexLichter"
-                            target="_blank"
-                            title="My online Curriculum vitae ♟"
 
-                    >
-                        Linkedin
-                        <!--                <Icon path="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50" />-->
-                    </a>
                 </div>
             </div>
         </div>
@@ -107,16 +124,23 @@
                     Hey you!
                 </p>
                 <p class="text-base md:text-lg leading-normal text-copy-primary hover:text-copy-secondary">
-                    I'm <span class="text-green-600 hover:text-copy-primary" v-text="'Albert'" />, a guy in his twenties living in
-                    <span class="text-copy-primary hover:text-green-600" v-text="'France'" />. Already at young age, computers impressed me
+                    I'm <span class="text-green-600 hover:text-copy-primary" v-text="'Albert'"/>, a guy in his twenties
+                    living in
+                    <span class="text-copy-primary hover:text-green-600" v-text="'France'"/>. Already at young age,
+                    computers impressed me
                     so much that I wanted to know more about them. Now, I am a developer on my free time
-                    and in my school, I studies <span class="text-copy-primary hover:text-green-600" v-text="'C++'" />  and
-                    the <span class="text-copy-primary hover:text-green-600" v-text="'networking/telecommunication'" /> in the meantime.
+                    and in my school, I studies <span class="text-copy-primary hover:text-green-600" v-text="'C++'"/>
+                    and
+                    the <span class="text-copy-primary hover:text-green-600" v-text="'networking/telecommunication'"/>
+                    in the meantime.
                     <br><br>
-                    When developing web apps, I use <span class="text-copy-primary hover:text-green-600" v-text="'Nuxt.js'" />
-                    often in combination with a great CSS framework called <span class="text-copy-primary hover:text-green-600" v-text="'TailWindCSS'" />.
+                    When developing web apps, I use <span class="text-copy-primary hover:text-green-600"
+                                                          v-text="'Nuxt.js'"/>
+                    often in combination with a great CSS framework called <span
+                        class="text-copy-primary hover:text-green-600" v-text="'TailWindCSS'"/>.
                     Although i love work on website what I find even more awesome is to work on dekstop applications
-                    with the <span class="text-copy-primary hover:text-green-600" v-text="'Electron.js  '" /> technology ❤ !
+                    with the <span class="text-copy-primary hover:text-green-600" v-text="'Electron.js  '"/> technology
+                    ❤ !
                     <br><br>
                 </p>
             </div>
@@ -125,19 +149,16 @@
 
 
         <!--============================== MAIN COMPOSANT ========================================-->
-<!--        <div class="container mx-auto text-copy-primary m-8 md:flex-1">-->
-<!--            <nuxt/>-->
-<!--        </div>-->
-
+        <!--        <div class="container mx-auto text-copy-primary m-8 md:flex-1">-->
+        <!--            <nuxt/>-->
+        <!--        </div>-->
 
 
         <!--============================== BOX TEXT========================================-->
-      <!-- incoming animated main coponent-->
-<!--        <div class=" items-center bg-background-primary pt-8 bg-blue-100">-->
-<!--            mainpage here-->
-<!--        </div>-->
-
-
+        <!-- incoming animated main coponent-->
+        <!--        <div class=" items-center bg-background-primary pt-8 bg-blue-100">-->
+        <!--            mainpage here-->
+        <!--        </div>-->
 
 
         <!--============================== Footer ========================================-->
@@ -162,7 +183,8 @@
 
                 <div class="w-1/4 my-3 ">
                     <p class="mb-4 hover:text-green-600 text-xl">Plus</p>
-                    <p class="hover:text-green-500 my-2" @click.prevent="toggleTheme">- {{this.theme}}</p>
+                    <button><p class="hover:text-green-500 my-2" @click.prevent="toggleTheme">- {{this.theme}}</p>
+                    </button>
                     <!--          <p class="hover:text-red-900 my-2">- Incoming</p>-->
                     <!--          <p class="hover:text-red-900 my-2">- Incoming</p>-->
                     <!--          <p class="hover:text-red-900 my-2">- Incoming</p>-->
