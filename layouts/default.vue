@@ -159,10 +159,7 @@
         <!--        <div class=" items-center bg-background-primary pt-8 bg-blue-100">-->
         <!--            mainpage here-->
         <!--        </div>-->
-        <nuxt-link to="/CV" class="btn-basic d-inline-block">
-            Start now
-        </nuxt-link>
-
+    <Skills></Skills>
         <!--============================== Footer ========================================-->
         <footer class="bg-background-secondary">
 
@@ -214,7 +211,7 @@
 
 <script>
     import logo from "~/components/Navlogo.vue";
-
+    import Skills from "~/components/Skills.vue";
 
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
@@ -242,6 +239,7 @@
         },
         components: {
             logo,
+            Skills
 
 
         }

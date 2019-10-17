@@ -1,6 +1,8 @@
 <template>
   <div class="bg-background-primary">
      <Logo/>
+      <a id="skills" />
+      <Skills />
   </div>
 </template>
 
@@ -15,7 +17,8 @@ export default {
     };
   },
   components: {
-    Logo
+    Logo,
+      Skills: () => import('~/components/Skills.vue')
   }
 };
 </script>
