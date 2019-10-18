@@ -11,20 +11,20 @@
                     </nuxt-link>
                 </h1>
 
-<!--                <button>-->
+                <!--                <button>-->
 
-<!--                    <svg class="stroke-current bg-background-tertiary inline-block h-12 w-12" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">-->
-<!--                        <circle cx="8" cy="21" r="2"></circle>-->
-<!--                        <circle cx="20" cy="21" r="2"></circle>-->
-<!--                        <path d="M5.67 6H23l-1.68 8.39a2 2 0 0 1-2 1.61H8.75a2 2 0 0 1-2-1.74L5.23 2.74A2 2 0 0 0 3.25 1H1"></path>-->
-<!--                    </svg>-->
-<!--                    <img class="fill-current bg-background-primary stroke-current bg-green-200"-->
-<!--                         href="ftp://92.222.224.108"-->
-<!--                         target="_blank"-->
-<!--                         title="Access to the FTP server"-->
-<!--                         src="~/assets/img/BDD.svg">-->
+                <!--                    <svg class="stroke-current bg-background-tertiary inline-block h-12 w-12" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">-->
+                <!--                        <circle cx="8" cy="21" r="2"></circle>-->
+                <!--                        <circle cx="20" cy="21" r="2"></circle>-->
+                <!--                        <path d="M5.67 6H23l-1.68 8.39a2 2 0 0 1-2 1.61H8.75a2 2 0 0 1-2-1.74L5.23 2.74A2 2 0 0 0 3.25 1H1"></path>-->
+                <!--                    </svg>-->
+                <!--                    <img class="fill-current bg-background-primary stroke-current bg-green-200"-->
+                <!--                         href="ftp://92.222.224.108"-->
+                <!--                         target="_blank"-->
+                <!--                         title="Access to the FTP server"-->
+                <!--                         src="~/assets/img/BDD.svg">-->
 
-<!--                </button>-->
+                <!--                </button>-->
             </div>
 
         </div>
@@ -159,9 +159,9 @@
         <!--        <div class=" items-center bg-background-primary pt-8 bg-blue-100">-->
         <!--            mainpage here-->
         <!--        </div>-->
-    <Skills></Skills>
+        <Skills></Skills>
         <!--============================== Footer ========================================-->
-        <footer class="bg-background-secondary">
+        <footer class="bg-background-secondary sticky">
 
             <div class="flex container mx-auto text-copy-primary">
                 <div class="m-3 flex mx-12 flex">
@@ -197,9 +197,10 @@
                 </div>
                 </nuxt>
             </div>
-        </footer>
-    </div>
 
+        </footer>
+
+    </div>
 </template>
 
 <!--Permet de maintenir la hauteur à 100% pour plus avoir de blanc-->

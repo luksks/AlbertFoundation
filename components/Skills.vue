@@ -27,10 +27,8 @@
                     <TechnologyImages />
                 </div>
             </div>
-            <div
-                    v-else
-                    class="hidden md:visible md:block xl:hidden xl:invisible flex w-1/3"
-            />
+            <div v-else
+                    class="hidden md:visible md:block xl:hidden xl:invisible flex w-1/3" />
             <Skill
                     :title="$options.skills[i*2+1].title"
                     :rating="$options.skills[i*2+1].rating"
