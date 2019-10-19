@@ -159,7 +159,42 @@
         <!--        <div class=" items-center bg-background-primary pt-8 bg-blue-100">-->
         <!--            mainpage here-->
         <!--        </div>-->
-        <Skills></Skills>
+        <div v-scroll-reveal class="bg-background-primary flex flex-wrap flex-col items-center  py-16"
+        >
+            <div class="flex justify-around w-5/6 md:w-1/2 mx-auto">
+                <h2 class="text-2xl text-copy-primary font-bold text-center">
+                    My Skillset
+                </h2>
+            </div>
+            <div
+                    v-for="(_, i) in 3"
+                    :key="i"
+                    :class="{'md:my-2 md:h-32':i === 1, 'md:my-4':i !== 1}"
+                    class=" text-copy-primary flex flex-col md:flex-row w-3/4 justify-around items-center md:mt-8"
+            >
+                <Skill
+                        :title="$options.skills[i*2].title"
+                        :rating="$options.skills[i*2].rating"
+                        :items="$options.skills[i*2].items"
+                />
+                <div
+                        v-if="i === 1"
+                        class="flex justify-center w-1/3 h-auto"
+                >
+                    <div class="invisible xl:visible hidden xl:flex">
+                        <TechnologyImages />
+                    </div>
+                </div>
+                <div v-else
+                     class="hidden md:visible md:block xl:hidden xl:invisible flex w-1/3" />
+                <Skill
+                        :title="$options.skills[i*2+1].title"
+                        :rating="$options.skills[i*2+1].rating"
+                        :items="$options.skills[i*2+1].items"
+                        :is-right="true"
+                />
+            </div>
+        </div>
         <!--============================== Footer ========================================-->
         <footer class="bg-background-secondary sticky">
 
@@ -213,6 +248,9 @@
 <script>
     import logo from "~/components/Navlogo.vue";
     import Skills from "~/components/Skills.vue";
+    import Skill from "~/components/Skill.vue";
+    import TechnologyImages from '~/components/TechnologyImages.vue';
+
 
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
@@ -238,11 +276,71 @@
                 this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
             }
         },
-        components: {
-            logo,
-            Skills
+        components: { Skill, TechnologyImages,Skills,logo },
+        skills: [
+            {
+                title: 'Javascript',
+                rating: 5,
+                items: [
+                    { text: 'Vue.js', strong: true },
+                    { text: 'Node.js', strong: true },
+                    { text: 'TailWindCSS', strong: true },
+                    { text: 'Nuxt.js' },
+                    { text: 'CSS' },
+                    { text: 'Webpack' }
 
-
-        }
+                ]
+            },
+            {
+                title: 'Infographics',
+                rating: 4,
+                items: [
+                    { text: 'Blender', strong: true },
+                    { text: 'Photoshop', strong: true },
+                    { text: 'Eevee' },
+                    { text: 'ZBrush' }
+                ]
+            },
+            {
+                title: 'C/C#/C++',
+                rating: 4,
+                items: [
+                    { text: 'Pointers', strong: true },
+                    { text: 'object oriented' },
+                    { text: 'QT creator' }
+                ]
+            },
+            {
+                title: 'Data science',
+                rating: 4,
+                items: [
+                    { text: 'Docker', strong: true },
+                    { text: 'Express.js' },
+                    { text: 'Axios.js' },
+                    { text: 'MySQL' },
+                    { text: 'MongoDB' },
+                ]
+            },
+            {
+                title: 'Methodologies',
+                rating: 4,
+                items: [
+                    { text: 'TDD', strong: true },
+                    { text: 'Agile' },
+                    { text: 'Scrum' },
+                    { text: 'git' }
+                ]
+            },
+            {
+                title: 'Network tech',
+                rating: 3,
+                items: [
+                    { text: 'Embedded computer', strong: true },
+                    { text: 'Arduino' },
+                    { text: 'Vlan,' },
+                    { text: 'Router' }
+                ]
+            }
+        ]
     };
 </script>
