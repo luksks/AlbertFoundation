@@ -33,7 +33,7 @@ export default {
   computed: {
     currentImage () {
       const { imgName, name } = this.$options.urls[this.currentUrlIndex]
-      return { img: require(`~/assets/img/${imgName}.png`), name }
+      return { img: require(`~/assets/img/icon_skill/${imgName}.png`), name }
     }
   },
   mounted () {

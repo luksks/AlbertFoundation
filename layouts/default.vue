@@ -162,7 +162,7 @@
         <div v-scroll-reveal class="bg-background-primary flex flex-wrap flex-col items-center  py-16"
         >
             <div class="flex justify-around w-5/6 md:w-1/2 mx-auto">
-                <h2 class="text-2xl text-copy-primary font-bold text-center">
+                <h2 class="text-2xl text-copy-primary font-bold text-center hover:text-orange-910">
                     My Skillset
                 </h2>
             </div>
@@ -248,7 +248,7 @@
 <script>
     import logo from "~/components/Navlogo.vue";
     import Skills from "~/components/Skills.vue";
-    import Skill from "~/components/Skill.vue";
+    import Skill from "~/components/skills/Skill.vue";
     import TechnologyImages from '~/components/TechnologyImages.vue';
 
 
