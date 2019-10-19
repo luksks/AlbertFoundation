@@ -159,7 +159,7 @@
         <!--        <div class=" items-center bg-background-primary pt-8 bg-blue-100">-->
         <!--            mainpage here-->
         <!--        </div>-->
-        <div v-scroll-reveal class="bg-background-primary flex flex-wrap flex-col items-center  py-16"
+        <div class="bg-background-secondary flex flex-wrap flex-col items-center  py-16"
         >
             <div class="flex justify-around w-5/6 md:w-1/2 mx-auto">
                 <h2 class="text-2xl text-copy-primary font-bold text-center hover:text-orange-910">
@@ -196,7 +196,7 @@
             </div>
         </div>
         <!--============================== Footer ========================================-->
-        <footer class="bg-background-secondary sticky">
+        <footer class="bg-background-tertiary sticky">
 
             <div class="flex container mx-auto text-copy-primary">
                 <div class="m-3 flex mx-12 flex">

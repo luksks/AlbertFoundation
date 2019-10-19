@@ -50,10 +50,8 @@ export default {
   urls: [
     { name: 'Vue.js', imgName: 'vuejs' },
     { name: 'Nuxt.js', imgName: 'nuxt' },
-    { name: 'Laravel', imgName: 'laravel' },
     { name: 'Tailwind', imgName: 'tailwind' },
     { name: 'Git', imgName: 'git' },
-    { name: 'Travis CI', imgName: 'travisci' },
     { name: 'Node.js', imgName: 'node' },
     { name: 'Webpack', imgName: 'webpack' }
   ]
