@@ -3,7 +3,7 @@
          :class="theme">
 
         <!--============================== BARRE SUPERIEUR ALBERTFOUNDATION ========================================-->
-        <div class="bg-background-tertiary ">
+        <div class="border border-red-500 bg-background-tertiary ">
             <div class=" container text-copy-primary m-4 ">
                 <h1 class="">
                     <nuxt-link to="/" class="text-2xl">
@@ -30,15 +30,15 @@
         </div>
 
         <!--============================== PHOTO ALBERT + BOUTTON ========================================-->
-        <div class="flex flex-wrap py-6 md:py-10 bg-background-primary">
-            <div class="flex flex-col justify-around items-center w-5/6 md:w-1/2 mx-auto text-center animated zoom-in">
+        <div class=" flex flex-wrap py-6 md:py-10 bg-background-primary">
+            <div class="flex flex-col justify-around items-center md:w-1/2 mx-auto text-center animated zoom-in">
                 <picture>
                     <img
                             class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"
                             height="256"
                             width="256"
                             alt="Young man (Albert Lanne) wearing a suite, nature in the background"
-                            src="~/assets/img/indexImageProfil.jpg"
+                            src="../assets/img/indexImageProfil.jpg"
                     >
                 </picture>
                 <div class="mt-4">
@@ -51,9 +51,9 @@
                 </div>
 
 
-                <div class="flex mt-4 bg-background-button text-copy-primary">
+                <div class="flex mt-4 text-copy-primary">
                     <a
-                            class="zoom text-center  no-underline shadow-lg  border border-gray-400 hover:border-gray-500 hover:shadow-xl px-3 py-2 m-2 rounded hover:text-black"
+                            class="zoom text-center  no-underline shadow-lg  border border-border-color-primary hover:shadow-xl px-3 py-2 m-2 rounded hover:text-black"
                             href="https://github.com/AlbertLanne"
                             target="_blank"
                             title="My GitHub account"
@@ -64,7 +64,7 @@
                         <!--                <Icon path="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z" />-->
                     </a>
                     <a
-                            class="zoom text-center  no-underline shadow-lg  border border-gray-400 hover:border-gray-500 hover:shadow-xl px-3 py-2 m-2 rounded hover:text-blue-700"
+                            class="zoom text-center  no-underline shadow-lg  border border-border-color-primary hover:shadow-xl px-3 py-2 m-2 rounded hover:text-blue-700"
                             href="https://www.linkedin.com/in/albertlanne/"
                             target="_blank"
                             title="My online Curriculum vitae ♟"
@@ -74,7 +74,7 @@
                         <!--                <Icon path="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50" />-->
                     </a>
                     <a
-                            class="zoom text-center  no-underline shadow-lg  border border-gray-400 hover:border-gray-500 hover:shadow-xl px-3 py-2 m-2 rounded hover:text-red-600"
+                            class="zoom text-center  no-underline shadow-lg  border border-border-color-primary hover:shadow-xl px-3 py-2 m-2 rounded hover:text-red-600"
                             href="mailto:albert.lanne@gmail.com"
                             title="Send me an e-mail!"
                     >
@@ -85,7 +85,7 @@
                         <!--                />-->
                     </a>
                     <a
-                            class="zoom text-center  no-underline shadow-lg  border border-gray-400 hover:border-gray-500 hover:shadow-xl px-3 py-2 m-2 rounded hover:text-green-600"
+                            class="zoom text-center  no-underline shadow-lg border border-border-color-primary hover:shadow-xl px-3 py-2 m-2 rounded hover:text-green-600"
                             href="https://www.artstation.com/albertl"
                             target="_blank"
                             title="My 3D art galery"
@@ -94,7 +94,7 @@
                         <!--                <Icon path="M1600 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-53-3.5t-57.5-12.5-47-14.5-55.5-20.5-49-18q-98-35-175-83-127-79-264-216t-216-264q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47-12.5-57.5-3.5-53q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z" />-->
                     </a>
                     <a
-                            class="zoom text-center  no-underline shadow-lg  border border-gray-400 hover:border-gray-500 hover:shadow-xl px-3 py-2 m-2 rounded hover:text-blue-500"
+                            class="zoom text-center  no-underline shadow-lg border border-border-color-primary hover:shadow-xl px-3 py-2 m-2 rounded hover:text-blue-500"
                             href="https://twitter.com/albertlanne1"
                             target="_blank"
                             title="I'm on Twitter as well"
@@ -103,7 +103,7 @@
                         <!--                <Icon path="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50" />-->
                     </a>
                     <a
-                            class="zoom text-center  no-underline shadow-lg  border border-gray-400 hover:border-gray-500 hover:shadow-xl px-3 py-2 m-2 rounded hover:text-yellow-400"
+                            class="zoom text-center  no-underline shadow-lg  border border-border-color-primary hover:shadow-xl px-3 py-2 m-2 rounded hover:text-yellow-400"
                             href="https://instagram.com/albertdelanoche/"
                             target="_blank"
                             title="I love take pictures !"
@@ -120,10 +120,10 @@
         <!--============================== Hey You ! presentation text========================================-->
         <div class="flex flex-col flex-wrap items-center bg-background-primary pt-8 animated fade-in">
             <div class="justify-around items-center w-5/6 md:w-1/2 mx-auto  pb-8 md:pb-0">
-                <p class="text-xl md:text-2xl   text-copy-primary  mb-2 hover:text-green-600">
+                <a class="text-xl md:text-2xl   text-copy-primary  mb-2 hover:text-green-600">
                     Hey you!
-                </p>
-                <p class="text-base md:text-lg leading-normal text-copy-primary hover:text-copy-secondary">
+                </a>
+                <a class="text-base md:text-lg leading-normal text-copy-primary hover:text-copy-secondary">
                     I'm <span class="text-green-600 hover:text-copy-primary" v-text="'Albert'"/>, a guy in his twenties
                     living in
                     <span class="text-copy-primary hover:text-green-600" v-text="'France'"/>. Already at young age,
@@ -142,7 +142,7 @@
                     with the <span class="text-copy-primary hover:text-green-600" v-text="'Electron.js  '"/> technology
                     ❤ !
                     <br><br>
-                </p>
+                </a>
             </div>
 
         </div>
@@ -162,9 +162,9 @@
         <div class="bg-background-secondary flex flex-wrap flex-col items-center  py-16"
         >
             <div class="flex justify-around w-5/6 md:w-1/2 mx-auto">
-                <h2 class="text-2xl text-copy-primary font-bold text-center hover:text-orange-910">
+                <span class="text-2xl text-copy-primary font-bold text-center hover:text-orange-910">
                     My Skillset
-                </h2>
+                </span>
             </div>
             <div
                     v-for="(_, i) in 3"
@@ -187,6 +187,7 @@
                 </div>
                 <div v-else
                      class="hidden md:visible md:block xl:hidden xl:invisible flex w-1/3" />
+
                 <Skill
                         :title="$options.skills[i*2+1].title"
                         :rating="$options.skills[i*2+1].rating"
@@ -196,41 +197,41 @@
             </div>
         </div>
         <!--============================== Footer ========================================-->
-        <footer class="bg-background-tertiary sticky">
+        <footer class=" bg-background-tertiary ">
 
             <div class="flex container mx-auto text-copy-primary">
                 <div class="m-3 flex mx-12 flex">
                     <p><a href="/"><img
-                            src="~/assets/img/AF_logo_2.png"
+                            src="../assets/img/AF_logo_2.png"
                             width="60"
+                            alt="Albert Lanne"
                             class="right"/></a></p>
                 </div>
 
 
                 <div class="w-1/4 my-3 ">
                     <p class=" mb-4 hover:text-green-600 text-xl">Ressources</p>
-                    <p class="hover:text-red-600 my-2">- CV</p>
-                    <!--          <p class="hover:text-red-900 my-2 my-2">- Incoming</p>-->
-                    <!--          <p class="hover:text-red-900 my-2 my-2">- Incoming</p>-->
-                    <!--          <p class="hover:text-red-900 my-2 my-2">- Incoming</p>-->
+                    <p class="cursor-pointer hover:text-red-600 my-2">- CV</p>
+                    <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
+                    <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
+                    <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
                 </div>
 
                 <div class="w-1/4 my-3 ">
                     <p class="mb-4 hover:text-green-600 text-xl">Plus</p>
-                    <button><p class="hover:text-green-500 my-2" @click.prevent="toggleTheme">- {{this.theme}}</p>
+                    <button><p class="cursor-pointer hover:text-green-500 my-2" @click.prevent="toggleTheme">- {{this.theme}}</p>
                     </button>
-                    <!--          <p class="hover:text-red-900 my-2">- Incoming</p>-->
-                    <!--          <p class="hover:text-red-900 my-2">- Incoming</p>-->
-                    <!--          <p class="hover:text-red-900 my-2">- Incoming</p>-->
+                    <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
+                    <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
+                    <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
                 </div>
                 <div class="w-1/4 my-3">
                     <p class="mb-4 hover:text-green-600 text-xl">Contact</p>
-                    <p class="hover:text-red-900 my-2">- Site map</p>
-                    <!--          <p class="hover:text-red-900 my-2">- Site map</p>-->
-                    <!--          <p class="hover:text-red-900 my-2">- Social media</p>-->
-                    <!--          <p class="hover:text-red-900 my-2">- Incoming</p>-->
+                    <p class="cursor-pointer hover:text-red-900 my-2">- Site map</p>
+                    <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Site map</p>-->
+                    <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Social media</p>-->
+                    <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
                 </div>
-                </nuxt>
             </div>
 
         </footer>
@@ -239,11 +240,8 @@
 </template>
 
 <!--Permet de maintenir la hauteur à 100% pour plus avoir de blanc-->
-<style>
-    #__layout, #__nuxt, body, html {
-        height: 100%;
-    }
-</style>
+
+
 
 <script>
     import logo from "~/components/Navlogo.vue";
@@ -314,7 +312,7 @@
                 title: 'Data science',
                 rating: 4,
                 items: [
-                    { text: 'Docker', strong: true },
+                    { text: 'Kubernetes', strong: true },
                     { text: 'Express.js' },
                     { text: 'Axios.js' },
                     { text: 'MySQL' },
@@ -332,12 +330,12 @@
                 ]
             },
             {
-                title: 'Network tech',
+                title: 'Network technician',
                 rating: 3,
                 items: [
                     { text: 'Embedded computer', strong: true },
                     { text: 'Arduino' },
-                    { text: 'Vlan,' },
+                    { text: 'Vlan' },
                     { text: 'Router' }
                 ]
             }

@@ -4,6 +4,7 @@
   "description": "My personal first website",
   "author": "albert.lanne",
   "private": true,
+
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build",
