@@ -1,7 +1,7 @@
 <template>
   <Transition
-    enter-active-class="animated fade-in"
-    leave-active-class="animated fade-out"
+    enter-active-class="zoom myElement "
+    leave-active-class="zoom myElement"
     mode="out-in"
     name="custom"
   >
@@ -58,7 +58,31 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+  /* from */
+  .myElement {
+    color: #333;
+
+    transition-property: color;
+    transition-duration: 2.1s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+  }
+
+  /* to */
+  .myElement:focus {
+    color: #999;
+  }
+
+  /* shorthand: property duration timingFunc delay */
+  .myElement {
+    transition: all 2s linear 0.3s;
+  }
+
+
+
+
+  /*// useless */
   @keyframes fade-out {
     from {
       opacity: 1;

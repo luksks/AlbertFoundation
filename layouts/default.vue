@@ -1,37 +1,69 @@
 <template>
-    <div class=" bg-background-primary bg-premiere flex flex-col h-full content-center"
+    <div class="w-full bg-background-primary bg-premiere flex flex-col h-full content-center"
          :class="theme">
 
         <!--============================== BARRE SUPERIEUR ALBERTFOUNDATION ========================================-->
-        <div class="border border-red-500 bg-background-tertiary ">
-            <div class=" container text-copy-primary m-4 ">
+        <div class=" bg-background-tertiary ">
+            <div class="flex container text-copy-primary m-4 ">
+
                 <h1 class="">
                     <nuxt-link to="/" class="text-2xl">
                         Albertfoundation 📡
                     </nuxt-link>
                 </h1>
 
-                <!--                <button>-->
 
-                <!--                    <svg class="stroke-current bg-background-tertiary inline-block h-12 w-12" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">-->
-                <!--                        <circle cx="8" cy="21" r="2"></circle>-->
-                <!--                        <circle cx="20" cy="21" r="2"></circle>-->
-                <!--                        <path d="M5.67 6H23l-1.68 8.39a2 2 0 0 1-2 1.61H8.75a2 2 0 0 1-2-1.74L5.23 2.74A2 2 0 0 0 3.25 1H1"></path>-->
-                <!--                    </svg>-->
-                <!--                    <img class="fill-current bg-background-primary stroke-current bg-green-200"-->
-                <!--                         href="ftp://92.222.224.108"-->
-                <!--                         target="_blank"-->
-                <!--                         title="Access to the FTP server"-->
-                <!--                         src="~/assets/img/BDD.svg">-->
+                <!--                <a href="#" class="pt-2 px-12   border rounded-full" @click.prevent="toggleTheme">-->
+                <!--                    <picture v-if="theme === 'theme-light'" >-->
+                <!--                        <img-->
+                <!--                                class="bg-background-tertiary h-8 w-8 fill-current text-red-600"-->
+                <!--                                src="../assets/img/logo_light_mod.svg"-->
+                <!--                        >-->
+                <!--                    </picture>-->
+                <!--                    <picture v-else="theme === 'theme-light'" >-->
+                <!--                        <img-->
+                <!--                                class="bg-background-tertiary h-8 w-8"-->
+                <!--                                src="../assets/img/logo_dark_mod.svg"-->
+                <!--                        >-->
+                <!--                    </picture>-->
+                <!--                </a>-->
+                <!--                <picture>-->
+                <!--                    <img class="pt-2 fill-current bg-background-tertiary stroke-current" width="27" height="27"-->
+                <!--                    href="ftp://92.222.224.108"-->
+                <!--                    target="_blank"-->
+                <!--                    title="Access to the FTP server"-->
+                <!--                    src="~/assets/img/BDD.svg">-->
+                <!--                </picture>-->
 
-                <!--                </button>-->
+
+                <!--          <li>-->
+                <!--              <a href="#" class="text-gray-500" @click.prevent="toggleTheme">-->
+                <!--                  <picture v-if="theme === 'theme-light'" to="/">-->
+                <!--                      <img-->
+                <!--                              class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"-->
+                <!--                              alt="Young man (Albert Lanne) wearing a suite, nature in the background"-->
+                <!--                              src="../assets/img/logo_light_mod.svg"-->
+                <!--                      >-->
+                <!--                  </picture>-->
+                <!--                  <picture v-else="theme === 'theme-light'" to="/">-->
+                <!--                      <img-->
+                <!--                              class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"-->
+                <!--                              alt="Young man (Albert Lanne) wearing a suite, nature in the background"-->
+                <!--                              src="../assets/img/logo_dark_mod.svg">-->
+                <!--                  </picture>-->
+                <!--              </a>-->
+                <!--          </li>-->
+
+
             </div>
-
         </div>
 
         <!--============================== PHOTO ALBERT + BOUTTON ========================================-->
-        <div class=" flex flex-wrap py-6 md:py-10 bg-background-primary">
-            <div class="flex flex-col justify-around items-center md:w-1/2 mx-auto text-center animated zoom-in">
+        <!--        <div class="flex flex-col flex-wrap items-center bg-background-primary pt-8 animated fade-in">-->
+
+
+        <div class=" flex flex-col flex-wrap py-6 md:py-10 bg-background-primary">
+            <div class="flex w-full flex-col justify-around items-center md:w-1/2 mx-auto text-center animated zoom-in">
                 <picture>
                     <img
                             class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"
@@ -144,7 +176,7 @@
                     <br><br>
                 </a>
             </div>
-
+            <!--            <a href="~/static/CV_LANNE_Albert.pdf" download>Link text</a>-->
         </div>
 
 
@@ -182,11 +214,11 @@
                         class="flex justify-center w-1/3 h-auto"
                 >
                     <div class="invisible xl:visible hidden xl:flex">
-                        <TechnologyImages />
+                        <TechnologyImages/>
                     </div>
                 </div>
                 <div v-else
-                     class="hidden md:visible md:block xl:hidden xl:invisible flex w-1/3" />
+                     class="hidden md:visible md:block xl:hidden xl:invisible flex w-1/3"/>
 
                 <Skill
                         :title="$options.skills[i*2+1].title"
@@ -219,7 +251,8 @@
 
                 <div class="w-1/4 my-3 ">
                     <p class="mb-4 hover:text-green-600 text-xl">Plus</p>
-                    <button><p class="cursor-pointer hover:text-green-500 my-2" @click.prevent="toggleTheme">- {{this.theme}}</p>
+                    <button><p class="cursor-pointer hover:text-green-500 my-2" @click.prevent="toggleTheme">-
+                        {{this.theme}}</p>
                     </button>
                     <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
                     <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
@@ -242,7 +275,6 @@
 <!--Permet de maintenir la hauteur à 100% pour plus avoir de blanc-->
 
 
-
 <script>
     import logo from "~/components/Navlogo.vue";
     import Skills from "~/components/Skills.vue";
@@ -254,7 +286,7 @@
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
         head() {
             return {
-                titleTemplate: "%s - AlbertFoundation",
+                titleTemplate: "%s - Albert Lanne",
                 meta: [
                     {
                         hid: "description",
@@ -274,18 +306,18 @@
                 this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
             }
         },
-        components: { Skill, TechnologyImages,Skills,logo },
+        components: {Skill, TechnologyImages, Skills, logo},
         skills: [
             {
                 title: 'Javascript',
                 rating: 5,
                 items: [
-                    { text: 'Vue.js', strong: true },
-                    { text: 'Node.js', strong: true },
-                    { text: 'TailWindCSS', strong: true },
-                    { text: 'Nuxt.js' },
-                    { text: 'CSS' },
-                    { text: 'Webpack' }
+                    {text: 'Vue.js', strong: true},
+                    {text: 'Node.js', strong: true},
+                    {text: 'TailWindCSS', strong: true},
+                    {text: 'Nuxt.js'},
+                    {text: 'CSS'},
+                    {text: 'Webpack'}
 
                 ]
             },
@@ -293,50 +325,50 @@
                 title: 'Infographics',
                 rating: 4,
                 items: [
-                    { text: 'Blender', strong: true },
-                    { text: 'Photoshop', strong: true },
-                    { text: 'Eevee' },
-                    { text: 'ZBrush' }
+                    {text: 'Blender', strong: true},
+                    {text: 'Photoshop', strong: true},
+                    {text: 'Eevee'},
+                    {text: 'ZBrush'}
                 ]
             },
             {
                 title: 'C/C#/C++',
                 rating: 4,
                 items: [
-                    { text: 'Pointers', strong: true },
-                    { text: 'object oriented' },
-                    { text: 'QT creator' }
+                    {text: 'Pointers', strong: true},
+                    {text: 'object oriented'},
+                    {text: 'QT creator'}
                 ]
             },
             {
                 title: 'Data science',
                 rating: 4,
                 items: [
-                    { text: 'Kubernetes', strong: true },
-                    { text: 'Express.js' },
-                    { text: 'Axios.js' },
-                    { text: 'MySQL' },
-                    { text: 'MongoDB' },
+                    {text: 'Kubernetes', strong: true},
+                    {text: 'Express.js'},
+                    {text: 'Axios.js'},
+                    {text: 'MySQL'},
+                    {text: 'MongoDB'},
                 ]
             },
             {
                 title: 'Methodologies',
                 rating: 4,
                 items: [
-                    { text: 'TDD', strong: true },
-                    { text: 'Agile' },
-                    { text: 'Scrum' },
-                    { text: 'git' }
+                    {text: 'TDD', strong: true},
+                    {text: 'Agile'},
+                    {text: 'Scrum'},
+                    {text: 'git'}
                 ]
             },
             {
                 title: 'Network technician',
                 rating: 3,
                 items: [
-                    { text: 'Embedded computer', strong: true },
-                    { text: 'Arduino' },
-                    { text: 'Vlan' },
-                    { text: 'Router' }
+                    {text: 'Embedded computer', strong: true},
+                    {text: 'Arduino'},
+                    {text: 'Vlan'},
+                    {text: 'Router'}
                 ]
             }
         ]
