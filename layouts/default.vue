@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-background-primary bg-premiere flex flex-col h-full content-center"
+    <div class="flex flex-col flex-wrap w-full h-full content-center"
          :class="theme">
 
         <!--============================== BARRE SUPERIEUR ALBERTFOUNDATION ========================================-->
@@ -11,59 +11,61 @@
                         Albertfoundation 📡
                     </nuxt-link>
                 </h1>
+<!--======================= BOUTTON THEME / BOUTTON FTP /-->
+
+<!--                                <a href="#" class="pt-2 px-12   border rounded-full" @click.prevent="toggleTheme">-->
+<!--                                    <picture v-if="theme === 'theme-light'" >-->
+<!--                                        <img-->
+<!--                                                class="bg-background-tertiary h-8 w-8 fill-current text-red-600"-->
+<!--                                                src="../assets/img/logo_light_mod.svg"-->
+<!--                                        >-->
+<!--                                    </picture>-->
+<!--                                    <picture v-else="theme === 'theme-light'" >-->
+<!--                                        <img-->
+<!--                                                class="bg-background-tertiary h-8 w-8"-->
+<!--                                                src="../assets/img/logo_dark_mod.svg"-->
+<!--                                        >-->
+<!--                                    </picture>-->
+<!--                                </a>-->
+<!--                                <picture>-->
+<!--                                    <img class="pt-2 fill-current bg-background-tertiary stroke-current" width="27" height="27"-->
+<!--                                    href="ftp://92.222.224.108"-->
+<!--                                    target="_blank"-->
+<!--                                    title="Access to the FTP server"-->
+<!--                                    src="~/assets/img/BDD.svg">-->
+<!--                                </picture>-->
 
 
-                <!--                <a href="#" class="pt-2 px-12   border rounded-full" @click.prevent="toggleTheme">-->
-                <!--                    <picture v-if="theme === 'theme-light'" >-->
-                <!--                        <img-->
-                <!--                                class="bg-background-tertiary h-8 w-8 fill-current text-red-600"-->
-                <!--                                src="../assets/img/logo_light_mod.svg"-->
-                <!--                        >-->
-                <!--                    </picture>-->
-                <!--                    <picture v-else="theme === 'theme-light'" >-->
-                <!--                        <img-->
-                <!--                                class="bg-background-tertiary h-8 w-8"-->
-                <!--                                src="../assets/img/logo_dark_mod.svg"-->
-                <!--                        >-->
-                <!--                    </picture>-->
-                <!--                </a>-->
-                <!--                <picture>-->
-                <!--                    <img class="pt-2 fill-current bg-background-tertiary stroke-current" width="27" height="27"-->
-                <!--                    href="ftp://92.222.224.108"-->
-                <!--                    target="_blank"-->
-                <!--                    title="Access to the FTP server"-->
-                <!--                    src="~/assets/img/BDD.svg">-->
-                <!--                </picture>-->
+<!--        =====================================  OLD SAVE-->
 
-
-                <!--          <li>-->
-                <!--              <a href="#" class="text-gray-500" @click.prevent="toggleTheme">-->
-                <!--                  <picture v-if="theme === 'theme-light'" to="/">-->
-                <!--                      <img-->
-                <!--                              class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"-->
-                <!--                              alt="Young man (Albert Lanne) wearing a suite, nature in the background"-->
-                <!--                              src="../assets/img/logo_light_mod.svg"-->
-                <!--                      >-->
-                <!--                  </picture>-->
-                <!--                  <picture v-else="theme === 'theme-light'" to="/">-->
-                <!--                      <img-->
-                <!--                              class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"-->
-                <!--                              alt="Young man (Albert Lanne) wearing a suite, nature in the background"-->
-                <!--                              src="../assets/img/logo_dark_mod.svg">-->
-                <!--                  </picture>-->
-                <!--              </a>-->
-                <!--          </li>-->
+<!--                          <li>-->
+<!--                              <a href="#" class="text-gray-500" @click.prevent="toggleTheme">-->
+<!--                                  <picture v-if="theme === 'theme-light'" to="/">-->
+<!--                                      <img-->
+<!--                                              class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"-->
+<!--                                              alt="Young man (Albert Lanne) wearing a suite, nature in the background"-->
+<!--                                              src="../assets/img/logo_light_mod.svg"-->
+<!--                                      >-->
+<!--                                  </picture>-->
+<!--                                  <picture v-else="theme === 'theme-light'" to="/">-->
+<!--                                      <img-->
+<!--                                              class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"-->
+<!--                                              alt="Young man (Albert Lanne) wearing a suite, nature in the background"-->
+<!--                                              src="../assets/img/logo_dark_mod.svg">-->
+<!--                                  </picture>-->
+<!--                              </a>-->
+<!--                          </li>-->
 
 
             </div>
         </div>
 
         <!--============================== PHOTO ALBERT + BOUTTON ========================================-->
-        <!--        <div class="flex flex-col flex-wrap items-center bg-background-primary pt-8 animated fade-in">-->
+                <div class="flex flex-col flex-wrap items-center bg-background-primary pt-8 animated fade-in">
 
 
-        <div class=" flex flex-col flex-wrap py-6 md:py-10 bg-background-primary">
-            <div class="flex w-full flex-col justify-around items-center md:w-1/2 mx-auto text-center animated zoom-in">
+        <div class=" flex flex-col flex-wrap py-6 bg-background-primary">
+            <div class="flex w-full flex-col justify-around items-center mx-auto text-center">
                 <picture>
                     <img
                             class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"
@@ -83,7 +85,7 @@
                 </div>
 
 
-                <div class="flex mt-4 text-copy-primary">
+                <div class="flex text-copy-primary">
                     <a
                             class="zoom text-center  no-underline shadow-lg  border border-border-color-primary hover:shadow-xl px-3 py-2 m-2 rounded hover:text-black"
                             href="https://github.com/AlbertLanne"
@@ -148,7 +150,7 @@
                 </div>
             </div>
         </div>
-
+                </div>
         <!--============================== Hey You ! presentation text========================================-->
         <div class="flex flex-col flex-wrap items-center bg-background-primary pt-8 animated fade-in">
             <div class="justify-around items-center w-5/6 md:w-1/2 mx-auto  pb-8 md:pb-0">
