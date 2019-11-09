@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col flex-wrap w-full h-full content-center"
+    <div class="flex flex-col w-full justify-center h-full content-center"
          :class="theme">
 
         <!--============================== BARRE SUPERIEUR ALBERTFOUNDATION ========================================-->
@@ -61,7 +61,7 @@
         </div>
 
         <!--============================== PHOTO ALBERT + BOUTTON ========================================-->
-                <div class="flex flex-col flex-wrap items-center bg-background-primary pt-8 animated fade-in">
+                <div class="flex flex-col items-center bg-background-primary pt-8 animated fade-in">
 
 
         <div class=" flex flex-col flex-wrap py-6 bg-background-primary">
@@ -152,7 +152,7 @@
         </div>
                 </div>
         <!--============================== Hey You ! presentation text========================================-->
-        <div class="flex flex-col flex-wrap items-center bg-background-primary pt-8 animated fade-in">
+        <div class="flex flex-col  items-center bg-background-primary pt-8 animated fade-in">
             <div class="justify-around items-center w-5/6 md:w-1/2 mx-auto  pb-8 md:pb-0">
                 <a class="text-xl md:text-2xl   text-copy-primary  mb-2 hover:text-green-600">
                     Hey you!
