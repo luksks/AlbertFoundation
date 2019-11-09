@@ -1,64 +1,122 @@
 <template>
-    <div class="flex flex-col w-full flex-wrap justify-center h-full content-center"
+    <div class="flex flex-col w-full justify-center h-full content-center "
          :class="theme">
 
         <!--============================== BARRE SUPERIEUR ALBERTFOUNDATION ========================================-->
-        <div class=" bg-background-tertiary ">
-            <div class="flex container text-copy-primary m-4 ">
+        <!-- This is an example component -->
 
-                <h1 class="">
-                    <nuxt-link to="/" class="text-2xl">
-                        Albertfoundation 📡
-                    </nuxt-link>
-                </h1>
-                <!--======================= BOUTTON THEME / BOUTTON FTP /-->
+        <header class="bg-background-tertiary">
+            <nav class="flex justify-between w-full bg-background-tertiary text-copy-primary  p-4">
+                <nuxt-link to="/" class="text-2xl ml-12">
+                    Albertfoundation 📡
+                </nuxt-link>
 
-                <!--                                <a href="#" class="pt-2 px-12   border rounded-full" @click.prevent="toggleTheme">-->
-                <!--                                    <picture v-if="theme === 'theme-light'" >-->
-                <!--                                        <img-->
-                <!--                                                class="bg-background-tertiary h-8 w-8 fill-current text-red-600"-->
-                <!--                                                src="../assets/img/logo_light_mod.svg"-->
-                <!--                                        >-->
-                <!--                                    </picture>-->
-                <!--                                    <picture v-else="theme === 'theme-light'" >-->
-                <!--                                        <img-->
-                <!--                                                class="bg-background-tertiary h-8 w-8"-->
-                <!--                                                src="../assets/img/logo_dark_mod.svg"-->
-                <!--                                        >-->
-                <!--                                    </picture>-->
-                <!--                                </a>-->
-                <!--                                <picture>-->
-                <!--                                    <img class="pt-2 fill-current bg-background-tertiary stroke-current" width="27" height="27"-->
-                <!--                                    href="ftp://92.222.224.108"-->
-                <!--                                    target="_blank"-->
-                <!--                                    title="Access to the FTP server"-->
-                <!--                                    src="~/assets/img/BDD.svg">-->
-                <!--                                </picture>-->
+                <div class="md:items-center md:w-auto flex">
+                    <!--                        <div class="md:flex hidden">-->
+                    <!--                            <a class="block md:text-copy-primary mr-4" href="/link">Link 1</a>-->
+                    <!--                            <a class="block md:text-copy-primary mr-4" href="/link">Link 2</a>-->
+                    <!--                            <a class="block md:text-copy-primary mr-4" href="/link">Link 3</a>-->
+                    <!--                            <a class="block md:text-copy-primary mr-4" href="/link">Link 4</a>-->
+                    <!--                        </div>-->
+                    <div class="flex text-sm">
+                        <a class="p-2 ml-2 text-copy-primary font-semibold  leading-none border border-border-color-primary rounded  hover:bg-background-tertiary"
+                           href="/auth/signin" @click.prevent="toggleTheme">
 
 
-                <!--        =====================================  OLD SAVE-->
+                            <picture v-if="theme === 'theme-light'">
+                                <img
+                                        class="bg-background-tertiary h-8 w-8 fill-current text-red-600 stroke-current "
+                                        src="../assets/img/logo_light_mod.svg"
+                                        title="Switch for the light theme"
+                                >
+                            </picture>
+                            <picture v-else="theme === 'theme-light'">
+                                <img
 
-                <!--                          <li>-->
-                <!--                              <a href="#" class="text-gray-500" @click.prevent="toggleTheme">-->
-                <!--                                  <picture v-if="theme === 'theme-light'" to="/">-->
-                <!--                                      <img-->
-                <!--                                              class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"-->
-                <!--                                              alt="Young man (Albert Lanne) wearing a suite, nature in the background"-->
-                <!--                                              src="../assets/img/logo_light_mod.svg"-->
-                <!--                                      >-->
-                <!--                                  </picture>-->
-                <!--                                  <picture v-else="theme === 'theme-light'" to="/">-->
-                <!--                                      <img-->
-                <!--                                              class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"-->
-                <!--                                              alt="Young man (Albert Lanne) wearing a suite, nature in the background"-->
-                <!--                                              src="../assets/img/logo_dark_mod.svg">-->
-                <!--                                  </picture>-->
-                <!--                              </a>-->
-                <!--                          </li>-->
+                                        class="fill-text-red-600 fill-current  hover:text-green-600 bg-background-tertiary h-8 w-8"
+                                        src="../assets/img/logo_dark_mod.svg"
+                                        title="Switch for the dark theme"
+                                >
+                            </picture>
 
 
-            </div>
-        </div>
+                        </a>
+
+                        <a class="p-2 ml-2 text-copy-primary font-semibold leading-none border border-border-color-primary rounded   hover:bg-background-tertiary"
+                           href="ftp://92.222.224.108/">
+
+                            <picture v-if="theme === 'theme-light'">
+
+
+                                <img class=" pt-1 fill-current bg-background-tertiary stroke-current" width="27" height="27"
+                                     target="_blank"
+                                     title="Access to the FTP server"
+                                     src="~/assets/img/BDD_light_mod.svg">
+
+                            </picture>
+                            <picture v-else="theme === 'theme-light'">
+
+
+                                <img class=" pt-1 fill-current bg-background-tertiary stroke-current" width="27" height="27"
+                                     target="_blank"
+                                     title="Access to the FTP server"
+                                     src="~/assets/img/BDD_dark_mod.svg"
+                                     >
+
+                            </picture>
+                        </a>
+                        <!--                            <a class="p-2 ml-2 bg-teal-500 text-copy-primary font-semibold leading-none border border-teal-600 rounded hover:border-transparent hover:bg-teal-600" href="/auth/signup">Sign up</a>-->
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <!--======================= BOUTTON THEME / BOUTTON FTP /-->
+
+        <!--                                <a href="#" class="pt-2 px-12   border rounded-full" @click.prevent="toggleTheme">-->
+        <!--                                    <picture v-if="theme === 'theme-light'" >-->
+        <!--                                        <img-->
+        <!--                                                class="bg-background-tertiary h-8 w-8 fill-current text-red-600"-->
+        <!--                                                src="../assets/img/logo_light_mod.svg"-->
+        <!--                                        >-->
+        <!--                                    </picture>-->
+        <!--                                    <picture v-else="theme === 'theme-light'" >-->
+        <!--                                        <img-->
+        <!--                                                class="bg-background-tertiary h-8 w-8"-->
+        <!--                                                src="../assets/img/logo_dark_mod.svg"-->
+        <!--                                        >-->
+        <!--                                    </picture>-->
+        <!--                                </a>-->
+        <!--                                                <picture>-->
+        <!--                                                    <img class="pt-2 fill-current bg-background-tertiary stroke-current" width="27" height="27"-->
+        <!--                                                    href="ftp://92.222.224.108"-->
+        <!--                                                    target="_blank"-->
+        <!--                                                    title="Access to the FTP server"-->
+        <!--                                                    src="~/assets/img/BDD_dark_mod.svg">-->
+        <!--                                                </picture>-->
+
+
+        <!--        =====================================  OLD SAVE-->
+
+        <!--                          <li>-->
+        <!--                              <a href="#" class="text-gray-500" @click.prevent="toggleTheme">-->
+        <!--                                  <picture v-if="theme === 'theme-light'" to="/">-->
+        <!--                                      <img-->
+        <!--                                              class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"-->
+        <!--                                              alt="Young man (Albert Lanne) wearing a suite, nature in the background"-->
+        <!--                                              src="../assets/img/logo_light_mod.svg"-->
+        <!--                                      >-->
+        <!--                                  </picture>-->
+        <!--                                  <picture v-else="theme === 'theme-light'" to="/">-->
+        <!--                                      <img-->
+        <!--                                              class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"-->
+        <!--                                              alt="Young man (Albert Lanne) wearing a suite, nature in the background"-->
+        <!--                                              src="../assets/img/logo_dark_mod.svg">-->
+        <!--                                  </picture>-->
+        <!--                              </a>-->
+        <!--                          </li>-->
+
 
         <!--============================== PHOTO ALBERT + BOUTTON ========================================-->
         <div class="flex flex-col items-center bg-background-primary pt-8 animated fade-in ">
