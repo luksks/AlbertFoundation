@@ -11,15 +11,18 @@
                     Albertfoundation 📡
                 </nuxt-link>
 
-                <div class="md:items-center md:w-auto flex">
-                    <!--                        <div class="md:flex hidden">-->
-                    <!--                            <a class="block md:text-copy-primary mr-4" href="/link">Link 1</a>-->
-                    <!--                            <a class="block md:text-copy-primary mr-4" href="/link">Link 2</a>-->
-                    <!--                            <a class="block md:text-copy-primary mr-4" href="/link">Link 3</a>-->
-                    <!--                            <a class="block md:text-copy-primary mr-4" href="/link">Link 4</a>-->
-                    <!--                        </div>-->
+                <div class="md:items-center md:w-auto ">
+
+<!--                    BUTTON SUPLEMENTAIRE -->
+<!--                                            <div class="md:flex hidden">-->
+<!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 1</a>-->
+<!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 2</a>-->
+<!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 3</a>-->
+<!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 4</a>-->
+<!--                                            </div>-->
+
                     <div class="flex text-sm">
-                        <a class="p-2 ml-2 text-copy-primary font-semibold  leading-none border border-border-color-primary rounded  hover:bg-background-tertiary"
+                        <a class="p-1 ml-1 text-copy-primary font-semibold  leading-none border border-border-color-primary rounded  hover:bg-background-tertiary"
                            href="/auth/signin" @click.prevent="toggleTheme">
 
 
@@ -42,11 +45,10 @@
 
                         </a>
 
-                        <a class="p-2 ml-2 text-copy-primary font-semibold leading-none border border-border-color-primary rounded   hover:bg-background-tertiary"
+                        <a class="p-1 ml-1 text-copy-primary font-semibold leading-none border border-border-color-primary rounded   hover:bg-background-tertiary"
                            href="ftp://92.222.224.108/">
 
                             <picture v-if="theme === 'theme-light'">
-
 
                                 <img class=" pt-1 fill-current bg-background-tertiary stroke-current" width="27" height="27"
                                      target="_blank"
@@ -210,7 +212,7 @@
             </div>
         </div>
         <!--============================== Hey You ! presentation text========================================-->
-        <div class="flex flex-col  items-center flex-wrap bg-background-primary pt-8 animated fade-in">
+        <div class="flex flex-col  items-center flex-wrap bg-background-secondary pt-8 animated fade-in">
             <div class="justify-around items-center w-5/6 md:w-1/2 mx-auto  pb-8 md:pb-0">
                 <a class="text-xl md:text-2xl   text-copy-primary  mb-2 hover:text-green-600">
                     Hey you!
@@ -251,7 +253,7 @@
         <!--        <div class=" items-center bg-background-primary pt-8 bg-blue-100">-->
         <!--            mainpage here-->
         <!--        </div>-->
-        <div class="bg-background-secondary flex  flex-col items-center  py-16"
+        <div class="bg-background-primary flex  flex-col items-center  py-16"
         >
             <div class="flex justify-around w-5/6 md:w-1/2 mx-auto">
                 <span class="text-2xl text-copy-primary font-bold text-center hover:text-orange-910">
@@ -293,11 +295,15 @@
 
             <div class="flex container mx-auto text-copy-primary">
                 <div class="m-3 flex mx-12 flex">
-                    <p><a href="/"><img
-                            src="../assets/img/AF_logo_2.png"
-                            width="60"
-                            alt="Albert Lanne"
-                            class="right"/></a></p>
+
+                    <nuxt-link to="/" class="text-2xl ">
+                        Albertfoundation 📡
+                    </nuxt-link>
+<!--                    <p><a href="/"><img-->
+<!--                            src="../assets/img/AF_logo_2.png"-->
+<!--                            width="60"-->
+<!--                            alt="Albert Lanne"-->
+<!--                            class="right"/></a></p>-->
                 </div>
 
 
