@@ -11,7 +11,7 @@
                     Albertfoundation 📡
                 </nuxt-link>
 
-                <div class="md:items-center md:w-auto ">
+                <div class="md:items-center md:w-auto flex-shrink-0">
 
 <!--                    BUTTON SUPLEMENTAIRE -->
 <!--                                            <div class="md:flex hidden">-->
@@ -50,7 +50,7 @@
 
                             <picture v-if="theme === 'theme-light'">
 
-                                <img class=" pt-1 fill-current bg-background-tertiary stroke-current" width="27" height="27"
+                                <img class="pt-1 fill-current bg-background-tertiary stroke-current" width="27" height="27"
                                      target="_blank"
                                      title="Access to the FTP server"
                                      src="~/assets/img/BDD_light_mod.svg">
@@ -59,7 +59,7 @@
                             <picture v-else="theme === 'theme-light'">
 
 
-                                <img class=" pt-1 fill-current bg-background-tertiary stroke-current" width="27" height="27"
+                                <img class=" w-8 pt-1 fill-current bg-background-tertiary stroke-current" width="27" height="27"
                                      target="_blank"
                                      title="Access to the FTP server"
                                      src="~/assets/img/BDD_dark_mod.svg"
