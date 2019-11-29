@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 .theme-light {
-  --bg-background-primary: #efffff;
+  --bg-background-primary: #d6e8ee;
   --bg-background-secondary: #dcf7f9;
-  --bg-background-tertiary: #a3f2e9;
+    --bg-background-tertiary: #badcd6;
+  /*--bg-background-tertiary: #adf2e2;*/
 
 
   /*--border-border-color-primary:  #1a202c;*/

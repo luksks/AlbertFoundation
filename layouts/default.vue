@@ -7,9 +7,24 @@
 
         <header class="bg-background-tertiary">
             <nav class="flex justify-between w-full bg-background-tertiary text-copy-primary  p-4">
-                <nuxt-link to="/" class="text-2xl ml-12">
-                    Albertfoundation 📡
+
+
+                <nuxt-link to="/" >
+
+                <picture v-if="theme === 'theme-light'">
+                    <img class="m-2 fill-current bg-background-tertiary  stroke-current" width="200" height="200"
+                            src="../assets/img/logo_site_light_mod.svg"
+                            title="Switch for the light theme"
+                    >
+                </picture>
+                <picture v-else="theme === 'theme-light'">
+                    <img class="m-2 fill-current bg-background-tertiary xlstroke-current" width="200" height="200"
+                            src="../assets/img/logo_site_dark_mod.svg"
+                            title="Switch for the dark theme"
+                    >
+                </picture>
                 </nuxt-link>
+
 
                 <div class="md:items-center md:w-auto flex-shrink-0">
 
@@ -50,7 +65,7 @@
 
                             <picture v-if="theme === 'theme-light'">
 
-                                <img class="pt-1 fill-current bg-background-tertiary stroke-current" width="27" height="27"
+                                <img class=" w-8 pt-1 fill-current bg-background-tertiary stroke-current" width="27" height="27"
                                      target="_blank"
                                      title="Access to the FTP server"
                                      src="~/assets/img/BDD_light_mod.svg">
