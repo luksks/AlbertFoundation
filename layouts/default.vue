@@ -6,21 +6,21 @@
         <!-- This is an example component -->
 
         <header class="bg-background-tertiary">
-            <nav class="flex justify-between w-full bg-background-tertiary text-copy-primary  p-4">
+            <nav class="-mt-4 flex justify-between w-full  text-copy-primary pl-2 ">
 
 
                 <nuxt-link to="/" >
 
                 <picture v-if="theme === 'theme-light'">
-                    <img class="m-2 fill-current bg-background-tertiary  stroke-current" width="200" height="200"
+                    <img class="m-2 fill-current stroke-current h-24 w-24 zoom"
                             src="../assets/img/logo_site_light_mod.svg"
-                            title="Switch for the light theme"
+                            title="The black version logo of my website"
                     >
                 </picture>
                 <picture v-else="theme === 'theme-light'">
-                    <img class="m-2 fill-current bg-background-tertiary xlstroke-current" width="200" height="200"
+                    <img class="m-2 fill-current stroke-current h-24 w-24 zoom "
                             src="../assets/img/logo_site_dark_mod.svg"
-                            title="Switch for the dark theme"
+                            title="The white version logo of my website"
                     >
                 </picture>
                 </nuxt-link>
@@ -28,7 +28,7 @@
 
                 <div class="md:items-center md:w-auto flex-shrink-0">
 
-<!--                    BUTTON SUPLEMENTAIRE -->
+<!--                    BUTTON SUPLEMENTAIRE-->
 <!--                                            <div class="md:flex hidden">-->
 <!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 1</a>-->
 <!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 2</a>-->
@@ -36,14 +36,14 @@
 <!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 4</a>-->
 <!--                                            </div>-->
 
-                    <div class="flex text-sm">
-                        <a class="p-1 ml-1 text-copy-primary font-semibold  leading-none border border-border-color-primary rounded  hover:bg-background-tertiary"
+                    <div class="mt-10 flex text-sm">
+                        <a class=" p-1 ml-1 text-copy-primary font-semibold  leading-none border border-border-color-primary rounded  "
                            href="/auth/signin" @click.prevent="toggleTheme">
 
 
                             <picture v-if="theme === 'theme-light'">
                                 <img
-                                        class="bg-background-tertiary h-8 w-8 fill-current text-red-600 stroke-current "
+                                        class=" h-8 w-8 fill-current text-red-600 stroke-current "
                                         src="../assets/img/logo_light_mod.svg"
                                         title="Switch for the light theme"
                                 >
@@ -51,7 +51,7 @@
                             <picture v-else="theme === 'theme-light'">
                                 <img
 
-                                        class="fill-text-red-600 fill-current  hover:text-green-600 bg-background-tertiary h-8 w-8"
+                                        class="fill-text-red-600 fill-current  hover:text-green-600  h-8 w-8"
                                         src="../assets/img/logo_dark_mod.svg"
                                         title="Switch for the dark theme"
                                 >
@@ -60,7 +60,7 @@
 
                         </a>
 
-                        <a class="p-1 ml-1 text-copy-primary font-semibold leading-none border border-border-color-primary rounded   hover:bg-background-tertiary"
+                        <a class="p-1  mr-8 ml-1 text-copy-primary font-semibold leading-none border border-border-color-primary rounded  "
                            href="ftp://92.222.224.108/">
 
                             <picture v-if="theme === 'theme-light'">
@@ -89,57 +89,11 @@
         </header>
 
 
-        <!--======================= BOUTTON THEME / BOUTTON FTP /-->
-
-        <!--                                <a href="#" class="pt-2 px-12   border rounded-full" @click.prevent="toggleTheme">-->
-        <!--                                    <picture v-if="theme === 'theme-light'" >-->
-        <!--                                        <img-->
-        <!--                                                class="bg-background-tertiary h-8 w-8 fill-current text-red-600"-->
-        <!--                                                src="../assets/img/logo_light_mod.svg"-->
-        <!--                                        >-->
-        <!--                                    </picture>-->
-        <!--                                    <picture v-else="theme === 'theme-light'" >-->
-        <!--                                        <img-->
-        <!--                                                class="bg-background-tertiary h-8 w-8"-->
-        <!--                                                src="../assets/img/logo_dark_mod.svg"-->
-        <!--                                        >-->
-        <!--                                    </picture>-->
-        <!--                                </a>-->
-        <!--                                                <picture>-->
-        <!--                                                    <img class="pt-2 fill-current bg-background-tertiary stroke-current" width="27" height="27"-->
-        <!--                                                    href="ftp://92.222.224.108"-->
-        <!--                                                    target="_blank"-->
-        <!--                                                    title="Access to the FTP server"-->
-        <!--                                                    src="~/assets/img/BDD_dark_mod.svg">-->
-        <!--                                                </picture>-->
-
-
-        <!--        =====================================  OLD SAVE-->
-
-        <!--                          <li>-->
-        <!--                              <a href="#" class="text-gray-500" @click.prevent="toggleTheme">-->
-        <!--                                  <picture v-if="theme === 'theme-light'" to="/">-->
-        <!--                                      <img-->
-        <!--                                              class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"-->
-        <!--                                              alt="Young man (Albert Lanne) wearing a suite, nature in the background"-->
-        <!--                                              src="../assets/img/logo_light_mod.svg"-->
-        <!--                                      >-->
-        <!--                                  </picture>-->
-        <!--                                  <picture v-else="theme === 'theme-light'" to="/">-->
-        <!--                                      <img-->
-        <!--                                              class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"-->
-        <!--                                              alt="Young man (Albert Lanne) wearing a suite, nature in the background"-->
-        <!--                                              src="../assets/img/logo_dark_mod.svg">-->
-        <!--                                  </picture>-->
-        <!--                              </a>-->
-        <!--                          </li>-->
-
-
         <!--============================== PHOTO ALBERT + BOUTTON ========================================-->
         <div class="flex flex-col items-center bg-background-primary pt-8 animated fade-in ">
 
 
-            <div class=" flex flex-col flex-wrap py-6 bg-background-primary">
+            <div class=" flex flex-col flex-wrap py-6 ">
                 <div class="flex w-full flex-col justify-around items-center mx-auto text-center">
                     <picture>
                         <img
@@ -264,10 +218,6 @@
 
 
         <!--============================== BOX TEXT========================================-->
-        <!-- incoming animated main coponent-->
-        <!--        <div class=" items-center bg-background-primary pt-8 bg-blue-100">-->
-        <!--            mainpage here-->
-        <!--        </div>-->
         <div class="bg-background-primary flex  flex-col items-center  py-16"
         >
             <div class="flex justify-around w-5/6 md:w-1/2 mx-auto">
