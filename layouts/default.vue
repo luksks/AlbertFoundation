@@ -258,8 +258,8 @@
             </div>
         </div>
         <!--============================== Footer ========================================-->
-        <footer class=" bg-background-tertiary ">
-            <div class="flex flex-col sm:flex-row container mx-auto  text-copy-primary">
+        <footer class=" bg-background-tertiary  ">
+            <div class="flex flex-col sm:flex-row container mx-auto text-copy-primary">
                 <div class="m-3 flex mx-12 flex ">
 
                     <nuxt-link to="/" class="text-2xl ">
