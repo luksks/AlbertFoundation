@@ -6,35 +6,35 @@
         <!-- This is an example component -->
 
         <header class="bg-background-tertiary">
-            <nav class="-mt-4 flex justify-between w-full  text-copy-primary pl-2 ">
+            <nav class="-mt-4 flex-wrap flex justify-between w-full  text-copy-primary pl-2 ">
 
 
-                <nuxt-link to="/" >
+                <nuxt-link to="/">
 
-                <picture v-if="theme === 'theme-light'">
-                    <img class="m-2 fill-current stroke-current h-24 w-24 zoom"
-                            src="../assets/img/logo_site_light_mod.svg"
-                            title="The black version logo of my website"
-                    >
-                </picture>
-                <picture v-else="theme === 'theme-light'">
-                    <img class="m-2 fill-current stroke-current h-24 w-24 zoom "
-                            src="../assets/img/logo_site_dark_mod.svg"
-                            title="The white version logo of my website"
-                    >
-                </picture>
+                    <picture v-if="theme === 'theme-light'">
+                        <img class="m-2 fill-current stroke-current h-24 w-24 zoom"
+                             src="../assets/img/logo_site_light_mod.svg"
+                             title="The black version logo of my website">
+
+                    </picture>
+                    <picture v-else="theme === 'theme-light'">
+                        <img class="m-2 fill-current stroke-current h-24 w-24 zoom "
+                             src="../assets/img/logo_site_dark_mod.svg"
+                             title="The white version logo of my website"
+                        >
+                    </picture>
                 </nuxt-link>
 
 
                 <div class="md:items-center md:w-auto flex-shrink-0">
 
-<!--                    BUTTON SUPLEMENTAIRE-->
-<!--                                            <div class="md:flex hidden">-->
-<!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 1</a>-->
-<!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 2</a>-->
-<!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 3</a>-->
-<!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 4</a>-->
-<!--                                            </div>-->
+                    <!--                    BUTTON SUPLEMENTAIRE-->
+                    <!--                                            <div class="md:flex hidden">-->
+                    <!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 1</a>-->
+                    <!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 2</a>-->
+                    <!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 3</a>-->
+                    <!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 4</a>-->
+                    <!--                                            </div>-->
 
                     <div class="mt-10 flex text-sm">
                         <a class=" p-1 ml-1 text-copy-primary font-semibold  leading-none border border-border-color-primary rounded  "
@@ -65,7 +65,8 @@
 
                             <picture v-if="theme === 'theme-light'">
 
-                                <img class=" w-8 pt-1 fill-current bg-background-tertiary stroke-current" width="27" height="27"
+                                <img class=" w-8 pt-1 fill-current bg-background-tertiary stroke-current" width="27"
+                                     height="27"
                                      target="_blank"
                                      title="Access to the FTP server"
                                      src="~/assets/img/BDD_light_mod.svg">
@@ -74,11 +75,12 @@
                             <picture v-else="theme === 'theme-light'">
 
 
-                                <img class=" w-8 pt-1 fill-current bg-background-tertiary stroke-current" width="27" height="27"
+                                <img class=" w-8 pt-1 fill-current bg-background-tertiary stroke-current" width="27"
+                                     height="27"
                                      target="_blank"
                                      title="Access to the FTP server"
                                      src="~/assets/img/BDD_dark_mod.svg"
-                                     >
+                                >
 
                             </picture>
                         </a>
@@ -114,7 +116,7 @@
                     </div>
 
 
-                    <div class="flex text-copy-primary">
+                    <div class="flex text-copy-primary mt-4 flex-wrap  justify-center">
                         <a
                                 class="zoom text-center  no-underline shadow-lg  border border-border-color-primary hover:shadow-xl px-3 py-2 m-2 rounded hover:text-black"
                                 href="https://github.com/AlbertLanne"
@@ -257,47 +259,44 @@
         </div>
         <!--============================== Footer ========================================-->
         <footer class=" bg-background-tertiary ">
-
-            <div class="flex container mx-auto text-copy-primary">
-                <div class="m-3 flex mx-12 flex">
+            <div class="flex flex-col sm:flex-row container mx-auto  text-copy-primary">
+                <div class="m-3 flex mx-12 flex ">
 
                     <nuxt-link to="/" class="text-2xl ">
                         Albertfoundation 📡
                     </nuxt-link>
-<!--                    <p><a href="/"><img-->
-<!--                            src="../assets/img/AF_logo_2.png"-->
-<!--                            width="60"-->
-<!--                            alt="Albert Lanne"-->
-<!--                            class="right"/></a></p>-->
+                    <!--                    <p><a href="/"><img-->
+                    <!--                            src="../assets/img/AF_logo_2.png"-->
+                    <!--                            width="60"-->
+                    <!--                            alt="Albert Lanne"-->
+                    <!--                            class="right"/></a></p>-->
                 </div>
 
+                    <div class="w-1/4 my-3 ">
+                        <p class=" mb-4 hover:text-green-600 text-xl">Ressources</p>
+                        <p class="cursor-pointer hover:text-red-600 my-2">- CV</p>
+                        <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
+                        <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
+                        <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
+                    </div>
 
-                <div class="w-1/4 my-3 ">
-                    <p class=" mb-4 hover:text-green-600 text-xl">Ressources</p>
-                    <p class="cursor-pointer hover:text-red-600 my-2">- CV</p>
-                    <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
-                    <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
-                    <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
+                    <div class="w-1/4 my-3 ">
+                        <p class="mb-4 hover:text-green-600 text-xl">Plus</p>
+                        <button><p class="cursor-pointer hover:text-green-500 my-2" @click.prevent="toggleTheme">-
+                            {{this.theme}}</p>
+                        </button>
+                        <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
+                        <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
+                        <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
+                    </div>
+                    <div class="w-1/4 my-3">
+                        <p class="mb-4 hover:text-green-600 text-xl">Contact</p>
+                        <p class="cursor-pointer hover:text-red-900 my-2">- Site map</p>
+                        <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Site map</p>-->
+                        <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Social media</p>-->
+                        <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
+                    </div>
                 </div>
-
-                <div class="w-1/4 my-3 ">
-                    <p class="mb-4 hover:text-green-600 text-xl">Plus</p>
-                    <button><p class="cursor-pointer hover:text-green-500 my-2" @click.prevent="toggleTheme">-
-                        {{this.theme}}</p>
-                    </button>
-                    <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
-                    <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
-                    <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
-                </div>
-                <div class="w-1/4 my-3">
-                    <p class="mb-4 hover:text-green-600 text-xl">Contact</p>
-                    <p class="cursor-pointer hover:text-red-900 my-2">- Site map</p>
-                    <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Site map</p>-->
-                    <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Social media</p>-->
-                    <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
-                </div>
-            </div>
-
         </footer>
 
     </div>
