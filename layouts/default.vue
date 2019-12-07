@@ -92,6 +92,14 @@
 
 
         <!--============================== PHOTO ALBERT + BOUTTON ========================================-->
+
+
+<div class="bg-background-tertiary">
+        <div class="text-6xl text-copy-primary bg-red-800 rounded-full justify-center text-center flex">
+            <h1> Version de la branche dev</h1>
+
+        </div>
+</div>
         <div class="flex flex-col items-center bg-background-primary pt-8 animated fade-in ">
 
 
