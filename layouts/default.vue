@@ -31,7 +31,7 @@
                     {
                         hid: "description",
                         name: "description",
-                        content: "The main page of my personal website"
+                        content: "My personal website"
                     }
                 ]
             };
@@ -39,14 +39,10 @@
         data() {
             return {
                 theme: "theme-dark"
+
             };
         },
-        created() {
-            if (typeof window !== 'undefined') {
-                this.theme = localStorage.getItem('theme') || 'theme-light'
-            }
 
-        },
         methods: {
             toggleTheme() {
                 this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
@@ -55,6 +51,12 @@
                     localStorage.setItem('theme', this.theme)
                 }
             }
+        },
+        created() {
+            if (typeof window !== 'undefined') {
+                this.theme = localStorage.getItem('theme') || 'theme-light'
+            }
+
         },
         components: {NavFooter, NavBarre}
 

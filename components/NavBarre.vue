@@ -86,9 +86,12 @@
 </template>
 
 <script>
+    import theme from "~/layouts/default.vue";
     export default {
         name: "NavBarre"
     }
+
+
 </script>
 
 <style scoped>
