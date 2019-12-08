@@ -4,7 +4,7 @@
 
 <script>
     export default {
-        name: "AboutMe"
+        name: "NavBarre"
     }
 </script>
 
