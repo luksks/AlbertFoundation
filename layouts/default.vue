@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col w-full justify-center h-full content-center "
+    <div class="flex flex-col w-full justify-center h-full content-center content-wrapper"
          :class="theme">
 
 
@@ -41,9 +41,19 @@
                 theme: "theme-dark"
             };
         },
+        created() {
+            if (typeof window !== 'undefined') {
+                this.theme = localStorage.getItem('theme') || 'theme-light'
+            }
+
+        },
         methods: {
             toggleTheme() {
                 this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
+
+                if (typeof window !== 'undefined') {
+                    localStorage.setItem('theme', this.theme)
+                }
             }
         },
         components: {NavFooter, NavBarre}

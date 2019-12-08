@@ -108,9 +108,9 @@
 }
 /*==============================*/
 
-/*.content-wrapper {*/
-/*  transition: background-color .25s;*/
-/*}*/
+.content-wrapper {
+  transition: background-color .25s;
+}
 
 /*nav .active {*/
 /*  font-weight: bold;*/
