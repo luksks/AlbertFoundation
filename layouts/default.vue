@@ -21,9 +21,23 @@
 
     import NavFooter from "~/components/NavFooter.vue";
     import NavBarre from "~/components/NavBarre.vue";
+    import {test} from "~/components/NavBarre.vue";
+    console.log(test);
+
+
+    // import toggleTheme from "~/components/NavBarre.vue";
+
 
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
+        data() {
+            return {
+                theme: test,
+                // theme : '',
+                // toggleTheme
+        };
+        },
+
         head() {
             return {
                 titleTemplate: "%s - Albert Lanne",
@@ -36,29 +50,8 @@
                 ]
             };
         },
-        data() {
-            return {
-                theme: "theme-dark"
 
-            };
-        },
-
-        methods: {
-            toggleTheme() {
-                this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
-
-                if (typeof window !== 'undefined') {
-                    localStorage.setItem('theme', this.theme)
-                }
-            }
-        },
-        created() {
-            if (typeof window !== 'undefined') {
-                this.theme = localStorage.getItem('theme') || 'theme-light'
-            }
-
-        },
-        components: {NavFooter, NavBarre}
+        components: {NavFooter, NavBarre,test}
 
     };
 </script>

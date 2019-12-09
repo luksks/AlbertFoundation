@@ -86,11 +86,33 @@
 </template>
 
 <script>
-    import theme from "~/layouts/default.vue";
+export let test = 'test';
     export default {
-        name: "NavBarre"
-    }
+        name: "NavBarre",
+        data() {
+            return {
+                theme: "theme-dark"
 
+            };
+        },
+
+        methods: {
+            toggleTheme() {
+                let lol = this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
+
+                if (typeof window !== 'undefined') {
+                    localStorage.setItem('theme', this.theme)
+                }
+
+            }
+        },
+        created() {
+            if (typeof window !== 'undefined') {
+                this.theme = localStorage.getItem('theme') || 'theme-light'
+            }
+
+        },
+    }
 
 </script>
 
