@@ -1,5 +1,10 @@
 <template>
+<div>
+    <h1>The structure of the website</h1>
 
+
+
+</div>
 </template>
 
 <script>
