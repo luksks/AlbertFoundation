@@ -4,7 +4,6 @@
 
 
             <nuxt-link to="/">
-
                 <picture v-if="theme === 'theme-light'">
                     <img class="m-2 fill-current stroke-current h-24 w-24 zoom"
                          src="../assets/img/logo_site_light_mod.svg"
@@ -17,18 +16,21 @@
                          title="The white version logo of my website"
                     >
                 </picture>
+
+
             </nuxt-link>
 
 
-            <div class="md:items-center md:w-auto flex-shrink-0">
+            <div class="flex md:items-center md:w-auto flex-shrink-0">
 
-                <!--                    BUTTON SUPLEMENTAIRE-->
-                <!--                                            <div class="md:flex hidden">-->
-                <!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 1</a>-->
-                <!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 2</a>-->
-                <!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 3</a>-->
-                <!--                                                <a class="block md:text-copy-primary mr-4" href="/link">Link 4</a>-->
-                <!--                                            </div>-->
+
+                <a class="  ml-10 text-copy-primary font-semibold  rounded mx-6 -mb-8"
+                   href="/auth/signin" @click.prevent="toggleTheme">
+
+                    <p> About the website</p>
+
+                </a>
+
 
                 <div class="mt-10 flex text-sm">
                     <a class=" p-1 ml-1 text-copy-primary font-semibold  leading-none border border-border-color-primary rounded  "
@@ -44,7 +46,6 @@
                         </picture>
                         <picture v-else="theme === 'theme-light'">
                             <img
-
                                     class="fill-text-red-600 fill-current  hover:text-green-600  h-8 w-8"
                                     src="../assets/img/logo_dark_mod.svg"
                                     title="Switch for the dark theme"
@@ -79,6 +80,8 @@
                         </picture>
                     </a>
                     <!--                            <a class="p-2 ml-2 bg-teal-500 text-copy-primary font-semibold leading-none border border-teal-600 rounded hover:border-transparent hover:bg-teal-600" href="/auth/signup">Sign up</a>-->
+
+
                 </div>
             </div>
         </nav>
@@ -86,7 +89,7 @@
 </template>
 
 <script>
-export let test = 'test';
+    export let test = 'test';
     export default {
         name: "NavBarre",
         data() {

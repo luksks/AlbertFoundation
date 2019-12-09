@@ -32,7 +32,7 @@
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
         data() {
             return {
-                theme: test,
+                theme: 'theme-dark  ',
                 // theme : '',
                 // toggleTheme
         };
