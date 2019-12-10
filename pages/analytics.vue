@@ -174,7 +174,13 @@
 
 <script>
     export default {
-        name: "analytics"
+        name: "analytics",
+        head() {
+            return {
+                title: "analytics page"
+            };
+        },
+
     }
 </script>
 
