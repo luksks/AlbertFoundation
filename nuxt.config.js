@@ -51,7 +51,8 @@ module.exports = {
   build: {
     postcss: {
       plugins: {
-        tailwindcss: './tailwind.config.js'
+        tailwindcss: './tailwind.config.js',
+        src: '~plugins/ga.js', mode: 'client'
       }
     },
     /*
