@@ -1,9 +1,8 @@
 <template>
     <header class="bg-background-tertiary">
-        <nav class="flex-wrap flex-shrink-1 align-baseline flex justify-between w-full  text-copy-primary pl-2 ">
-
-
-            <nuxt-link to="/" class="-mt-1 mx-3">
+<!--        Div pour les élément de gauche-->
+    <div>
+            <nuxt-link to="/" class="">
                 <picture v-if="theme === 'theme-light'">
                     <img class=" fill-current stroke-current h-24 w-24 zoom"
                          src="../assets/img/logo_site_light_mod.svg"
@@ -17,46 +16,43 @@
                 </picture>
             </nuxt-link>
 
+        <!--        Div pour les élément de droite-->
+        <div>
+        <nuxt-link to="/aboutWebsite">
+            <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-copy-secondary hover:bg-white mt-4 lg:mt-0">
+                About the website</a>
+        </nuxt-link>
 
-            <div class="text-copy-primary hover:bg-blue-700 font-bold py-2 px-4 rounded-full sm:justify-center">
-                <a class="text-copy-primary"
-                   href="/auth/signin" @click.prevent="toggleTheme">
+        <nuxt-link to="/analytics">
+            <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-copy-secondary hover:bg-white mt-4 lg:mt-0">
+                Privacy Policy</a>
+        </nuxt-link>
 
-                    <p> About the website</p>
-
-                </a>
-
-                    <a class="text-copy-primary hover:bg-blue-700 font-bold py-2 px-4 rounded-full"
-                       href="/auth/signin" @click.prevent="toggleTheme">
-
-                        <p> Privacy Policy </p>
-
-                    </a>
-
-
-                <a class="flex  p-1 ml-1 text-copy-primary font-semibold  leading-none rounded  "
+                <a class="text-copy-primary "
                    href="/auth/signin" @click.prevent="toggleTheme">
                     <picture v-if="theme === 'theme-light'">
                         <img
-                                class=" h-8 w-8 fill-current text-red-600 stroke-current "
+                                class=" h-8 w-8 fill-current fill-text-red-600 hover:text-green-600"
                                 src="../assets/img/logo_light_mod.svg"
                                 title="Switch for the light theme">
                     </picture>
                     <picture v-else="theme === 'theme-light'">
                         <img
-                                class="fill-text-red-600 fill-current  hover:text-green-600  h-8 w-8"
+                                class="h-8 w-8  fill-current fill-text-red-600 hover:text-green-600  "
                                 src="../assets/img/logo_dark_mod.svg"
                                 title="Switch for the dark theme">
                     </picture>
                 </a>
+        </div>
 
-
-            </div>
-        </nav>
+</div>
     </header>
 </template>
 
 <script>
+    import analytics from  "~/pages/analytics.vue"
+    import aboutWebsite from  "~/pages/aboutWebsite.vue"
+
     export let test = 'test';
     export default {
         name: "NavBarre",
@@ -66,6 +62,7 @@
 
             };
         },
+        components: {aboutWebsite,analytics},
 
         methods: {
             toggleTheme() {

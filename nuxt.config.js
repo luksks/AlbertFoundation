@@ -32,6 +32,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~plugins/ga.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -52,12 +53,13 @@ module.exports = {
     postcss: {
       plugins: {
         tailwindcss: './tailwind.config.js',
-        src: '~plugins/ga.js', mode: 'client'
+
       }
     },
     /*
     ** You can extend webpack config here
     */
+
     extend(config, ctx) {
     }
   }
