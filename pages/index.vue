@@ -9,8 +9,8 @@
 
 <script>
 
-    import texteIntroduction from  "~/components/PagePrincipale/texteIntroduction.vue";
-    import PhotoEtBouton from  "~/components/PagePrincipale/PhotoEtBouton.vue";
+    import texteIntroduction from  "~/components/IndexPagePrincipale/texteIntroduction.vue";
+    import PhotoEtBouton from  "~/components/IndexPagePrincipale/PhotoEtBouton.vue";
 
 
 export default {

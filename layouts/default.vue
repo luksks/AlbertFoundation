@@ -2,26 +2,24 @@
     <div class="flex flex-col w-full justify-center h-full content-center content-wrapper"
          :class="theme">
 
-
         <CookiePopUp/>
         <privacyPolicy/>
+
         <NavBarre/>
-
             <nuxt/>
-
         <NavFooter/>
 
     </div>
 </template>
 
-<!--Permet de maintenir la hauteur à 100% pour plus avoir de blanc-->
 
 <script>
 
     import NavFooter from "~/components/NavFooter.vue";
     import NavBarre, {test} from "~/components/NavBarre.vue";
-    import CookiePopUp from "~/components/cookies_PopUp.vue";
-    import privacyPolicy from "~/components/privacy_PopUp.vue";
+
+    import CookiePopUp from "~/components/SpecialComponents/cookies_PopUp.vue";
+    import privacyPolicy from "~/components/SpecialComponents/privacy_PopUp.vue";
 
     console.log(test);
 
