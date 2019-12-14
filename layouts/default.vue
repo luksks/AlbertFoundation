@@ -3,11 +3,11 @@
          :class="theme">
 
 
+        <CookiePopUp/>
+        <privacyPolicy/>
         <NavBarre/>
 
-        <div>
             <nuxt/>
-        </div>
 
         <NavFooter/>
 
@@ -16,12 +16,13 @@
 
 <!--Permet de maintenir la hauteur à 100% pour plus avoir de blanc-->
 
-
 <script>
 
     import NavFooter from "~/components/NavFooter.vue";
-    import NavBarre from "~/components/NavBarre.vue";
-    import {test} from "~/components/NavBarre.vue";
+    import NavBarre, {test} from "~/components/NavBarre.vue";
+    import CookiePopUp from "~/components/cookies_PopUp.vue";
+    import privacyPolicy from "~/components/privacy_PopUp.vue";
+
     console.log(test);
 
 
@@ -35,7 +36,7 @@
                 theme: 'theme-dark  ',
                 // theme : '',
                 // toggleTheme
-        };
+            };
         },
 
         head() {
@@ -51,7 +52,7 @@
             };
         },
 
-        components: {NavFooter, NavBarre,test}
+        components: {NavFooter, NavBarre, CookiePopUp,privacyPolicy, test}
 
     };
 </script>
