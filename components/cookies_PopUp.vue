@@ -5,7 +5,7 @@
             <div class=" mx-4 py-2">
 
                 <div class="bg-red-500 text-white font-bold rounded-t px-4 ">
-                    INCOMING COOKIES
+                    INCOMING COOKIES:
                 </div>
 
 
@@ -22,7 +22,7 @@
                             <a class="cursor-pointer flex rounded-full bg-red-100 uppercase px-2 py-1 text-xs font-bold mr-3"
                                href="https://policies.google.com/technologies/partner-sites?hl=">TO CHANGE YOUR
                                 SETTING</a>
-                            <span class="text-white font-semibold mr-2 text-left flex-auto"> > or</span>
+                            <span class="text-white font-semibold mr-2 text-left flex-auto">or</span>
                             <span class="cursor-pointer flex rounded-full bg-red-100 uppercase px-2 py-1 text-xs font-bold mr-3">ACCEPT AND
                         CLOSE</span>
                         </div>
