@@ -23,6 +23,7 @@
     import CookiePopUp from "~/components/SpecialComponents/cookies_PopUp.vue";
     import privacyPolicy from "~/components/SpecialComponents/privacy_PopUp.vue";
     import paper from "~/components/SpecialComponents/grain_effect.vue";
+    import {theme} from "../components/classe.js";
 
     console.log(test);
 
@@ -34,9 +35,10 @@
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
         data() {
             return {
-                theme: 'theme-dark  ',
-                // theme : '',
-                // toggleTheme
+
+                // C'est cette valeur que j'aimerais changer entre theme-light et theme-dark
+                theme: 'theme-light  ',
+
             };
         },
 
@@ -53,7 +55,7 @@
             };
         },
 
-        components: {NavFooter, NavBarre, CookiePopUp, privacyPolicy, paper,test}
+        components: {theme, NavFooter, NavBarre, CookiePopUp, privacyPolicy, paper,test}
 
     };
 </script>

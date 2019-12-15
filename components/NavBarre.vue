@@ -51,6 +51,7 @@
     import analytics from "~/pages/privacy.vue"
     import aboutWebsite from "~/pages/aboutWebsite.vue"
 
+
     export let test = 'test';
     export default {
         name: "NavBarre",
