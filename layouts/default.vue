@@ -1,13 +1,15 @@
 <template>
-    <div class="flex flex-col w-full justify-center h-full content-center content-wrapper"
-         :class="theme">
 
+    <div class=" flex flex-col w-full justify-center h-full content-center content-wrapper"
+         :class="theme">
+<paper></paper>
         <CookiePopUp/>
         <privacyPolicy/>
 
         <NavBarre/>
-            <nuxt/>
+        <nuxt/>
         <NavFooter/>
+
 
     </div>
 </template>
@@ -20,6 +22,7 @@
 
     import CookiePopUp from "~/components/SpecialComponents/cookies_PopUp.vue";
     import privacyPolicy from "~/components/SpecialComponents/privacy_PopUp.vue";
+    import paper from "~/components/SpecialComponents/grain_effect.vue";
 
     console.log(test);
 
@@ -50,7 +53,7 @@
             };
         },
 
-        components: {NavFooter, NavBarre, CookiePopUp,privacyPolicy, test}
+        components: {NavFooter, NavBarre, CookiePopUp, privacyPolicy, paper,test}
 
     };
 </script>
