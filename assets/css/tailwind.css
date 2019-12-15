@@ -174,3 +174,22 @@
   transform: scale(1.1);
   /*transform: translateX(-25%) translateY(-25%);*/
 }
+
+
+
+/*.custom-cur {*/
+/*  cursor: url('/assets/img/cursor_light.svg');*/
+/*}*/
+
+/* With a .cur fallback */
+/*.custom-cur {*/
+/*  cursor: url('/images/chef.svg'),*/
+/*  url('/images/chef.cur');*/
+/*}*/
+
+/* With a custom hotspot */
+/*.custom-cur {*/
+/*  cursor: url('/assets/img/cursor_light.svg') 100 120;*/
+/*}*/
+
+/* With a non-custom fallback: */

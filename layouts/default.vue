@@ -37,7 +37,7 @@
             return {
 
                 // C'est cette valeur que j'aimerais changer entre theme-light et theme-dark
-                theme: 'theme-light  ',
+                theme: 'theme-dark',
 
             };
         },
