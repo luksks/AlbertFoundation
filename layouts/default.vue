@@ -3,8 +3,8 @@
     <div class=" flex flex-col w-full justify-center h-full content-center content-wrapper"
          :class="theme">
 <paper></paper>
-        <CookiePopUp/>
-        <privacyPolicy/>
+<!--        <CookiePopUp/>-->
+<!--        <privacyPolicy/>-->
 
         <NavBarre/>
         <nuxt/>

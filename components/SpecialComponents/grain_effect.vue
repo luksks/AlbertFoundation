@@ -29,9 +29,11 @@
         position: fixed;
         top: -110%;
         width: 300%;
+        pointer-events: none;
     }
 
     @keyframes grain {
+
         0%, 100% { transform:translate(0, 0) }
         10% { transform:translate(-5%, -10%) }
         20% { transform:translate(-15%, 5%) }

@@ -8,7 +8,7 @@ export class theme {
     }
 
     getTheme() {
-        return `${this.theme}`;
+        return `${this.theme}`;ZZ
     }
 
     toggleTheme(theme) {
