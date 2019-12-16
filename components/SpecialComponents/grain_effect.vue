@@ -30,6 +30,7 @@
         top: -110%;
         width: 300%;
         pointer-events: none;
+        filter: brightness(120%);
     }
 
     @keyframes grain {
