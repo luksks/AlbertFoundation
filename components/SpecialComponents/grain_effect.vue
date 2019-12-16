@@ -19,12 +19,13 @@
     .page-header:after {
         animation: grain 8s steps(10) infinite;
         /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/paper-pattern.png);*/
-        background-image: url("../../assets/img/noise.png");
+        /*background-image: url("../../assets/img/noise.png");*/
+        background-image: url("../../assets/img/grain.gif");
         content: "";
         height: 300%;
         left: -50%;
-        opacity: 0;
-        /*opacity: 0.3;*/
+        /*opacity: 0;*/
+        opacity: 0.05;
         position: fixed;
         top: -110%;
         width: 300%;
