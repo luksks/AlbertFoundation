@@ -53,20 +53,20 @@
 
 
     export let test = 'test';
+    // console.log('data()');
+
+
     export default {
         name: "NavBarre",
         data() {
             return {
                 theme: "theme-dark"
-
             };
         },
         components: {aboutWebsite, analytics},
 
         methods: {
             toggleTheme() {
-                let lol = this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
-
                 if (typeof window !== 'undefined') {
                     localStorage.setItem('theme', this.theme)
                 }

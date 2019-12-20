@@ -36,6 +36,7 @@
 
                 // C'est cette valeur que j'aimerais changer entre theme-light et theme-dark
                 theme: 'theme-dark',
+                // theme: () => import('../components/classe.js')
 
             };
         },
