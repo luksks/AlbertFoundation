@@ -4,15 +4,14 @@
   "description": "My personal first website",
   "author": "albert.lanne",
   "private": true,
-
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build",
     "start": "cross-env NODE_ENV=production node server/index.js",
     "generate": "nuxt generate"
   },
-
   "dependencies": {
+    "@nuxtjs/sitemap": "^2.0.1",
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
     "nuxt": "^2.0.0"

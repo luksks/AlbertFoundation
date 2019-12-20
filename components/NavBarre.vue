@@ -59,28 +59,27 @@
             return {
                 theme: "theme-dark",
             };
-                },
-                components: {aboutWebsite, analytics,
-            },
+        },
+        components: {
+            aboutWebsite, analytics,
+        },
 
-            methods: {
-                toggleTheme()
-                {
-                    if (typeof window !== 'undefined') {
-                        localStorage.setItem('theme', this.theme)
-                    }
-
-
-                }
-            },
-            created()
-            {
+        methods: {
+            toggleTheme() {
                 if (typeof window !== 'undefined') {
-                    this.theme = localStorage.getItem('theme') || 'theme-light'
+                    localStorage.setItem('theme', this.theme)
                 }
 
-            },
-        }
+
+            }
+        },
+        created() {
+            if (typeof window !== 'undefined') {
+                this.theme = localStorage.getItem('theme') || 'theme-light'
+            }
+
+        },
+    }
 
 </script>
 
