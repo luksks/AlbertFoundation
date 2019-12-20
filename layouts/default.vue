@@ -9,8 +9,6 @@
         <NavBarre/>
         <nuxt/>
         <NavFooter/>
-
-
     </div>
 </template>
 
