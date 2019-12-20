@@ -9,6 +9,7 @@
         <NavBarre/>
         <nuxt/>
         <NavFooter/>
+
     </div>
 </template>
 
@@ -21,23 +22,13 @@
     import CookiePopUp from "~/components/SpecialComponents/cookies_PopUp.vue";
     import privacyPolicy from "~/components/SpecialComponents/privacy_PopUp.vue";
     import paper from "~/components/SpecialComponents/grain_effect.vue";
-    import {theme} from "../components/classe.js";
-
-    console.log(test);
-
-
-    // import toggleTheme from "~/components/NavBarre.vue";
-
+    import {theme} from "../components/NavBarre";
 
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
         data() {
             return {
-
-                // C'est cette valeur que j'aimerais changer entre theme-light et theme-dark
-                theme: 'theme-dark',
-                // theme: () => import('../components/classe.js')
-
+                theme
             };
         },
 

@@ -55,15 +55,17 @@
     export let test = 'test';
     // console.log('data()');
 
+    export var theme = "theme-dark";
 
     export default {
         name: "NavBarre",
         data() {
             return {
-                theme: "theme-dark"
+                theme: "theme-dark",
+                
             };
         },
-        components: {aboutWebsite, analytics},
+        components: {aboutWebsite, analytics,test },
 
         methods: {
             toggleTheme() {
