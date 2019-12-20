@@ -51,10 +51,6 @@
     import analytics from "~/pages/privacy.vue"
     import aboutWebsite from "~/pages/aboutWebsite.vue"
 
-
-    export let test = 'test';
-    // console.log('data()');
-
     export var theme = "theme-dark";
 
     export default {
@@ -62,26 +58,29 @@
         data() {
             return {
                 theme: "theme-dark",
-                
             };
-        },
-        components: {aboutWebsite, analytics,test },
+                },
+                components: {aboutWebsite, analytics,
+            },
 
-        methods: {
-            toggleTheme() {
+            methods: {
+                toggleTheme()
+                {
+                    if (typeof window !== 'undefined') {
+                        localStorage.setItem('theme', this.theme)
+                    }
+
+
+                }
+            },
+            created()
+            {
                 if (typeof window !== 'undefined') {
-                    localStorage.setItem('theme', this.theme)
+                    this.theme = localStorage.getItem('theme') || 'theme-light'
                 }
 
-            }
-        },
-        created() {
-            if (typeof window !== 'undefined') {
-                this.theme = localStorage.getItem('theme') || 'theme-light'
-            }
-
-        },
-    }
+            },
+        }
 
 </script>
 
