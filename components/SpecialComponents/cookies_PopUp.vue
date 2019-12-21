@@ -11,7 +11,6 @@
                             INCOMING COOKIES:
                         </div>
 
-
                         <div class="border items-center justify-between flex border-t-0 border-red-400 rounded-b bg-red-100 px-4 py-2 text-red-700">
                             <p>
                                 Our website uses Google Analytics to analyze our traffic.<br> To learn how you can
@@ -35,7 +34,6 @@
 
                         </div>
                     </div>
-
                 </div>
             </label>
         </div>
