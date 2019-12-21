@@ -19,7 +19,7 @@
 <script>
 
     import NavFooter from "~/components/NavFooter.vue";
-    import NavBarre, {test} from "~/components/NavBarre.vue";
+    import NavBarre from "~/components/NavBarre.vue";
 
     import CookiePopUp from "~/components/SpecialComponents/cookies_PopUp.vue";
     import privacyPolicy from "~/components/SpecialComponents/privacy_PopUp.vue";
@@ -30,7 +30,7 @@
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
         data() {
             return {
-                theme
+                theme: this.$store.state.theme,
             };
         },
 
@@ -47,7 +47,7 @@
             };
         },
 
-        components: {theme, NavFooter, NavBarre, CookiePopUp, privacyPolicy, paper, test}
+        components: {theme, NavFooter, NavBarre, CookiePopUp, privacyPolicy, paper, }
 
     };
 </script>

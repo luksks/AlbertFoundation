@@ -1,24 +1,26 @@
 <template>
-    <header class="flex items-center justify-between bg-background-tertiary"  >
+    <header class="flex items-center justify-between bg-background-tertiary">
         <!--        Div pour les élément de gauche-->
         <!--    ================ This component are only for the test. This button work correctly ================ -->
-        <header class="p-6 border-border-color-primary border-2 rounded items-center flex justify-center">
-            <a>debogage element -> </a>
+        <div class="p-6 border-border-color-primary border-2 rounded items-center flex justify-center">
+            <a>debogage element -> </a>def
 
             <div class="text-center   p-2 bg-red-500 items-center justify-center leading-none lg:rounded-full flex lg:inline-flex"
                  role="alert">
 
                 <a class=" flex rounded-full bg-background-primary uppercase justify-center px-2 py-1 text-xs font-bold "
                    @click.prevent="toggleTheme">
-                    <picture v-if="theme === 'theme-light'"><img class="m-2 h-8 w-8" src="../assets/img/logo_light_mod.svg"></picture>
-                    <picture v-else="theme === 'theme-light'"> <img class="m-2 h-8 w-8" src="../assets/img/logo_dark_mod.svg"> </picture>
+                    <picture v-if="theme === 'theme-light'"><img class="m-2 h-8 w-8"
+                                                                 src="../assets/img/logo_light_mod.svg"></picture>
+                    <picture v-else="theme === 'theme-light'"><img class="m-2 h-8 w-8"
+                                                                   src="../assets/img/logo_dark_mod.svg"></picture>
                 </a>
             </div>
-        </header>
+        </div>
         <!--   ======================================================================================================= -->
 
 
-        <nuxt-link to="/" class="px-4" >
+        <nuxt-link to="/" class="px-4">
             <picture v-if="theme === 'theme-light'">
                 <img class=" fill-current stroke-current h-24 w-24 zoom"
                      src="../assets/img/logo_site_light_mod.svg"
@@ -33,7 +35,7 @@
             </picture>
         </nuxt-link>
 
-      <!--        Div pour les élément de droite-->
+        <!--        Div pour les élément de droite-->
         <div class="flex justify-end">
             <nuxt-link to="/aboutWebsite" class="mx-2">
                 <a href="#"
@@ -55,8 +57,9 @@
                         alt="theme dark button"
                         title=" dark for the theme">
             </picture>
-            <h1>{{this.$store.state.theme}}</h1>
         </div>
+
+
     </header>
 </template>
 
@@ -70,7 +73,7 @@
         name: "NavBarre",
         data() {
             return {
-                theme: "theme-dark",
+                theme: this.$store.state.theme,
             };
         },
         components: {
@@ -79,7 +82,7 @@
         methods: {
             toggleTheme() {
                 this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
-                      this.$store.state.theme = this.theme;
+                this.$store.state.theme = this.theme;
                 // if (typeof window !== 'undefined') {
                 //     localStorage.setItem('theme', this.theme)
                 // }

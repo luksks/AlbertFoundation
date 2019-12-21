@@ -34,8 +34,7 @@
                 <p class="mb-4 hover:text-green-600 text-xl">Plus</p>
                 <button @click.prevent="toggleTheme"
                         class="sm:p-0 sm:px-0 p-1 px-3 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">
-                    -
-                    {{this.theme}}
+                    -{{this.$store.state.theme}}
                 </button>
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
@@ -55,6 +54,8 @@
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
             </div>
         </div>
+
+        <h1 class=" text-5xl text-copy-primary">{{this.$store.state.theme}}</h1>
     </footer>
 </template>
 
