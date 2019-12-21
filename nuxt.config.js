@@ -44,7 +44,7 @@ module.exports = {
     ** Nuxt.js modules
     */
     modules: [
-        '@nuxtjs/sitemap'
+        '@nuxtjs/sitemap',
     ],
 
     /*
@@ -54,13 +54,11 @@ module.exports = {
         postcss: {
             plugins: {
                 tailwindcss: './tailwind.config.js',
-
             }
         },
         /*
         ** You can extend webpack config here
         */
-
         extend(config, ctx) {
         }
     }

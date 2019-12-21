@@ -40,7 +40,6 @@
                         title=" dark for the theme">
             </picture>
         </div>
-
     </header>
 </template>
 
@@ -66,16 +65,24 @@
                 if (typeof window !== 'undefined') {
                     localStorage.setItem('theme', this.theme)
                 }
-
-
             }
         },
-        created() {
+         created() {
             if (typeof window !== 'undefined') {
                 this.theme = localStorage.getItem('theme') || 'theme-light'
-            }
-
+            };
         },
+        // async created() {
+        //     if (typeof window !== 'undefined') {
+        //         this.theme = localStorage.getItem('theme') || 'theme-light'
+        //     };
+        //     if(this.$store.state._myData === null) {
+        //         await this.$store.dispatch('getData')
+        //     }
+        //     this.myData = this.$store.getters.myData;
+        //
+        // },
+
     }
 
 </script>
