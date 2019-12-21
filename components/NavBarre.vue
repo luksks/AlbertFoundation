@@ -39,6 +39,7 @@
                         alt="theme dark button"
                         title=" dark for the theme">
             </picture>
+            <h1>{{this.$store.state.theme}}</h1>
         </div>
     </header>
 </template>
@@ -59,7 +60,6 @@
         components: {
             aboutWebsite, analytics,
         },
-
         methods: {
             toggleTheme() {
                 if (typeof window !== 'undefined') {

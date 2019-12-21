@@ -1,7 +1,9 @@
 export const state = () => ({
-    all: "theme-dark",
+    theme: "theme-dark",
 })
 
+
+// export default createStore
 // export const  getters = {}
 
 // export const state = () => ({
