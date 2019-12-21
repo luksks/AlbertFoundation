@@ -1,8 +1,24 @@
 <template>
-    <header class="flex items-center justify-between bg-background-tertiary">
+    <header class="flex items-center justify-between bg-background-tertiary"  >
         <!--        Div pour les élément de gauche-->
+        <!--    ================ This component are only for the test. This button work correctly ================ -->
+        <header class="p-6 border-border-color-primary border-2 rounded items-center flex justify-center">
+            <a>debogage element -> </a>
 
-        <nuxt-link to="/" class="px-4">
+            <div class="text-center   p-2 bg-red-500 items-center justify-center leading-none lg:rounded-full flex lg:inline-flex"
+                 role="alert">
+
+                <a class=" flex rounded-full bg-background-primary uppercase justify-center px-2 py-1 text-xs font-bold "
+                   @click.prevent="toggleTheme">
+                    <picture v-if="theme === 'theme-light'"><img class="m-2 h-8 w-8" src="../assets/img/logo_light_mod.svg"></picture>
+                    <picture v-else="theme === 'theme-light'"> <img class="m-2 h-8 w-8" src="../assets/img/logo_dark_mod.svg"> </picture>
+                </a>
+            </div>
+        </header>
+        <!--   ======================================================================================================= -->
+
+
+        <nuxt-link to="/" class="px-4" >
             <picture v-if="theme === 'theme-light'">
                 <img class=" fill-current stroke-current h-24 w-24 zoom"
                      src="../assets/img/logo_site_light_mod.svg"
@@ -48,7 +64,7 @@
     import analytics from "~/pages/privacy.vue"
     import aboutWebsite from "~/pages/aboutWebsite.vue"
 
-    export var theme = "theme-dark";
+    // export var theme = $store.state.theme ;
 
     export default {
         name: "NavBarre",
@@ -62,16 +78,20 @@
         },
         methods: {
             toggleTheme() {
-                if (typeof window !== 'undefined') {
-                    localStorage.setItem('theme', this.theme)
-                }
+                this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
+                      this.$store.state.theme = this.theme;
+                // if (typeof window !== 'undefined') {
+                //     localStorage.setItem('theme', this.theme)
+                // }
             }
         },
-         created() {
-            if (typeof window !== 'undefined') {
-                this.theme = localStorage.getItem('theme') || 'theme-light'
-            };
-        },
+        //  created() {
+        //     if (typeof window !== 'undefined') {
+        //         this.theme = localStorage.getItem('theme') || 'theme-light'
+        //     };
+        // },
+
+
         // async created() {
         //     if (typeof window !== 'undefined') {
         //         this.theme = localStorage.getItem('theme') || 'theme-light'
