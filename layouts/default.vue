@@ -28,12 +28,16 @@
 
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
-        data() {
-            return {
-                theme: this.$store.state.theme,
-            };
+        // data() {
+        //     return {
+        //         theme: this.$store.state.theme,
+        //     };
+        // },
+        computed:{
+            theme(){
+                return this.$store.state.theme;
+            }
         },
-
         head() {
             return {
                 titleTemplate: "%s - Albert Lanne",

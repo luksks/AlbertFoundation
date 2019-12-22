@@ -76,9 +76,13 @@
                 theme: this.$store.state.theme,
             };
         },
-        components: {
-            aboutWebsite, analytics,
-        },
+        // computed:{
+        //     theme(){
+        //         return this.$store.state.theme;
+        //     }
+        // },
+        components: {aboutWebsite, analytics,},
+
         methods: {
             toggleTheme() {
                 this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
@@ -92,18 +96,6 @@
         //     if (typeof window !== 'undefined') {
         //         this.theme = localStorage.getItem('theme') || 'theme-light'
         //     };
-        // },
-
-
-        // async created() {
-        //     if (typeof window !== 'undefined') {
-        //         this.theme = localStorage.getItem('theme') || 'theme-light'
-        //     };
-        //     if(this.$store.state._myData === null) {
-        //         await this.$store.dispatch('getData')
-        //     }
-        //     this.myData = this.$store.getters.myData;
-        //
         // },
 
     }
