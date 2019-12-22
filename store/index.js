@@ -3,17 +3,6 @@ export const state = () => ({
     theme: "theme-light",
 
 // past the value into the components
-    getters: {
-        toggleTheme: state => {
-            // this.state.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
-
-            this.state.theme = this.theme;
-            // if (typeof window !== 'undefined') {
-            //     localStorage.setItem('theme', this.theme)
-            // }
-            return this.state.theme;
-        }
-    },
 
 
 });

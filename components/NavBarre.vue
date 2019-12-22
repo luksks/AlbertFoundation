@@ -79,14 +79,13 @@
 
         methods: {
             toggleTheme() {
+
                 this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
                 this.$store.state.theme = this.theme;
-                // if (typeof window !== 'undefined') {
-                //     localStorage.setItem('theme', this.theme)
-                // };
+                if (typeof window !== 'undefined') {
+                    localStorage.setItem('theme', this.theme)
+                };
 
- /* Pour utiliser la fonction en getters directement depuis l'index*/
-                // return this.$store.state.theme
             }
         },
         //  created() {
