@@ -21,7 +21,7 @@
 
 
         <nuxt-link to="/" class="px-4">
-            <picture v-if="theme === 'theme-light'">
+            <picture v-if="this.$store.state.theme === 'theme-light'">
                 <img class=" fill-current stroke-current h-24 w-24 zoom"
                      src="../assets/img/logo_site_light_mod.svg"
                      alt="The black version logo of my website"
