@@ -66,7 +66,7 @@
 <script>
     import analytics from "~/pages/privacy.vue"
     import aboutWebsite from "~/pages/aboutWebsite.vue"
-
+     // import {state} from "../store/index"
     // export var theme = $store.state.theme ;
 
     export default {

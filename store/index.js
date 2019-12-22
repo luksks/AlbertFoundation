@@ -1,7 +1,10 @@
 export const state = () => ({
     theme: "theme-dark",
-    // theme: '',
-})
+});
+
+
+
+
 export const strict = false
 
 // export default createStore
