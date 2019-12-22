@@ -7,7 +7,7 @@ export const state = () => ({
     //     toggleTheme: state => {
     //         state.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
     //     },
-    // },
+    // },de
 // past the value into the components
 //     getters: {
         // ChangeTheme: state => {
