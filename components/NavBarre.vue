@@ -80,8 +80,9 @@
         methods: {
             toggleTheme() {
 
-                this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
-                this.$store.state.theme = this.theme;
+                // this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
+                this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-dark";
+
                 // if (typeof window !== 'undefined') {
                 //     localStorage.setItem('theme', this.theme)
                 // };
