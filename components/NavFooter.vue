@@ -65,7 +65,7 @@
                    @click.prevent="toggleTheme">
                     <picture v-if="this.$store.state.theme === 'theme-light'"><img class="m-2 h-8 w-8"
                                                                  src="../assets/img/logo_light_mod.svg"></picture>
-                    <picture v-else="theme === 'theme-light'"><img class="m-2 h-8 w-8"
+                    <picture v-else><img class="m-2 h-8 w-8"
                                                                    src="../assets/img/logo_dark_mod.svg"></picture>
                 </a>
             </div>
