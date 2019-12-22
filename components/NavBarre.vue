@@ -82,9 +82,9 @@
 
                 this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
                 this.$store.state.theme = this.theme;
-                if (typeof window !== 'undefined') {
-                    localStorage.setItem('theme', this.theme)
-                };
+                // if (typeof window !== 'undefined') {
+                //     localStorage.setItem('theme', this.theme)
+                // };
 
             }
         },
