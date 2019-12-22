@@ -10,7 +10,7 @@
 
                 <a class=" flex rounded-full bg-background-primary uppercase justify-center px-2 py-1 text-xs font-bold "
                    @click.prevent="toggleTheme">
-                    <picture v-if="theme === 'theme-light'"><img class="m-2 h-8 w-8"
+                    <picture v-if="this.$store.state.theme === 'theme-light'"><img class="m-2 h-8 w-8"
                                                                  src="../assets/img/logo_light_mod.svg"></picture>
                     <picture v-else="theme === 'theme-light'"><img class="m-2 h-8 w-8"
                                                                    src="../assets/img/logo_dark_mod.svg"></picture>
@@ -43,7 +43,7 @@
                     About the website</a>
             </nuxt-link>
 
-            <picture @click.prevent="toggleTheme" class="mx-2 mr-6" v-if="theme === 'theme-light'">
+            <picture @click.prevent="toggleTheme" class="mx-2 mr-6" v-if="this.$store.state.theme === 'theme-light'">
                 <img
                         class=" h-8 w-8 fill-current fill-text-red-600 hover:text-green-600"
                         src="../assets/img/logo_light_mod.svg"
@@ -72,15 +72,9 @@
     export default {
         name: "NavBarre",
         data() {
-            return {
-                theme: this.$store.state.theme,
-            };
+            return {};
         },
-        // computed:{
-        //     theme(){
-        //         return this.$store.state.theme;
-        //     }
-        // },
+
         components: {aboutWebsite, analytics,},
 
         methods: {
@@ -89,7 +83,10 @@
                 this.$store.state.theme = this.theme;
                 // if (typeof window !== 'undefined') {
                 //     localStorage.setItem('theme', this.theme)
-                // }
+                // };
+
+ /* Pour utiliser la fonction en getters directement depuis l'index*/
+                // return this.$store.state.theme
             }
         },
         //  created() {
