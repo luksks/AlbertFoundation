@@ -1,27 +1,27 @@
 <template>
     <header class="flex items-center justify-between bg-background-tertiary">
         <!--        Div pour les élément de gauche-->
-        <!--    ================ This component are only for the test. This button work correctly ================ -->
-        <div class="p-6 border-border-color-primary border-2 rounded items-center flex justify-center">
-            <a>debogage element -> </a>def
+<!--        &lt;!&ndash;    ================ This component are only for the test. This button work correctly ================ &ndash;&gt;-->
+<!--        <div class="p-6 border-border-color-primary border-2 rounded items-center flex justify-center">-->
+<!--            <a>debogage element -> </a>def-->
 
-            <div class="text-center   p-2 bg-red-500 items-center justify-center leading-none lg:rounded-full flex lg:inline-flex"
-                 role="alert">
+<!--            <div class="text-center   p-2 bg-red-500 items-center justify-center leading-none lg:rounded-full flex lg:inline-flex"-->
+<!--                 role="alert">-->
 
-                <a class=" flex rounded-full bg-background-primary uppercase justify-center px-2 py-1 text-xs font-bold "
-                   @click.prevent="toggleTheme">
-                    <picture v-if="this.$store.state.theme === 'theme-light'"><img class="m-2 h-8 w-8"
-                                                                                   src="../assets/img/logo_light_mod.svg">
-                    </picture>
-                    <picture v-else><img class="m-2 h-8 w-8"
-                                                                   src="../assets/img/logo_dark_mod.svg"></picture>
-                </a>
-            </div>
-        </div>
-        <!--   ======================================================================================================= -->
+<!--                <a class=" flex rounded-full bg-background-primary uppercase justify-center px-2 py-1 text-xs font-bold "-->
+<!--                   @click.prevent="toggleTheme">-->
+<!--                    <picture v-if="this.$store.state.theme === 'theme-light'"><img class="m-2 h-8 w-8"-->
+<!--                                                                                   src="../assets/img/logo_light_mod.svg">-->
+<!--                    </picture>-->
+<!--                    <picture v-else><img class="m-2 h-8 w-8"-->
+<!--                                         src="../assets/img/logo_dark_mod.svg"></picture>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        &lt;!&ndash;   ======================================================================================================= &ndash;&gt;-->
 
 
-        <nuxt-link to="/" class="px-4">
+        <nuxt-link to="/" class="px-4 ">
             <picture v-if="this.$store.state.theme === 'theme-light'">
                 <img class=" fill-current stroke-current h-24 w-24 zoom"
                      src="../assets/img/logo_site_light_mod.svg"
@@ -44,14 +44,14 @@
                     About the website</a>
             </nuxt-link>
 
-            <picture @click.prevent="toggleTheme" class="mx-2 mr-6" v-if="this.$store.state.theme === 'theme-light'">
+            <picture @click.prevent="toggleTheme" class="mx-2 mr-6 cursor-pointer" v-if="this.$store.state.theme === 'theme-light'">
                 <img
                         class=" h-8 w-8 fill-current fill-text-red-600 hover:text-green-600"
                         src="../assets/img/logo_light_mod.svg"
                         title="Switch for the light theme"
                         alt="button light theme ">
             </picture>
-            <picture @click.prevent="toggleTheme" class="mx-2 mr-6" v-else>
+            <picture @click.prevent="toggleTheme" class="mx-2 mr-6 cursor-pointer" v-else>
                 <img
                         class="h-8 w-8  fill-current fill-text-red-600 hover:text-green-600  "
                         src="../assets/img/logo_dark_mod.svg"
@@ -59,8 +59,6 @@
                         title=" dark for the theme">
             </picture>
         </div>
-
-
     </header>
 </template>
 
@@ -72,44 +70,34 @@
 
     export default {
         name: "NavBarre",
-        data() {
-            return {};
-        },
+
 
         components: {aboutWebsite, analytics,},
-        computed: {
-            products() {
-                return this.$store.state.theme
-            },
-            saleProducts() {
-                let CeTheme = this.$store.state.theme.map(theme => {
-                    return {
-                        theme: '',
-                    }
-                });
-                return CeTheme;
 
-            }
-        },
         methods: {
             toggleTheme() {
                 this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
                 this.$store.state.theme = this.theme;
                 // if (typeof window !== 'undefined') {
-                //     localStorage.setItem('theme', this.theme)
-                // };
+                    // localStorage.setItem('theme', this.theme)
+                    // return this.$store.getters.ChangeTheme;
+                    // this.$store.state.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
+                    // this.$store.state.theme = this.theme;
+                    // if (typeof window !== 'undefined') {
+                    //     localStorage.setItem('theme', this.theme)
+                    // };
 
-                /* Pour utiliser la fonction en getters directement depuis l'index*/
-                // return this.$store.state.theme
-            }
-        },
-        //  created() {
-        //     if (typeof window !== 'undefined') {
-        //         this.theme = localStorage.getItem('theme') || 'theme-light'
-        //     };
-        // },
+                    /* Pour utiliser la fonction en getters directement depuis l'index*/
+                    // return this.$store.state.theme
+                }
+            },
+            //  created() {
+            //     if (typeof window !== 'undefined') {
+            //         this.theme = localStorage.getItem('theme') || 'theme-light'
+            //     };
+            // },
 
-    }
+        }
 
 </script>
 

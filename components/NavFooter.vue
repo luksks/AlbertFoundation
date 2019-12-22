@@ -32,10 +32,10 @@
 
             <div class="w-1/4 my-3 ">
                 <p class="mb-4 hover:text-green-600 text-xl">Plus</p>
-                <button @click.prevent="toggleTheme"
-                        class="sm:p-0 sm:px-0 p-1 px-3 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">
+                <a @click.prevent="toggleTheme"
+                        class="cursor-pointer sm:p-0 sm:px-0 p-1 px-3 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">
                     -{{this.$store.state.theme}}
-                </button>
+                </a>
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
@@ -54,26 +54,25 @@
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
             </div>
         </div>
-        <!--    ================ This component are only for the test. This button work correctly ================ -->
-        <div class="p-6 border-border-color-primary border-2 rounded items-center flex justify-center">
-            <a>debogage element -> </a>def
+<!--        &lt;!&ndash;    ================ This component are only for the test. This button work correctly ================ &ndash;&gt;-->
+<!--        <div class="p-6 border-border-color-primary border-2 rounded items-center flex justify-center">-->
+<!--            <a>debogage element -> </a>def-->
 
-            <div class="text-center   p-2 bg-red-500 items-center justify-center leading-none lg:rounded-full flex lg:inline-flex"
-                 role="alert">
+<!--            <div class="text-center   p-2 bg-red-500 items-center justify-center leading-none lg:rounded-full flex lg:inline-flex"-->
+<!--                 role="alert">-->
 
-                <a class=" flex rounded-full bg-background-primary uppercase justify-center px-2 py-1 text-xs font-bold "
-                   @click.prevent="toggleTheme">
-                    <picture v-if="this.$store.state.theme === 'theme-light'"><img class="m-2 h-8 w-8"
-                                                                 src="../assets/img/logo_light_mod.svg"></picture>
-                    <picture v-else="theme === 'theme-light'"><img class="m-2 h-8 w-8"
-                                                                   src="../assets/img/logo_dark_mod.svg"></picture>
-                </a>
-            </div>
-        </div>
-        <!--   ======================================================================================================= -->
+<!--                <a class=" flex rounded-full bg-background-primary uppercase justify-center px-2 py-1 text-xs font-bold "-->
+<!--                   @click.prevent="toggleTheme">-->
+<!--                    <picture v-if="this.$store.state.theme === 'theme-light'"><img class="m-2 h-8 w-8"-->
+<!--                                                                 src="../assets/img/logo_light_mod.svg"></picture>-->
+<!--                    <picture v-else="theme === 'theme-light'"><img class="m-2 h-8 w-8"-->
+<!--                                                                   src="../assets/img/logo_dark_mod.svg"></picture>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        &lt;!&ndash;   ======================================================================================================= &ndash;&gt;-->
 
 
-        <h1 class=" text-5xl text-copy-primary">{{this.$store.state.theme}}</h1>
     </footer>
 </template>
 
