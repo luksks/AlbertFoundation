@@ -11,8 +11,9 @@
                 <a class=" flex rounded-full bg-background-primary uppercase justify-center px-2 py-1 text-xs font-bold "
                    @click.prevent="toggleTheme">
                     <picture v-if="this.$store.state.theme === 'theme-light'"><img class="m-2 h-8 w-8"
-                                                                 src="../assets/img/logo_light_mod.svg"></picture>
-                    <picture v-else="theme === 'theme-light'"><img class="m-2 h-8 w-8"
+                                                                                   src="../assets/img/logo_light_mod.svg">
+                    </picture>
+                    <picture v-else><img class="m-2 h-8 w-8"
                                                                    src="../assets/img/logo_dark_mod.svg"></picture>
                 </a>
             </div>
@@ -21,7 +22,7 @@
 
 
         <nuxt-link to="/" class="px-4">
-            <picture v-if="theme === 'theme-light'">
+            <picture v-if="this.$store.state.theme === 'theme-light'">
                 <img class=" fill-current stroke-current h-24 w-24 zoom"
                      src="../assets/img/logo_site_light_mod.svg"
                      alt="The black version logo of my website"
@@ -66,7 +67,7 @@
 <script>
     import analytics from "~/pages/privacy.vue"
     import aboutWebsite from "~/pages/aboutWebsite.vue"
-     // import {state} from "../store/index"
+    // import {state} from "../store/index"
     // export var theme = $store.state.theme ;
 
     export default {
@@ -76,7 +77,20 @@
         },
 
         components: {aboutWebsite, analytics,},
+        computed: {
+            products() {
+                return this.$store.state.theme
+            },
+            saleProducts() {
+                let CeTheme = this.$store.state.theme.map(theme => {
+                    return {
+                        theme: '',
+                    }
+                });
+                return CeTheme;
 
+            }
+        },
         methods: {
             toggleTheme() {
                 this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
@@ -85,7 +99,7 @@
                 //     localStorage.setItem('theme', this.theme)
                 // };
 
- /* Pour utiliser la fonction en getters directement depuis l'index*/
+                /* Pour utiliser la fonction en getters directement depuis l'index*/
                 // return this.$store.state.theme
             }
         },

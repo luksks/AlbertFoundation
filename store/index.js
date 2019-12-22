@@ -1,6 +1,6 @@
 export const state = () => ({
     //  The main declaration of the theme
-    theme: "theme-light",
+    theme: "theme-dark",
 
 // past the value into the components
     getters: {
