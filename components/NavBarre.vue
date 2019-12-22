@@ -81,8 +81,8 @@
             toggleTheme() {
 
                 // this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
-                this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-dark";
-
+                this.theme = this.theme === "theme-light" ? "theme-dark" : "theme-light";
+                this.$store.state.theme = this.theme;
                 // if (typeof window !== 'undefined') {
                 //     localStorage.setItem('theme', this.theme)
                 // };
