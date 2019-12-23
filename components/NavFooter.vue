@@ -54,24 +54,6 @@
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
             </div>
         </div>
-<!--        &lt;!&ndash;    ================ This component are only for the test. This button work correctly ================ &ndash;&gt;-->
-<!--        <div class="p-6 border-border-color-primary border-2 rounded items-center flex justify-center">-->
-<!--            <a>debogage element -> </a>def-->
-
-<!--            <div class="text-center   p-2 bg-red-500 items-center justify-center leading-none lg:rounded-full flex lg:inline-flex"-->
-<!--                 role="alert">-->
-
-<!--                <a class=" flex rounded-full bg-background-primary uppercase justify-center px-2 py-1 text-xs font-bold "-->
-<!--                   @click.prevent="toggleTheme">-->
-<!--                    <picture v-if="this.$store.state.theme === 'theme-light'"><img class="m-2 h-8 w-8"-->
-<!--                                                                 src="../assets/img/logo_light_mod.svg"></picture>-->
-<!--                    <picture v-else="theme === 'theme-light'"><img class="m-2 h-8 w-8"-->
-<!--                                                                   src="../assets/img/logo_dark_mod.svg"></picture>-->
-<!--                </a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        &lt;!&ndash;   ======================================================================================================= &ndash;&gt;-->
-
 
     </footer>
 </template>
