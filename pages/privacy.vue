@@ -1,9 +1,9 @@
 <template>
 
-    <div class=" mx-16 ">
-        <div class="items-center">
+    <div class=" bg-background-primary text-copy-primary">
+        <div class="mx-16  items-center">
             <h1 class="font-normal text-2xl py-4">
-                INTRODUCTION
+                1. INTRODUCTION
             </h1>
 
             <p>The data controller pursuant to the General Data Protection Directive (“GDPR”) in respect of any Personal
@@ -84,32 +84,21 @@
             </p>
             <p>
                 AlbertFoundation may also use its own or third-party proprietary analytic metrics tools and other
-                analytics
-                technologies
-                to
-                collect the information referred to in this Privacy Policy. We may use such technology to deliver
-                content
-                specific
+                analytics technologies to collect the information
+                referred to in this Privacy Policy. We may use such technology to deliver content specific
                 to your interest and to monitor usage of the AlbertFoundation Services.
-
-                Our website uses Google Analytics. To learn how Google uses your data and how you can opt out click
-                here:
+                Our website uses Google Analytics. To learn how Google uses your data and how you can opt out click here:
                 https://www.google.com/policies/privacy/partners/. The collection of the information set forth in this
-                Section
-                3.1.3 is not mandatory.
+                Section 3.1.3 is not mandatory.
             </p>
 
             <p class="font-normal text-1xl py-4">
-                3.6 Marketing Information
+                3.2 Marketing Information
             </p>
             <p class="mb-8">
                 Subject to your approval we may also use the information collected under Section 3.1 to 3.3 to provide
-                marketing
-                information and special offers for the Game to you. This use of the information collected under Sections
-                3.1
-                to
-                3.3 is
-                not mandatory. You can opt-out of this use of your data at any time here.
+                marketing information and special offers to you. This use of the information collected under Sections
+                3.1 to 3.2 is not mandatory. You can opt-out of this use of your data at any time here.
             </p>
         </div>
     </div>
@@ -120,7 +109,7 @@
         name: "analytics",
         head() {
             return {
-                title: "analytics page"
+                title: "Privacy"
             };
         },
 

@@ -1,11 +1,11 @@
 <template>
 
     <div class=" flex flex-col w-full justify-center h-full content-center content-wrapper"
-         :class="this.$store.state.localStorage.theme">
+         :class="theme">
 
         <paper></paper>
-        <CookiePopUp/>
-        <privacyPolicy/>
+<!--        <CookiePopUp/>-->
+<!--        <privacyPolicy/>-->
 
         <NavBarre/>
         <nuxt/>
@@ -29,7 +29,7 @@
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
         // data() {
         //     return {
-        //         theme: this.$store.state.theme,
+        //         theme: "dark-theme",
         //     };
         // },
         computed:{

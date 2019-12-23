@@ -9,6 +9,7 @@
             </div>
             <div class="align-baseline  flex">
                 <div class="bg-background-secondary rounded-lg justify-start w-full">
+
                     <p>Nuxt.js, vue.js</p>
                     <p>node.js, javascript</p>
                 </div>
