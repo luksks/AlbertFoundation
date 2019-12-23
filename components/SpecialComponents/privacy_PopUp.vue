@@ -18,15 +18,13 @@
                                 <div class="text-center text-red-700 p-2 bg-red-500 items-center leading-none lg:rounded-full flex lg:inline-flex"
                                      role="alert">
 
-                                    <nuxt-link to="/privacy">
-                                        <a class="cursor-pointer flex rounded-full bg-red-100 uppercase px-2 py-1 text-xs font-bold mr-3"
-                                           href="https://policies.google.com/technologies/partner-sites?hl=">READ OUR
-                                            PRIVACY POLICY </a></nuxt-link>
+                                    <nuxt-link to="/privacy" class="cursor-pointer flex rounded-full bg-red-100 uppercase px-2 py-1 text-xs font-bold mr-3"
+                                           >READ OUR PRIVACY POLICY </nuxt-link>
 
                                     <span class="text-white font-semibold mr-2 text-left flex-auto"> or</span>
-<!--                                    <span class="cursor-pointer flex rounded-full bg-red-100 uppercase px-2 py-1 text-xs font-bold mr-3 close">ACCEPT AND-->
-<!--                                CLOSE-->
-<!--                            </span>-->
+                                    <span class="cursor-pointer flex rounded-full bg-red-100 uppercase px-2 py-1 text-xs font-bold mr-3 close">ACCEPT AND
+                                CLOSE
+                            </span>
                                 </div>
                             </div>
                         </div>

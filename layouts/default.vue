@@ -1,8 +1,7 @@
 <template>
 
     <div class=" flex flex-col w-full justify-center h-full content-center content-wrapper"
-         :class="theme">
-
+         :class="this.$store.state.localStorage.theme">
 
         <paper></paper>
         <CookiePopUp/>
