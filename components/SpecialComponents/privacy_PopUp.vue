@@ -24,9 +24,9 @@
                                             PRIVACY POLICY </a></nuxt-link>
 
                                     <span class="text-white font-semibold mr-2 text-left flex-auto"> or</span>
-                                    <span class="cursor-pointer flex rounded-full bg-red-100 uppercase px-2 py-1 text-xs font-bold mr-3 close">ACCEPT AND
-                                CLOSE
-                            </span>
+<!--                                    <span class="cursor-pointer flex rounded-full bg-red-100 uppercase px-2 py-1 text-xs font-bold mr-3 close">ACCEPT AND-->
+<!--                                CLOSE-->
+<!--                            </span>-->
                                 </div>
                             </div>
                         </div>

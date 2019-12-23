@@ -10,6 +10,10 @@
                 <nuxt-link to="/" class="text-2xl  flex text-center">
                     Albertfoundation 📡
                 </nuxt-link>
+                <div>
+                    <h1>{{$store.state.localStorage.my_custom_value}}</h1>
+                    <button @click="$store.commit('localStorage/increase')">increase</button>
+                </div>
 
                 <!--                    <p><a href="/"><img-->
                 <!--                            src="../assets/img/AF_logo_2.png"-->
