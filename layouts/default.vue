@@ -27,16 +27,16 @@
 
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
-        // data() {
-        //     return {
-        //         theme: "dark-theme",
-        //     };
-        // },
-        computed:{
-            theme(){
-                return this.$store.state.localStorage.theme;
-            }
+        data() {
+            return {
+                theme: "theme-dark",
+            };
         },
+        // computed:{
+        //     theme(){
+        //         return this.$store.state.localStorage.theme;
+        //     }
+        // },
         head() {
             return {
                 titleTemplate: "%s - Albert Lanne",
