@@ -24,7 +24,7 @@
     import CookiePopUp from "~/components/SpecialComponents/cookies_PopUp.vue";
     import privacyPolicy from "~/components/SpecialComponents/privacy_PopUp.vue";
     import paper from "~/components/SpecialComponents/grain_effect.vue";
-    import {theme} from "../components/NavBarre";
+
 
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-meta
@@ -51,7 +51,7 @@
             };
         },
 
-        components: {theme, NavFooter, NavBarre, CookiePopUp, privacyPolicy, paper, }
+        components: {NavFooter, NavBarre, CookiePopUp, privacyPolicy, paper, }
 
     };
 </script>
