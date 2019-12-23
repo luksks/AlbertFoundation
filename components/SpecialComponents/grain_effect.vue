@@ -1,7 +1,9 @@
 <template>
-    <div class="page-header">
 
-</div>
+
+
+    <div class="page-header">
+    </div>
 </template>
 
 <script>

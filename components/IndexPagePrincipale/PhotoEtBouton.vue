@@ -6,7 +6,7 @@
         <div class=" flex flex-col flex-wrap py-6 ">
             <div class="flex w-full flex-col justify-around items-center mx-auto text-center">
                 <picture>
-                    <img
+                    <img   @click="$store.commit('localStorage/increase')"
                             class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"
                             height="256"
                             width="256"

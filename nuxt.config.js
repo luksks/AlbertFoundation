@@ -45,6 +45,11 @@ module.exports = {
     */
     modules: [
         '@nuxtjs/sitemap',
+        ['nuxt-vuex-localstorage', {
+            mode: 'debug',
+            localStorage: ['localStorage']
+            // localStorage: ['localStorage', 'foo']
+        }]
     ],
 
     /*
