@@ -1,14 +1,14 @@
 <template>
 
-    <div class=" flex flex-col w-full justify-center h-full content-center content-wrapper"
+    <div class="bg-background-primary min-h-screen flex flex-col w-full justify-center h-full content-center content-wrapper"
          :class="theme">
-
-        <paper></paper>
-<!--        <CookiePopUp/>-->
-<!--        <privacyPolicy/>-->
-
-        <NavBarre/>
-        <nuxt/>
+        <div class="flex-grow">
+            <paper></paper>
+            <!--        <CookiePopUp/>-->
+            <!--        <privacyPolicy/>-->
+            <NavBarre/>
+            <nuxt/>
+        </div>
         <NavFooter/>
 
     </div>
@@ -50,7 +50,7 @@
             };
         },
 
-        components: {NavFooter, NavBarre, CookiePopUp, privacyPolicy, paper, }
+        components: {NavFooter, NavBarre, CookiePopUp, privacyPolicy, paper,}
 
     };
 </script>

@@ -1,6 +1,6 @@
 <template>
 
-    <footer class=" bg-background-tertiary  ">
+    <footer class=" bg-background-tertiary ">
 
 
         <div class=" flex flex-col sm:flex-row container mx-auto text-copy-primary flex-wrap
@@ -33,7 +33,7 @@
             <div class="w-1/4 my-3 ">
                 <p class="mb-4 hover:text-green-600 text-xl">Plus</p>
                 <a @click="$store.commit('localStorage/changetheme')"
-                        class="cursor-pointer sm:p-0 sm:px-0 p-1 px-3 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">
+                   class="cursor-pointer sm:p-0 sm:px-0 p-1 px-3 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">
                     -{{this.$store.state.localStorage.theme}}
                 </a>
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->

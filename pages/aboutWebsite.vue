@@ -1,73 +1,68 @@
 <template>
 
-    <div class="text-copy-primary bg-background-primary">
-        <div class="mx-8 m-8  flex-wrap align-baseline items-center">
-            <h1 class="text-3xl my-4">The structure of the website</h1>
+    <div class="h-full w-full text-copy-primary bg-background-primary">
+        <div class="mx-8 m-8  flex-wrap bg-background-secondary align-baseline items-center border border-border-color-primary hover:shadow-xl px-3 py-2 m-2 rounded ">
+            <p class="text-3xl my-4">The structure of the website</p>
 
+            <div class="mx-4 ">
 
-            <div class="flex">
-            </div>
-            <div class="align-baseline  flex">
-                <div class="bg-background-secondary rounded-lg justify-start w-full">
+                <div class="align-baseline flex text-2xl">
+                    <div class=" rounded-lg justify-start w-full">
+                        <div class="justify-end items-end flex">
+                            <p>This website is made with the javascript framework NuxtJS and Vue.JS and cooked by me
+                                with love. Nuxt.js is
+                                a great french framework for the server-side rendering! I use too webpack and node.js
+                                for the environment of development and compilation. For the front end i use </p>
+                        </div>
+                    </div>
 
-                    <p>Nuxt.js, vue.js</p>
-                    <p>node.js, javascript</p>
+                    <div class="sm:mx-24 mx-6 justify-end flex">
+                        <picture>
+                            <img class="rounded-full bg-white border-solid  shadow-insethover:border-green-600 "
+                                    height="160"
+                                    width="160"
+                                    alt="My favorite french js framework ♥"
+                                    src="../assets/img/AboutWebsite/nuxt.png">
+                        </picture>
+                    </div>
                 </div>
-                <div class="sm:mx-24 mx-6 justify-end flex">
-                    <picture>
-                        <img
-                                class="rounded-full bg-white border-solid  shadow-insethover:border-green-600 "
-                                height="256"
-                                width="256"
-                                alt="My favorite french js framework ♥"
-                                src="../assets/img/AboutWebsite/nuxt.png">
-                    </picture>
-                </div>
-            </div>
 
-            <div class="flex">
-            </div>
-            <div class="align-baseline  flex">
-                <div class="sm:mx-24 mx-6 justify-start flex">
-                    <picture>
-                        <img
-                                class="border-solid  shadow-inset rounded-full bg-white hover:border-green-600"
-                                height="256"
-                                width="256"
-                                alt="My favorite french css framework ♥"
-                                src="../assets/img/AboutWebsite/tailwind.png">
-                    </picture>
+                <div class="flex">
                 </div>
-                <div class="bg-background-secondary rounded-lg justify-end w-full ">
-                    <p>TailwindCSS</p>
+                <div class="align-baseline  flex">
+                    <div class="sm:mx-24 mx-6 justify-start flex">
+                        <picture>
+                            <img
+                                    class="border-solid rounded-full shadow-inset hover:border-green-600"
+                                    height="160"
+                                    width="160"
+                                    alt="The best Paas ever"
+                                    src="../assets/img/AboutWebsite/logo_clever_cloud.jpg">
+                        </picture>
+                    </div>
+                    <div class="text-2xl rounded-lg justify-end w-full ">
+                        <p>For the hosting i use a French PAAS, Clever Cloud. Usefull for a easier deployment and a
+                            htpps certificat. the support help a lot. For the hosting i ude OVH </p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="flex">
-            </div>
-            <div class="align-baseline  flex">
-                <div class="bg-background-secondary rounded-lg justify-start w-full">
-                    <p>Clever Cloud</p>
-                </div>
-                <div class="sm:mx-24 mx-6 justify-end flex">
-                    <picture>
-                        <img
-                                class="border-solid rounded-full shadow-inset hover:border-green-600"
-                                height="256"
-                                width="256"
-                                alt="The best Paas ever"
-                                src="../assets/img/AboutWebsite/logo_clever_cloud.jpg">
-                    </picture>
-                </div>
-            </div>
-
-            <p>OVH</p>
-            <p>Google Analytics</p>
-            <div class="h-full w-full ">
             </div>
         </div>
-    </div>
 
+        <picture class="flex ">
+            <img @click="$store.commit('localStorage/increase')"
+                 class="flex h-full"
+                 width="1500"
+                 height="auto"
+                 alt="Young man (Albert Lanne) wearing a suite, nature in the background"
+                 src="../assets/img/aboutWebsite/analytics.jpg">
+        </picture>
+
+        <div class="mx-8 m-8  flex-wrap bg-background-secondary align-baseline items-center border border-border-color-primary hover:shadow-xl px-3 py-2 m-2 rounded ">
+            <p class="text-3xl my-4">Analytics</p>
+            <p class="text-3xl my-4">Google Search Engine</p>
+            <p class="text-3xl my-4">Google Ads</p>
+        </div>
+    </div>
 </template>
 
 <script>

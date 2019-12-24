@@ -1,23 +1,33 @@
 @tailwind base;
 @tailwind components;
+.button {
+  @apply  text-center no-underline shadow-lg border border-border-color-primary px-3 py-2 m-2 rounded ;
+
+}
+
+.button:hover {
+  @apply shadow-xl bg-background-primary;
+}
+.button:focus {;
+  @apply  shadow-outline bg-background-clicked
+}
+.button:active {
+  @apply bg-background-clicked;
+}
+
 @tailwind utilities;
 
 .theme-light {
   --bg-background-primary: #d6e8ee;
   --bg-background-secondary: #dcf7f9;
     --bg-background-tertiary: #badcd6;
-  /*--bg-background-tertiary: #adf2e2;*/
-
-
-  /*--border-border-color-primary:  #1a202c;*/
-
-  /*--bg-background-button: #e4f5ef;*/
-  --bg-background-button-clicked: #bad0ea;
+  /*Couleur focus*/
+  --bg-background-clicked: #bad0ea;
 
   --text-copy-primary: #0a0a0a;
   --text-copy-secondary: #2b313c;
 
-/*Couleur contour bouton*/
+/*Couleur focus*/
   --border-border-color-primary:  #1a202c;
 }
 .theme-dark {
@@ -25,11 +35,12 @@
   --bg-background-secondary: #202c39;
   --bg-background-tertiary: #263443;
 
-  /*--bg-background-button: #2c3e50;*/
-  --bg-background-button-clicked: #4f6f7f;
+  /*Couleur focus*/
+  --bg-background-clicked: #22384a;
 
-  --text-copy-primary: #cbd5e0;
-  --text-copy-secondary: #7e8286;
+
+  --text-copy-primary: #fbfff0;
+  --text-copy-secondary: #cbd5e0;
 
   --border-border-color-primary: white;
 
@@ -61,19 +72,6 @@
 }
 
 /*==============================*/
-.button {
-  color: var(--text-copy-primary);
-  display: inline-block;
-  border-radius: 40px;
-  text-decoration: none;
-  padding: 15px 30px;
-  margin-left: 50px;
-  /*background-color: var(--bg-background-button)*/
-}
-
-.button:hover {;
-  background-color: var(--bg-background-button-clicked)
-}
 
 
 /*Modifie la couleur de la hightlight curseur*/
@@ -89,6 +87,7 @@
 }
 
 .theme-dark a::selection {
+
   color: orangered;
   background: transparent;
 }

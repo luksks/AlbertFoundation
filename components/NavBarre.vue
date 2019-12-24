@@ -18,9 +18,10 @@
         </nuxt-link>
 
         <!--        Div pour les élément de droite-->
-        <div class="flex justify-end">
-<!--            <nuxt-link to="/aboutWebsite" class="mx-2 inline-block text-sm px-2 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-copy-secondary hover:bg-white mt-4 lg:mt-0">-->
-<!--              About the website-->
+        <div class="flex justify-end mx-6 text-copy-primary">
+<!--            <nuxt-link to="/aboutWebsite"-->
+<!--                       class="button zoom hover:text-purple-700">-->
+<!--                About the website-->
 <!--            </nuxt-link>-->
 
 
