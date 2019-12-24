@@ -19,10 +19,10 @@
 
         <!--        Div pour les élément de droite-->
         <div class="flex justify-end mx-6 text-copy-primary">
-<!--            <nuxt-link to="/aboutWebsite"-->
-<!--                       class="button zoom hover:text-purple-700">-->
-<!--                About the website-->
-<!--            </nuxt-link>-->
+            <nuxt-link to="/aboutWebsite"
+                       class="button zoom hover:text-purple-700">
+                About the website
+            </nuxt-link>
 
 
             <!--            Pour changer le theme-->
