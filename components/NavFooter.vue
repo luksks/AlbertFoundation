@@ -1,10 +1,6 @@
 <template>
-
     <footer class=" bg-background-tertiary ">
-
-
-        <div class=" flex flex-col sm:flex-row container mx-auto text-copy-primary flex-wrap
-        ">
+        <div class=" flex flex-col sm:flex-row container mx-auto text-copy-primary flex-wrap">
             <div class="m-3 mx-12 flex justify-center">
 
                 <nuxt-link to="/" class="text-2xl  flex text-center">
@@ -19,34 +15,44 @@
             </div>
 
             <div class="w-1/4 my-3 ">
-                <p class=" mb-4 hover:text-green-600 -text-xl ">Ressources</p>
+                <p class=" mb-4 hover:text-green-600 text-xl ">Ressources</p>
                 <!--                        zoom text-center  no-underline shadow-lg  border border-border-color-primary  px-3 py-2 m-2 rounded -->
                 <a class="sm:p-0 sm:px-0 p-1 px-3 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700"
                    download
                    href="CV_LANNE_Albert.pdf">- CV</a>
-                <!--                        <a href="CV_LANNE_Albert.pdf" download>Link text</a>-->
+                <nuxt-link to="/presentation">
+                    <p class="sm:p-0 sm:px-0 p-1 px-2 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">
+                        - Presentation</p>
+                </nuxt-link>
+
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
             </div>
 
             <div class="w-1/4 my-3 ">
-                <p class="mb-4 hover:text-green-600 text-xl">Plus</p>
-                <a @click="$store.commit('localStorage/changetheme')"
-                   class="cursor-pointer sm:p-0 sm:px-0 p-1 px-3 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">
-                    -{{this.$store.state.localStorage.theme}}
+                <p class="mb-4 hover:text-green-600 text-xl">More</p>
+                <a class="cursor-pointer sm:p-0 sm:px-0 p-1 px-3 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">
+                    -theme-dark
                 </a>
-                <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
-                <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
+                <p class="cursor-pointer hover:text-red-900 my-2"
+                   title="The opensource repo of the website !"><a
+                        href="https://github.com/AlbertLanne/AlbertFoundation"
+                        target="_blank">- GitHub repo</a></p>
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
             </div>
             <div class="w-1/4 my-3">
                 <p class="mb-4 hover:text-green-600 text-xl">Contact</p>
 
                 <nuxt-link to="/privacy">
-                    <p class="sm:p-0 sm:px-0 p-1 px-2 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">
+                    <p class="sm:p-0 sm:px-0 p-1 px-2 sm:border-0 border border-border-color-primary rounded my-2 hover:text-blue-700">
                         - Privacy policy</p>
                 </nuxt-link>
+                <nuxt-link to="/aboutWebsite">
+                    <p class="sm:p-0 sm:px-0 p-1 px-2 sm:border-0  border border-border-color-primary rounded my-2 hover:text-blue-700">
+                        - About the website</p>
+                </nuxt-link>
+
                 <!--                <p class="sm:p-0 sm:px-0 p-1 px-3 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">-->
                 <!--                    - Site map</p>-->
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Site map</p>-->

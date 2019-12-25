@@ -1,29 +1,24 @@
 <template>
     <header class="flex items-center justify-between bg-background-tertiary">
 
-
         <nuxt-link to="/" class="px-4 ">
-            <picture v-if="$store.state.localStorage.theme === 'theme-light'">
-                <img class=" fill-current stroke-current h-24 w-24 zoom"
-                     src="../assets/img/logo_site_light_mod.svg"
-                     alt="The black version logo of my website"
-                     title="The black version logo of my website">
-            </picture>
-            <picture v-else>
                 <img class="-pt-8  fill-current stroke-current h-24 w-24 zoom "
                      src="../assets/img/logo_site_dark_mod.svg"
                      title="The white version logo of my website"
                      alt="The white version logo of my website">
-            </picture>
         </nuxt-link>
 
         <!--        Div pour les élément de droite-->
         <div class="flex justify-end mx-6 text-copy-primary">
-            <nuxt-link to="/aboutWebsite"
+            <nuxt-link to="/presentation"
                        class="button zoom hover:text-purple-700">
-                About the website
+                Presentation
             </nuxt-link>
 
+            <nuxt-link to="/aboutWebsite"
+                       class="button zoom hover:text-green-700">
+                About the website
+            </nuxt-link>
 
             <!--            Pour changer le theme-->
 <!--            <picture @click="$store.commit('localStorage/changetheme')" class="mx-2 mr-6 cursor-pointer"-->

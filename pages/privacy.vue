@@ -1,7 +1,7 @@
 <template>
 
     <div class=" bg-background-primary text-copy-primary">
-        <div class="mx-16  items-center">
+        <div class="text-justify mx-16  items-center">
             <h1 class="font-normal text-2xl py-4">
                 1. INTRODUCTION
             </h1>

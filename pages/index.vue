@@ -1,16 +1,17 @@
 <template>
 <!--    Page principale du site, donc avec ma photo, les bouttons de redirection et une présentation.-->
     <div>
-        <PhotoEtBouton/>
+        <Photo/>
+        <NetworkBouton/>
         <texte-introduction/>
-
     </div>
 </template>
 
 <script>
 
     import texteIntroduction from  "~/components/IndexPagePrincipale/texteIntroduction.vue";
-    import PhotoEtBouton from  "~/components/IndexPagePrincipale/PhotoEtBouton.vue";
+    import Photo from  "~/components/IndexPagePrincipale/Photo.vue";
+    import NetworkBouton from  "~/components/IndexPagePrincipale/NetworkBouton.vue";
 
 
 export default {
@@ -20,7 +21,7 @@ export default {
       title: "Home page"
     };
   },
-    components: {texteIntroduction,PhotoEtBouton}
+    components: {texteIntroduction,Photo,NetworkBouton}
 
 };
 </script>
