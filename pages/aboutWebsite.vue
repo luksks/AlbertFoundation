@@ -47,18 +47,12 @@
                 </div>
             </div>
         </div>
-
-        <picture class="flex ">
-            <img @click="$store.commit('localStorage/increase')"
-                 class="flex h-full"
-                 width="1500"
-                 height="auto"
-                 alt="Young man (Albert Lanne) wearing a suite, nature in the background"
-                 src="../assets/img/aboutWebsite/analytics.jpg">
-        </picture>
-
         <div class="mx-8 m-8  flex-wrap bg-background-secondary align-baseline items-center border border-border-color-primary hover:shadow-xl px-3 py-2 m-2 rounded ">
             <p class="text-3xl my-4">Analytics</p>
+            <nuxt-link to="/privacy">
+                <p class="sm:p-0 sm:px-0 p-1 px-2 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">
+                    - Privacy policy</p>
+            </nuxt-link>
             <p class="text-3xl my-4">Google Search Engine</p>
             <p class="text-3xl my-4">Google Ads</p>
         </div>
