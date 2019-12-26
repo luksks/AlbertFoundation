@@ -4,8 +4,9 @@
          :class="theme">
         <div class="flex-grow">
             <paper></paper>
-            <!--        <CookiePopUp/>-->
-            <!--        <privacyPolicy/>-->
+            <UnderConstruction></UnderConstruction>
+            <!--                    <CookiePopUp/>-->
+            <!--                    <privacyPolicy/>-->
             <NavBarre/>
             <nuxt/>
         </div>
@@ -21,6 +22,7 @@
     import NavBarre from "~/components/NavBarre.vue";
 
     import CookiePopUp from "~/components/SpecialComponents/cookies_PopUp.vue";
+    import UnderConstruction from "~/components/SpecialComponents/UnderConstruction.vue";
     import privacyPolicy from "~/components/SpecialComponents/privacy_PopUp.vue";
     import paper from "~/components/SpecialComponents/grain_effect.vue";
 
@@ -50,7 +52,7 @@
             };
         },
 
-        components: {NavFooter, NavBarre, CookiePopUp, privacyPolicy, paper,}
+        components: {NavFooter, NavBarre, CookiePopUp, privacyPolicy, UnderConstruction, paper,}
 
     };
 </script>
