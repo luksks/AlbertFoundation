@@ -3,7 +3,6 @@
 
         <div class="mt-4 h-full w-full flex items text-copy-primary bg-background-primary">
 
-
             <div class=" mx-4 my-4  flex-wrap bg-background-secondary align-baseline items-center  hover:shadow-xl px-3 py-2 m-2 rounded ">
                 <p class="text-3xl my-4">The structure of the website</p>
 
@@ -20,7 +19,8 @@
                             </div>
                         </div>
 
-                        <div class="sm:mx-24 mx-6 justify-end flex">
+                        <div class="hidden lg:block
+                                    sm:mx-24 mx-6 justify-end flex">
                             <picture>
                                 <img class="rounded-full bg-white border-solid "
                                      height="260"
@@ -32,12 +32,13 @@
                     </div>
 
                     <div class="align-baseline  my-6 flex">
-                        <div class="sm:mx-24 mx-6 justify-start flex">
+                        <div class="hidden lg:block
+                                    sm:mx-24 mx-6 justify-start flex">
                             <picture>
                                 <img
                                         class="border-solid rounded-full shadow-inset hover:border-green-600"
-                                        height="160"
-                                        width="160"
+                                        height="260"
+                                        width="260"
                                         alt="The best Paas ever"
                                         src="../assets/img/AboutWebsite/logo_clever_cloud.jpg">
                             </picture>
@@ -69,6 +70,8 @@
 
         <div class="mb-8 text-copy-primary hover:shadow-xl mt-4 mx-4 bg-background-secondary
                       items-baseline flex hover:shadow-xl px-3 py-2 m-2 rounded ">
+<div class="flex">
+
 
             <div class="justify-start flex flex-wrap">
                 <p class="text-3xl my-4">Data science certification</p>
@@ -80,12 +83,13 @@
                 </p>
             </div>
 
-            <div class="justify-end flex flex-wrap">
-                <picture class="flex w-2/4">
-                    <img class="rounded-lg "
-                         alt="My google certificat"
-                         src="../assets/img/AboutWebsite/certificat_de_base.png">
-                </picture>
+<!--            <div class="hidden xl:block justify-end flex flex-wrap">-->
+<!--                <picture class="flex w-2/4">-->
+<!--                    <img class="rounded-lg w-auto"-->
+<!--                         alt="My google certificat"-->
+<!--                         src="../assets/img/AboutWebsite/certificat_de_base.png">-->
+<!--                </picture>-->
+<!--            </div>-->
             </div>
 
             <!--                    <p class="text-3xl my-4">Google Ads</p>-->

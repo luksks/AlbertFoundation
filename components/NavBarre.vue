@@ -15,12 +15,12 @@
                 Presentation
             </nuxt-link>
 
-            <nuxt-link to="/timeline"
-                       class="button zoom hover:text-pink-700">
-                Timeline
-            </nuxt-link>
+<!--            <nuxt-link to="/timeline"-->
+<!--                       class="button zoom hover:text-pink-700">-->
+<!--                Timeline-->
+<!--            </nuxt-link>-->
             <nuxt-link to="/aboutWebsite"
-                       class="button zoom hover:text-green-700">
+                       class="button zoom hover:text-green-700  text-sm sm:text-base">
                 About the website
             </nuxt-link>
 
