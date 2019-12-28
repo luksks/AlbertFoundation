@@ -4,7 +4,6 @@
         <div class="-my-8">
             <Photo/>
         </div>
-
         <div class="font-serif text-xl text-justify text-copy-primary justify-around items-center w-5/6 md:w-1/2 mx-auto  pb-8 md:pb-0">
 
             <p class="font-normal text-center text-3xl py-4">

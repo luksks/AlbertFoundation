@@ -24,8 +24,6 @@
                     <p class="sm:p-0 sm:px-0 p-1 px-2 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">
                         - Presentation</p>
                 </nuxt-link>
-
-                <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
             </div>
@@ -58,7 +56,6 @@
                 <!--                    - Site map</p>-->
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Site map</p>-->
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Social media</p>-->
-                <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
             </div>
         </div>
 
