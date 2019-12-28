@@ -3,7 +3,7 @@
         <div class=" items-center flex flex-col sm:flex-row container mx-auto text-copy-primary flex-wrap">
 
             <div class="sm:hidden lg:block m-3 mx-12 flex justify-center">
-                <nuxt-link to="/" class="sm:text-2xl text-5xl flex text-center">
+                <nuxt-link to="/" class="sm:text-2xl text-3xl flex text-center">
                     Albertfoundation 📡
                 </nuxt-link>
 
@@ -15,7 +15,7 @@
             </div>
 
             <div class="w-1/4 my-3 sm:text-left text-center">
-                <p class=" mb-4 hover:text-green-600 sm:text-xl text-4xl ">Ressources</p>
+                <p class=" mb-4 hover:text-green-600 sm:text-xl text-2xl ">Ressources</p>
                 <!--                        zoom text-center  no-underline shadow-lg  border border-border-color-primary  px-3 py-2 m-2 rounded -->
                 <a class="sm:p-0 sm:px-0 p-1 px-3 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700"
                    download
@@ -31,9 +31,10 @@
             </div>
 
             <div class="w-1/4 my-3 ">
-                <p class="mb-4 hover:text-green-600 sm:text-xl text-4xl">More</p>
+                <p class="mb-4 hover:text-green-600 sm:text-xl text-2xl  ">More</p>
+
                 <a class="sm:text-left text-center cursor-pointer sm:p-0 sm:px-0 p-1 px-3 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700">
-                    -theme dark
+                    Theme Dark
                 </a>
                 <p class="sm:text-left text-center cursor-pointer sm:p-0 sm:px-0 p-1 px-3 sm:border-0 border hover:shadow-xl border-border-color-primary rounded my-2 hover:text-blue-700"
                    title="The opensource repo of the website !"><a
@@ -42,7 +43,7 @@
                 <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
             </div>
             <div class="w-1/4 my-3">
-                <p class="mb-4 hover:text-green-600 sm:text-xl text-4xl">Contact</p>
+                <p class="mb-4 hover:text-green-600 sm:text-xl text-2xl ">Contact</p>
 
                 <nuxt-link to="/privacy">
                     <p class="sm:text-left text-center sm:p-0 sm:px-0 p-1 px-2 sm:border-0 border border-border-color-primary rounded my-2 hover:text-blue-700">
