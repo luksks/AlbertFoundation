@@ -1,5 +1,5 @@
 <template>
-    <div class=" -mb-10 g-background-tertiary">
+    <div class="flex   g-background-tertiary">
         <!--Header Alert-->
         <div class="alert-banner">
             <label class=" close cursor-pointer  items-center " title="close" for="banneralerte">

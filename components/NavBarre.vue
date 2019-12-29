@@ -9,9 +9,9 @@
         </nuxt-link>
 
         <!--        Div pour les élément de droite-->
-        <div class="flex justify-end mx-6 text-copy-primary">
+        <div class="align-baseline flex justify-end mx-6 text-copy-primary">
             <nuxt-link to="/presentation"
-                       class="button zoom hover:text-purple-700">
+                       class="button zoom hover:text-purple-700 ">
                 Presentation
             </nuxt-link>
 

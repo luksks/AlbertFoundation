@@ -15,9 +15,7 @@
             <div class="sm:w-2/4 xl:w-1/4 w-full my-3 sm:text-left text-center ">
                 <p class=" mb-4 hover:text-green-600 sm:text-xl text-2xl ">Ressources</p>
 
-                <a class="flex sm:justify-start justify-center sm:mb-0 mb-4
-                 sm:p-0 sm:px-0 p-1 px-2 my-2 hover:text-blue-700"
-                   download
+                <a class="sm:p-0 sm:px-0 p-1 px-2  my-2 hover:text-blue-700" download
                    href="CV_LANNE_Albert.pdf">- CV</a>
 
                 <nuxt-link to="/presentation">

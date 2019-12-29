@@ -4,8 +4,8 @@
          :class="theme">
         <div class="flex-grow">
             <paper></paper>
-            <UnderConstruction></UnderConstruction>
-            <!--                    <CookiePopUp/>-->
+<!--            <UnderConstruction></UnderConstruction>-->
+            <!--                    <CookiePopUp/>      -->
             <!--                    <privacyPolicy/>-->
             <NavBarre/>
             <nuxt/>
