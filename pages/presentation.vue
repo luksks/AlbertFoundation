@@ -5,7 +5,7 @@
             <Photo/>
         </div>
 
-        <div class="font-serif text-xl text-justify text-copy-primary justify-around items-center w-5/6 md:w-1/2 mx-auto  pb-8 md:pb-0">
+        <div class="font-serif text-xl text-justify text-copy-primary justify-around items-center w-5/6 xl:w-1/2 mx-auto  pb-8 md:pb-0">
 
             <p class="font-normal text-center text-3xl py-4">
                 ~ About me ~
@@ -14,7 +14,7 @@
                 Introduction
             </p>
 
-            <p class="sm:text-2xl text-lg">I am a French student in the second year of programming at the Paul Cornu College in Lisieux in Normandy
+            <p class="sm:text-2xl text-lg ">I am a French student in the second year of programming at the Paul Cornu College in Lisieux in Normandy
                 I have 20 year's old. By nature, I am really curious and passionate about what I do.
                 I spend a lot of time training on programming, my GitHub account will confirm this.
                 In class people often choose me to manage groups because I'm always one step ahead and I always know how

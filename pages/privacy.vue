@@ -1,8 +1,8 @@
 <template>
 
     <div class=" bg-background-primary text-copy-primary">
-        <div class="text-justify mx-16  items-center">
-            <h1 class="font-normal text-2xl py-4">
+        <div class="text-justify sm:mx-16 mx-6  items-center">
+            <h1 class="font-normal sm:text-2xl text-1xl py-4 ">
                 1. INTRODUCTION
             </h1>
 
@@ -18,24 +18,24 @@
                 We will require you to verify your identity before releasing any information to you.</p>
 
 
-            <h2 class="font-normal text-2xl py-4">
+            <h1 class="font-normal sm:text-2xl text-1xl py-4">
                 2. What Is Personal And Non-Personal Information?
-            </h2>
+            </h1>
             “Personal Information” is information that we have collected from you that identifies you, or which, in
             conjunction with other information that is in our possession, or is likely to come into our possession, may
             be used by us to identify you.
 
             “Non-Personal Information”, is information that we have collected from you which cannot be used by us to
             identify you.
-            <h3 class="font-normal text-2xl py-4">
+            <h1 class="font-normal sm:text-2xl text-1xl py-4">
                 3. Which Data Does AlbertFoundation Collect And Use At Which Stage?
-            </h3>
-            <h4 class="font-normal text-2xl py-4">
+            </h1>
+            <h1 class="font-normal sm:text-2xl text-1xl py-4">
                 3.1. Use Of Our Website
-            </h4>
-            <h5 class="font-normal text-1xl py-4">
+            </h1>
+            <h1 class="font-normal text-1xl py-4">
                 3.1.1. General
-            </h5>
+            </h1>
 
 
             If you access or use our Website we may collect the following Non-Personal Information:
@@ -54,9 +54,9 @@
             Time of Access
             Clicks
 
-            <h6 class="font-normal text-1xl py-4">
+            <h1 class="font-normal text-1xl py-4">
                 3.1.2. Cookies
-            </h6>
+            </h1>
 
 
             We use cookies to ensure that you get the most out of my website Services. Cookies are small text files that

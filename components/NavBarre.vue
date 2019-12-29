@@ -1,15 +1,15 @@
 <template>
-    <header class="flex items-center justify-between bg-background-tertiary">
+    <header class="flex flex-wrap items-center justify-between bg-background-tertiary">
 
-        <nuxt-link to="/" class="px-4 ">
-                <img class="-pt-8  fill-current stroke-current h-24 w-24 zoom "
+        <nuxt-link to="/" class="px-6 ">
+                <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24    zoom "
                      src="../assets/img/logo_site_dark_mod.svg"
                      title="The white version logo of my website"
                      alt="The white version logo of my website">
         </nuxt-link>
 
         <!--        Div pour les élément de droite-->
-        <div class="align-baseline flex justify-end mx-6 text-copy-primary">
+        <div class="align-baseline flex justify-end  text-copy-primary">
             <nuxt-link to="/presentation"
                        class="button zoom hover:text-purple-700 ">
                 Presentation
