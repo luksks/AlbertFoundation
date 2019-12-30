@@ -2,7 +2,7 @@
     <header class="flex flex-wrap items-center justify-between bg-background-tertiary">
 
         <nuxt-link to="/" class="px-6 ">
-                <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24    zoom "
+                <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom "
                      src="../assets/img/logo_site_dark_mod.svg"
                      title="The white version logo of my website"
                      alt="The white version logo of my website">

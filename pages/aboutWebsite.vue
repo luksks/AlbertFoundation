@@ -1,14 +1,14 @@
 <template>
     <div>
 
-        <div class="text-justify mt-4 flex-col md:flex-row h-full w-full flex items text-copy-primary bg-background-primary">
+        <div class="text-justify mt-4 flex-col lg:flex-row h-full w-full flex items text-copy-primary bg-background-primary">
 
             <div class="mx-4 my-4  flex-wrap bg-background-secondary align-baseline items-center  hover:shadow-xl px-3 py-2 m-2 rounded ">
-                <p class="sm:text-3xl  text-2xl my-4">The structure of the website</p>
+                <p class="lg:text-2xl sm:text-3xl  text-2xl  my-4">The structure of the website</p>
 
                 <div class="mx-4 ">
-                    <div class="align-baseline flex sm:text-2xl text-xl">
-                        <div class=" rounded-lg justify-start w-full">
+                    <div class=" mb-12 align-baseline flex sm:text-2xl text-xl">
+                        <div class="my-auto rounded-lg justify-start w-full">
                             <div class="justify-end items-end flex">
                                 <p>This website is made with the javascript framework NuxtJS and Vue.JS and cooked
                                     by me
@@ -20,7 +20,7 @@
                         </div>
 
                         <div class="hidden lg:block
-                                    sm:mx-24 mx-6 justify-end flex">
+                                    xl:mx-24 lg:mx-16 my-auto sm:mx-12 mx-6 flex">
                             <picture>
                                 <img class="rounded-full bg-white border-solid "
                                      height="260"
@@ -31,9 +31,9 @@
                         </div>
                     </div>
 
-                    <div class="align-baseline  my-6 flex">
+                    <div class="align-baseline flex">
                         <div class="hidden lg:block
-                                    sm:mx-24 mx-6 justify-start flex">
+                                    xl:mx-24 lg:mx-16 my-auto sm:mx-12 mx-6 flex">
                             <picture>
                                 <img
                                         class="border-solid rounded-full shadow-inset hover:border-green-600"
@@ -43,17 +43,18 @@
                                         src="../assets/img/AboutWebsite/logo_clever_cloud.jpg">
                             </picture>
                         </div>
-                        <div class="sm:text-2xl text-xl rounded-lg justify-end w-full ">
+                        <div class="sm:text-2xl text-xl my-auto rounded-lg justify-end w-full ">
                             <p>For the hosting i use a French PAAS, Clever Cloud. Usefull for a easier deployment
                                 and a htpps certificat. the support help a lot. For the hosting i use OVH. </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="sm:w-3/5 md:w-11/12 mx-4  my-4 bg-background-secondary align-baseline items-center hover:shadow-xl px-3 py-2 m-2 rounded ">
-                <p class="sm:text-3xl  text-2xl my-4">Data science</p>
 
-                <p class="sm:text-2xl text-xl  flex flex-wrap ">The website has an important backend of data analysis. I
+            <div class="sm:w-3/5  md:w-auto lg:w-11/12 mx-4 my-4 bg-background-secondary align-baseline items-center hover:shadow-xl px-3 py-2 m-2 rounded ">
+                <p class="lg:text-2xl sm:text-3xl  text-2xl my-4">Data science</p>
+
+                <p class="lg:text-lg sm:text-2xl text-xl  flex flex-wrap ">The website has an important backend of data analysis. I
                     spend an important
                     time to watch the video of google SkillShop and have the certification on google analytics, google
                     ads
@@ -74,7 +75,7 @@
 
 
             <div class="justify-start flex flex-wrap">
-                <p class=" sm:text-3xl  text-2xl my-4">Certification</p>
+                <p class="lg:text-2xl sm:text-3xl  text-2xl my-4">Certification</p>
                 <p class="sm:text-2xl text-xl">To understand and use well the data, I need to have certification. I have the
                     Google
                     certification of the Fundamental principles of digital marketing. And actually I'm working on more
