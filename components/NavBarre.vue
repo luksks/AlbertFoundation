@@ -1,28 +1,42 @@
 <template>
-    <header class="flex flex-wrap items-center justify-between bg-background-tertiary">
+    <header class="flex flex-wrap items-center justify-between name-class flex">
+<!--    <header class="flex flex-wrap items-center justify-between bg-local" style="background-image: url(../assets/img/AboutWebsite/certificat_de_base.png)">-->
 
-        <nuxt-link to="/" class="px-6 ">
-                <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom "
-                     src="../assets/img/logo_site_dark_mod.svg"
-                     title="The white version logo of my website"
-                     alt="The white version logo of my website">
-        </nuxt-link>
+            <video controls playsinline="" loop="" autoplay="" class="bg-fixed w-full flex inline-flex">
+                <source src="../assets/img/anim.mp4" type="video/mp4" autostart="true">
+            </video>
 
-        <!--        Div pour les élément de droite-->
-        <div class="align-baseline flex justify-end  text-copy-primary">
-            <nuxt-link to="/presentation"
-                       class="button zoom hover:text-purple-700 ">
-                Presentation
-            </nuxt-link>
+                <nuxt-link to="/" class="px-6 ">
+                    <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom "
+                         src="../assets/img/logo_site_dark_mod.svg"
+                         title="The white version logo of my website"
+                         alt="The white version logo of my website">
+                </nuxt-link>
 
-<!--            <nuxt-link to="/timeline"-->
-<!--                       class="button zoom hover:text-pink-700">-->
-<!--                Timeline-->
-<!--            </nuxt-link>-->
-            <nuxt-link to="/aboutWebsite"
-                       class="button zoom hover:text-green-700  text-sm sm:text-base">
-                About the website
-            </nuxt-link>
+                <!--        Div pour les élément de droite-->
+                <div class="align-baseline flex justify-end  text-copy-primary">
+                    <nuxt-link to="/presentation"
+                               class="button zoom hover:text-purple-700 ">
+                        Presentation
+                    </nuxt-link>
+
+                    <!--            <nuxt-link to="/timeline"-->
+                    <!--                       class="button zoom hover:text-pink-700">-->
+                    <!--                Timeline-->
+                    <!--            </nuxt-link>-->
+                    <nuxt-link to="/aboutWebsite"
+                               class="button zoom hover:text-green-700  text-sm sm:text-base">
+                        About the website
+                    </nuxt-link>
+                </div>
+
+
+
+
+
+
+
+
 
             <!--            Pour changer le theme-->
 <!--            <picture @click="$store.commit('localStorage/changetheme')" class="mx-2 mr-6 cursor-pointer"-->
@@ -40,7 +54,6 @@
 <!--                        alt="theme dark button"-->
 <!--                        title=" dark for the theme">-->
 <!--            </picture>-->
-        </div>
 
 
     </header>
@@ -60,5 +73,13 @@
 </script>
 
 <style scoped>
+    audio::-webkit-media-controls-timeline,
+    video::-webkit-media-controls-timeline {
+        display: none;
+    }
+    audio::-webkit-media-controls,
+    video::-webkit-media-controls {
+        display: none;
+    }
 
 </style>

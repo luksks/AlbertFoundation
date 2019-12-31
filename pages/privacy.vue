@@ -12,7 +12,7 @@
                 by us or by data processors appointed by us to undertake processing on our behalf. AlbertFoundation
                 respects your privacy rights and recognizes the importance of protecting the information collected
                 about you. We have adopted this Privacy Policy to explain how we collect, use and store your personal
-                and non-personal information as set forth in the GDPR. If you want to know what Personal Information or
+                and non-personal information as set forth in the GDPR. If you want to know what Personal Informati²on or
                 Non-Personal Information we hold about you or if you have any other queries in relation to this Privacy
                 Policy, please contact us by emailing us at albert.lanne@gmail.com .
                 We will require you to verify your identity before releasing any information to you.</p>
