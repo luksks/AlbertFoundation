@@ -2,12 +2,12 @@
     <header class="flex flex-wrap items-center justify-between flex">
 <!--    <header class="flex flex-wrap items-center justify-between bg-local" style="background-image: url(../assets/img/AboutWebsite/certificat_de_base.png)">-->
 
-<!--            <video controls playsinline="" loop="" autoplay="" class="bg-fixed w-full flex inline-flex pointer-events-none">-->
-<!--                    <source src="../assets/img/anim.mp4" type="video/mp4" autostart="true">-->
-<!--                </video>-->
+            <video controls playsinline="" loop="" autoplay="" class="bg-fixed w-full flex inline-flex pointer-events-none">
+                    <source src="../assets/img/anim.mp4" type="video/mp4" autostart="true">
+                </video>
 
-        <nuxt-link to="/" class="px-6 ">
-            <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom "
+        <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto">
+            <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "
                  src="../assets/img/logo_site_dark_mod.svg"
                  title="The white version logo of my website"
                  alt="The white version logo of my website">
@@ -15,7 +15,7 @@
 
         <!--        Div pour les élément de droite-->
 
-        <div class=" align-baseline flex justify-end  text-copy-primary ">
+        <div class=" align-baseline flex justify-end  text-copy-primary sm:mx-0 mx-auto">
 
             <nuxt-link to="/presentation"
                        class=" button zoom hover:text-purple-700 ">
