@@ -25,3 +25,4 @@ $ npm run build
 $ npm run dev
 ```
 
+## the defaut port is 1234
