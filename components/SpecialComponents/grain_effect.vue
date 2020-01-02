@@ -26,11 +26,12 @@
         content: "";
         height: 300%;
         left: -50%;
-        /*opacity: 0;*/
+        /*opacity: 0.5;*/
         opacity: 0.09;
         position: fixed;
         top: -110%;
         width: 300%;
+        z-index: 1; /* put .green-box above .dashed-box */
         pointer-events: none;
         filter: brightness(120%);
     }

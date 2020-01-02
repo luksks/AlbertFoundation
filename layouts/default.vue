@@ -3,8 +3,8 @@
     <div class="bg-background-primary min-h-screen flex flex-col w-full justify-center h-full content-center content-wrapper"
          :class="theme">
         <div class="flex-grow">
+<!--            <paper></paper>-->
 
-            <paper></paper>
             <!--            <UnderConstruction></UnderConstruction>-->
             <!--                    <CookiePopUp/>      -->
             <!--                    <privacyPolicy/>-->

@@ -1,5 +1,5 @@
 <template>
-        <div class="flex -mt-3 m-3 text-copy-primary mt-4 flex-wrap  justify-center">
+        <div class="flex -mt-3 m-3 text-copy-primary mt-4 flex-wrap  justify-center ">
             <a
                     class="button zoom hover:text-pink-700"
                     href="https://github.com/AlbertLanne"
