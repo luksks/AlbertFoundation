@@ -1,18 +1,21 @@
 <template>
 
-    <div class="bg-background-primary min-h-screen flex flex-col w-full justify-center h-full content-center content-wrapper"
+    <div class=" bg-background-primary min-h-screen flex flex-col w-full justify-center h-full content-center content-wrapper"
          :class="theme">
-        <div class="flex-grow">
+        <div class="flex-grow ">
             <paper></paper>
 
             <!--            <UnderConstruction></UnderConstruction>-->
             <!--                    <CookiePopUp/>      -->
             <!--                    <privacyPolicy/>-->
 
-            <NavBarre/>
+<!--            <NavBarre/>-->
             <nuxt/>
         </div>
+        <div class="BackgroundIndex5">
+
         <NavFooter/>
+        </div>
 
     </div>
 </template>
@@ -58,3 +61,10 @@
 
     };
 </script>
+<style>
+    .BackgroundIndex5{
+        z-index: 5; /* put .green-box above .dashed-box */
+    }
+
+
+</style>

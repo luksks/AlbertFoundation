@@ -31,7 +31,7 @@
         position: fixed;
         top: -110%;
         width: 300%;
-        z-index: 1; /* put .green-box above .dashed-box */
+        z-index: 6; /* put .green-box above .dashed-box */
         pointer-events: none;
         filter: brightness(120%);
     }
