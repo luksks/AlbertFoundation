@@ -15,6 +15,22 @@
   @apply bg-background-clicked;
 }
 
+
+.header {
+  height: auto;
+}
+.video-cta{
+  height:auto;
+}
+@media (min-width: 1024px) {
+    .header{
+      height: 762px;
+    }
+  .video-cta {
+    height: 582px;
+  }
+}
+
 @tailwind utilities;
 
 .theme-light {

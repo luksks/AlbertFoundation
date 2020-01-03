@@ -6,16 +6,22 @@
         <!--            <source src="../assets/img/animd.mp4" type="video/mp4" autostart="true">-->
         <!--        </video>-->
 
-        <div class="absolute inset-0">
+<!--        <div class="absolute inset-0  ">-->
 
-<!--            <video  autoplay muted loop id="myVideo"-->
-<!--                   class="bg-fixed  h-screen absolute flex inline-flex pointer-events-none">-->
-<!--                <source src="../assets/img/anime.webm" type="video/webm" autostart="true">-->
-<!--            </video>-->
 
-        </div>
-        <div class="absolute inset-0">
-            <div class="flex-wrap items-center justify-between flex ">
+<!--        </div>-->
+<!--            <div class="header relative lg:overflow-hidden antialiased-->
+            <div class="
+            flex-wrap items-center justify-between flex ">
+
+                <div class="pointer-events-none  bg-auto  flex">
+                    <video  autoplay muted loop id="myVideo">
+                        <source src="../assets/img/anime.webm" type="video/webm" autostart="true">
+                    </video>
+                </div>
+
+
+
                 <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto">
                     <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "
                          src="../assets/img/logo_site_dark_mod.svg"
@@ -36,7 +42,6 @@
                     </nuxt-link>
                 </div>
             </div>
-        </div>
 
 
         <div class="absolute inset-0">
