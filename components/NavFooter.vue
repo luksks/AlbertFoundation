@@ -1,5 +1,5 @@
 <template>
-    <footer class=" bg-background-tertiary flex">
+    <footer class="mt-12 bg-background-tertiary flex">
 
         <div class="items-center flex  container mx-auto text-copy-primary flex-wrap">
 

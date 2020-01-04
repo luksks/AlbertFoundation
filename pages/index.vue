@@ -1,35 +1,33 @@
 <template>
     <!--    Page principale du site, donc avec ma photo, les bouttons de redirection et une présentation.-->
-    <!--    <div>-->
+    <div>
 
-    <!--        <video controls playsinline="" loop="" autoplay="" class="bg-fixed w-full h-full absolute flex inline-flex pointer-events-none">-->
-    <!--            <source src="../assets/img/animd.mp4" type="video/mp4" autostart="true">-->
-    <!--        </video>-->
+        <!--        <video controls playsinline="" loop="" autoplay="" class="bg-fixed w-full h-full absolute flex inline-flex pointer-events-none">-->
+        <!--            <source src="../assets/img/animd.mp4" type="video/mp4" autostart="true">-->
+        <!--        </video>-->
 
-    <!--        <div class="absolute inset-0  ">-->
+        <!--        <div class="absolute inset-0  ">-->
 
 
-    <!--        </div>-->
-    <div class="bg-background-primary antialiased">
-        <!--                <header class="header relative lg:overflow-hidden">-->
-        <div class="absolute inset-0  ">
-            <video autoplay muted loop id="myVideo">
-                <source src="../assets/img/anime.webm" type="video/webm" autostart="true"
-                        class="w-full h-full pointer-events-none"> </video>
+        <!--        </div>-->
+        <div class="bg-background-primary antialiased">
+            <!--                <header class="header relative lg:overflow-hidden">-->
+            <!--        <div class="absolute inset-0  ">-->
+            <video autoplay muted loop id="myVideo" class="w-full h-auto object-cover object-left pointer-events-none ">
+                <source src="../assets/img/animation.webm" type="video/webm" autostart="true">
+            </video>
         </div>
 
         <NavBarre/>
         <!--                </header>-->
 
 
-
-        <div class="absolute inset-0">
+        <div class="relative ">
             <Photo/>
             <NetworkBouton/>
             <texte-introduction/>
         </div>
     </div>
-    <!--    </div>-->
 
 </template>
 
@@ -49,7 +47,7 @@
                 title: "Home page"
             };
         },
-        components: {NavBarre,texteIntroduction, Photo, NetworkBouton}
+        components: {NavBarre, texteIntroduction, Photo, NetworkBouton}
 
     };
 </script>

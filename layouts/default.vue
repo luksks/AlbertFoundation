@@ -13,9 +13,9 @@
         </div>
 
 
-<!--        <div class="BackgroundIndex5">-->
+        <div class="BackgroundIndex5 relative">
         <NavFooter/>
-<!--        </div>-->
+        </div>
 
     </div>
 </template>
