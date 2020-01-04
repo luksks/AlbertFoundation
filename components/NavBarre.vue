@@ -1,5 +1,5 @@
 <template>
-    <header class="flex flex-wrap items-center justify-between flex ">
+    <header class="flex flex-wrap items-center justify-between flex bg-background-tertiary">
         <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto ">
             <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "
                  src="../assets/img/logo_site_dark_mod.svg"
@@ -65,6 +65,7 @@
 </script>
 
 <style scoped>
+
     audio::-webkit-media-controls-timeline,
     video::-webkit-media-controls-timeline {
         display: none;

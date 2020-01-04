@@ -1,26 +1,27 @@
 <template>
 <div>
-    <header class=" flex flex-wrap items-center justify-between flex">
-        <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto">
-            <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "
-                 src="../assets/img/logo_site_dark_mod.svg"
-                 title="The white version logo of my website"
-                 alt="The white version logo of my website">
-        </nuxt-link>
+    <NavBarre></NavBarre>
+<!--    <header class=" flex flex-wrap items-center justify-between flex">-->
+<!--        <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto">-->
+<!--            <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "-->
+<!--                 src="../assets/img/logo_site_dark_mod.svg"-->
+<!--                 title="The white version logo of my website"-->
+<!--                 alt="The white version logo of my website">-->
+<!--        </nuxt-link>-->
 
-        <!--        Div pour les élément de droite-->
+<!--        &lt;!&ndash;        Div pour les élément de droite&ndash;&gt;-->
 
-        <div class=" align-baseline flex justify-end  text-copy-primary sm:mx-0 mx-auto">
+<!--        <div class=" align-baseline flex justify-end  text-copy-primary sm:mx-0 mx-auto">-->
 
-            <nuxt-link to="/presentation"
-                       class=" button zoom hover:text-purple-700 ">
-                Presentation
-            </nuxt-link>
-            <nuxt-link to="/aboutWebsite" class="button zoom hover:text-green-700  text-sm sm:text-base ">
-                About the website
-            </nuxt-link>
-        </div>
-    </header>
+<!--            <nuxt-link to="/presentation"-->
+<!--                       class=" button zoom hover:text-purple-700 ">-->
+<!--                Presentation-->
+<!--            </nuxt-link>-->
+<!--            <nuxt-link to="/aboutWebsite" class="button zoom hover:text-green-700  text-sm sm:text-base ">-->
+<!--                About the website-->
+<!--            </nuxt-link>-->
+<!--        </div>-->
+<!--    </header>-->
     <div class="flex flex-col  items-center flex-wrap bg-background-primary pt-8 animated fade-in">
         <div class="-my-8">
             <Photo/>
@@ -89,7 +90,7 @@
 <script>
 
     import Photo from "../components/IndexPagePrincipale/Photo";
-
+    import NavBarre from "~/components/NavBarre.vue";
 
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-metav
@@ -99,7 +100,7 @@
             };
         },
         components: {
-            Photo
+            Photo, NavBarre
         }
 
     };

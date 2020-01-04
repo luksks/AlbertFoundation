@@ -5,7 +5,6 @@
 
 .button {
   @apply  text-center no-underline shadow-lg border border-border-color-primary px-3 py-2 m-2 rounded ;
-
 }
 
 .button:hover {

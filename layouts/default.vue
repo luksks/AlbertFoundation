@@ -5,17 +5,17 @@
         <div class="flex-grow ">
             <paper></paper>
 
-            <!--            <UnderConstruction></UnderConstruction>-->
-            <!--                    <CookiePopUp/>      -->
-            <!--                    <privacyPolicy/>-->
-
+<!--                        <UnderConstruction></UnderConstruction>-->
+<!--                                <CookiePopUp/>-->
+<!--                                <privacyPolicy/>-->
 <!--            <NavBarre/>-->
             <nuxt/>
         </div>
-        <div class="BackgroundIndex5">
 
+
+<!--        <div class="BackgroundIndex5">-->
         <NavFooter/>
-        </div>
+<!--        </div>-->
 
     </div>
 </template>
