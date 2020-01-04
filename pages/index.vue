@@ -10,12 +10,12 @@
 
 
         <!--        </div>-->
-        <div class="bg-black antialiased">
+        <div class="bg-background-primary antialiased">
                 <header class="header relative lg:overflow-hidden">
                     <div class="absolute inset-0 lg:opacity-100 opacity-50">
                         <video autoplay muted loop id="myVideo">
                             <source src="../assets/img/anime.webm" type="video/webm" autostart="true"
-                                    class="object-cover w-full "> </video>
+                                    class="object-cover w-full pointer-events-none"> </video>
                     </div>
                     <NavBarre/>
                 </header>
@@ -23,7 +23,6 @@
 
 
             <div class="absolute inset-0">
-
                 <Photo/>
                 <NetworkBouton/>
                 <texte-introduction/>

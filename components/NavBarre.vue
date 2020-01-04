@@ -1,6 +1,6 @@
 <template>
-    <header class="flex flex-wrap items-center justify-between flex">
-        <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto">
+    <header class="flex flex-wrap items-center justify-between flex ">
+        <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto ">
             <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "
                  src="../assets/img/logo_site_dark_mod.svg"
                  title="The white version logo of my website"
@@ -12,14 +12,14 @@
         <div class=" align-baseline flex justify-end  text-copy-primary sm:mx-0 mx-auto">
 
             <nuxt-link to="/presentation"
-                       class=" button zoom hover:text-purple-700 ">
+                       class=" button zoom hover:text-purple-700 BackgroundIndex5">
                 Presentation
             </nuxt-link>
             <!--            <nuxt-link to="/timeline"-->
             <!--                       class="button zoom hover:text-pink-700">-->
             <!--                Timeline-->
             <!--            </nuxt-link>-->
-            <nuxt-link to="/aboutWebsite" class="button zoom hover:text-green-700  text-sm sm:text-base ">
+            <nuxt-link to="/aboutWebsite" class="button zoom hover:text-green-700  text-sm sm:text-base BackgroundIndex5">
                 About the website
             </nuxt-link>
         </div>
