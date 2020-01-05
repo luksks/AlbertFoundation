@@ -1,7 +1,7 @@
 {
   "name": "AlbertFoundation",
-  "version": "1.0.0",
-  "description": "My personal first website",
+  "version": "3.0.0",
+  "description": "My personal website",
   "author": "albert.lanne",
   "private": true,
   "scripts": {

@@ -8,7 +8,7 @@
 <!--                        <UnderConstruction></UnderConstruction>-->
 <!--                                <CookiePopUp/>-->
 <!--                                <privacyPolicy/>-->
-<!--            <NavBarre/>-->
+            <NavBarre/>
             <nuxt/>
         </div>
 

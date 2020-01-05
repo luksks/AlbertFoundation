@@ -1,7 +1,6 @@
 <template>
 
     <div class=" bg-background-primary text-copy-primary">
-        <nav-barre></nav-barre>
 <!--        <header class="flex flex-wrap items-center justify-between flex">-->
 <!--            <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto">-->
 <!--                <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "-->

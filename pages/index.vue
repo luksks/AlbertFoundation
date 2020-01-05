@@ -18,7 +18,7 @@
             </video>
         </div>
 
-        <NavBarre/>
+<!--        <NavBarre/>-->
         <!--                </header>-->
 
 
