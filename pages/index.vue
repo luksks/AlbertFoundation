@@ -14,7 +14,7 @@
             <!--                <header class="header relative lg:overflow-hidden">-->
             <!--        <div class="absolute inset-0  ">-->
             <video autoplay muted loop id="myVideo" class="w-full h-auto object-cover object-left pointer-events-none ">
-                <source src="../assets/img/animation.webm" type="video/webm" autostart="true">
+                <source src="../assets/img/anime.webm" type="video/webm" autostart="true">
             </video>
         </div>
 
