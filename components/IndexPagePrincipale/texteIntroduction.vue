@@ -8,7 +8,7 @@
             <a class="  md:text-lg text-justify leading-normal text-copy-primary hover:text-copy-secondary">
                 My name is Albert, I am 20 years old and passionate about computer science. Initially with a
                 professional baccalaureate in the military French Navy telecommunication. Now I study the c++ and
-                network communication. Currently, in the second year of the national diploma in informatics science,
+                network communication. Currently, in the second year of the national diploma in computers science,
                 I work a lot on my Github account on desktop applications made in c++. On my free time, I'm training
                 to practice my DevOps skills with my servers and my website.
                 <br><br>
