@@ -29,10 +29,10 @@
             <div class="sm:w-2/4 xl:w-1/4 w-full my-3 sm:text-left text-center">
                 <p class=" mb-4 hover:text-green-600 sm:text-xl text-2xl ">More</p>
 
-                <a class="flex sm:justify-start justify-center sm:mb-0 mb-4
+                <p class="flex sm:justify-start justify-center sm:mb-0 mb-4
                  sm:p-0 sm:px-0 p-1 px-2 rounded my-2 hover:text-blue-700">
                     - Theme Dark
-                </a>
+                </p>
                 <p class="sm:text-left text-center cursor-pointer sm:p-0 sm:px-0 p-1 px-3 my-2 hover:text-blue-700"
                    title="The opensource repo of the website !"><a
                         href="https://github.com/AlbertLanne/AlbertFoundation"
