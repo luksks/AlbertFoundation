@@ -10,8 +10,8 @@
 .button:hover {
   @apply shadow-xl bg-background-primary;
 }
-.button:focus {;
-  @apply  shadow-outline bg-background-clicked
+.button:focus {
+  @apply  shadow-outline bg-background-clicked;
 }
 .button:active {
   @apply bg-background-clicked;
