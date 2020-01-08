@@ -29,7 +29,7 @@
                 <!--                            <picture @click="$store.commit('localStorage/changetheme')" class="mx-2 mr-6 cursor-pointer"-->
                 <!--                                     v-if="val === 'true'">-->
                 <!--                                <img-->
-                
+
                 <!--                                        class=" h-8 w-8 fill-current fill-text-red-600 hover:text-green-600"-->
                 <!--                                        src="../assets/img/logo_light_mod.svg"-->
                 <!--                                        title="Switch for the light theme"-->
