@@ -8,12 +8,13 @@
                     <picture>
                         <img
                                 v-on:click="toggle"
-                                class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600"
+                                class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600 "
                                 height="256"
                                 width="256"
                                 alt="Me, Albert Lanne, cool showcase?"
                                 src="../../assets/img/indexImageProfil.jpg">
                     </picture>
+
                 </div>
                 <div class="rounded-full border-solid  shadow-inset w-64 h-64 hover:border-green-600" v-else v-on:click="toggle">
                     <video autoplay muted loop id="myVideo">
