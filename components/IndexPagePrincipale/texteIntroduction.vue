@@ -12,6 +12,7 @@
                 I work a lot on my Github account on desktop applications made in c++. On my free time, I'm training
                 to practice my DevOps skills with my servers and my website.
                 <br><br>
+
             </a>
 
         </div>
@@ -20,8 +21,9 @@
 </template>
 
 <script>
+
     export default {
-        name: "texteintroduction"
+        name: "texteintroduction",
     }
 </script>
 
@@ -29,8 +31,5 @@
 
     .autre {
         background-color: rgba(0, 0, 0, 0.8);  /* 50% transparent */
-
-
-
     }
 </style>

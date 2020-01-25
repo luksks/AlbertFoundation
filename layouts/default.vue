@@ -4,15 +4,12 @@
          :class="theme">
         <div class="flex-grow ">
             <paper></paper>
-
 <!--                        <UnderConstruction></UnderConstruction>-->
 <!--                                <CookiePopUp/>-->
 <!--                                <privacyPolicy/>-->
             <NavBarre/>
             <nuxt/>
         </div>
-
-
         <div class="BackgroundIndex5 relative">
         <NavFooter/>
         </div>

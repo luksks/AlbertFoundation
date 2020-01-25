@@ -1,4 +1,7 @@
 <template>
+
+
+
     <header class="flex flex-wrap items-center justify-between flex bg-background-tertiary">
         <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto BackgroundIndex5">
             <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "
@@ -10,15 +13,15 @@
         <!--        Div pour les élément de droite-->
 
         <div class=" align-baseline flex justify-end  text-copy-primary sm:mx-0 mx-auto">
-
+            <nuxt-link to="/pagechart"
+                       class="button zoom hover:text-pink-700">
+                chart
+            </nuxt-link>
             <nuxt-link to="/presentation"
                        class=" button zoom hover:text-purple-700 BackgroundIndex5">
                 Presentation
             </nuxt-link>
-<!--            <nuxt-link to="/timeline"-->
-<!--                       class="button zoom hover:text-pink-700">-->
-<!--                Timeline-->
-<!--            </nuxt-link>-->
+
             <nuxt-link to="/aboutWebsite"
                        class="button zoom hover:text-green-700  text-sm sm:text-base BackgroundIndex5">
                 About the website

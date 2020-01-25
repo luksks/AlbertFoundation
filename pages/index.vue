@@ -26,6 +26,7 @@
             <Photo/>
             <NetworkBouton/>
             <texte-introduction/>
+            <project/>
         </div>
     </div>
 
@@ -34,6 +35,7 @@
 <script>
 
     import texteIntroduction from "~/components/IndexPagePrincipale/texteIntroduction.vue";
+    import project from "~/components/IndexPagePrincipale/project.vue";
     import Photo from "~/components/IndexPagePrincipale/Photo.vue";
     import NetworkBouton from "~/components/IndexPagePrincipale/NetworkBouton.vue";
     import paper from "~/components/SpecialComponents/grain_effect.vue";
@@ -47,7 +49,7 @@
                 title: "Home page"
             };
         },
-        components: {NavBarre, texteIntroduction, Photo, NetworkBouton}
+        components: {NavBarre, Photo,texteIntroduction, project , NetworkBouton}
 
     };
 </script>
