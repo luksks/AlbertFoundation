@@ -12,7 +12,7 @@
                                 height="256"
                                 width="256"
                                 alt="Me, Albert Lanne, cool showcase?"
-                                src="../../assets/img/indexImageProfil.jpg">
+                                src="../../assets/img/index/ImageProfil.jpg">
                     </picture>
 
                 </div>
