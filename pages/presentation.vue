@@ -87,7 +87,6 @@
 </template>
 
 <script>
-
     import Photo from "../components/IndexPagePrincipale/Photo";
     import NavBarre from "~/components/NavBarre.vue";
 

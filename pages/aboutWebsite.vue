@@ -53,7 +53,7 @@
             <div class="sm:w-3/5  md:w-auto lg:w-11/12 mx-4 my-4 bg-background-secondary align-baseline items-center hover:shadow-xl px-3 py-2 m-2 rounded ">
                 <p class="lg:text-2xl sm:text-3xl  text-2xl my-4">Data science</p>
 
-                <p class="lg:text-lg sm:text-2xl text-xl  flex flex-wrap ">The website has an important backend of
+                <p class="lg:text-lg sm:text-2xl text-xl">The website has an important backend of
                     data analysis. I time to watch the video of google SkillShop and have the certification on google
                     analytics, google ads spend an important and general e-marketing. For the websites, I use different
                     metrics tools for analyse the data of it and improve the experiences of the users. Mostly I watch
@@ -63,6 +63,15 @@
                 <!--                    <p class="text-3xl my-4">Google Ads</p>-->
             </div>
         </div>
+
+                <div class="mb-8 text-copy-primary hover:shadow-xl mt-4 mx-4 bg-background-secondary
+                              items-baseline flex hover:shadow-xl px-3 py-2 m-2 rounded ">
+                    <div id="app">
+                        <canvas id="myLineChart"></canvas>
+                    </div>
+                    <div class="flex">
+                    </div>
+                    </div>
 
         <!--        <div class="mb-8 text-copy-primary hover:shadow-xl mt-4 mx-4 bg-background-secondary-->
         <!--                      items-baseline flex hover:shadow-xl px-3 py-2 m-2 rounded ">-->
@@ -104,10 +113,12 @@
     </div>
 </template>
 
+
+
 <script>
+
     import NavBarre from "~/components/NavBarre.vue";
     import {version} from '../package.json'
-
     export default {
         name: "about",
         head() {
