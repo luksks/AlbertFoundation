@@ -1,6 +1,5 @@
 <template>
     <div class="font-sans ">
-
         <div class=" max-w-lg mx-auto my-8 ">
         <div class=" text-center">
             <div class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
@@ -10,6 +9,183 @@
             </div>
         </div>
         </div>
+
+
+
+
+
+
+
+        <div class=" max-w-lg mx-auto my-8 border border-border-color-primary">
+            <div class="bg-background-tertiary p-4 flex border-t border-border-color-primary">
+
+                <div class="w-1/5 pr-4">
+                    <img class="rounded rounded-full mr-4"
+                         src="../assets/img/index/ImageProfil.jpg">
+                </div>
+                <div class="p-2 flex-grow w-4/5">
+                    <div>
+                        <a href="#">
+                            <span class="font-medium text-copy-primary">Albert Lanne</span>
+                            <span class="font-normal text-copy-secondary">@AlbertLanne</span>
+                        </a>
+                        <div class="text-xs text-grey flex items-center my-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                 class="h-4 w-4 mr-1 feather feather-calendar stroke-current text-copy-primary">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2 "></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            <span class="text-copy-primary">13/11/1999</span>
+                        </div>
+                    </div>
+                    <div class="py-4 leading-normal items-stretch text-copy-primary">
+                        Thank's !<a class="no-underline text-blue-300" href="#">@my_mom</a> I was born 🎉🎇🎉✨
+                    </div>
+                    <footer class="border-t border-border-color-primary text-sm flex">
+                        <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                 class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
+                                <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                            </svg>
+                            <span class="text-copy-primary">Liked</span>
+                        </a>
+                        <a href="#" class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                 class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                            </svg>
+                            <span class="text-copy-primary">Reply</span>
+                        </a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <!--     National diploma -->
+        <div class="bg-background-tertiary max-w-lg mx-auto my-8 border border-border-color-primary">
+            <a href="https://uxplanet.org/redesign-neiman-marcus-ios-app-5a0db3119b36"
+               class="block  no-underline text-copy-primary">
+                <img src="../assets/img/timeline/national_college_diploma.jpg" alt="My diploma">
+                <div class="p-4">
+                    <h2 class="font-medium text-lg mb-2">French National Diploma </h2>
+                    <p class="leading-normal mb-4 text-copy-secondary">
+                        At College Notre-Dame Lisieux. I had already mounted my computers. During this period I also
+                        do a little internship at Ava information a computer repairman. I was 15 years old.
+                    </p>
+                </div>
+            </a>
+
+            <footer class=" text-sm flex pb-6">
+                <div class="w-32 ">
+
+                </div>
+
+                <div class="w-4/5 flex mr-6 border-t border-border-color-primary">
+                <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
+                        <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                    </svg>
+                    <span class="text-copy-primary">Liked</span>
+                </a>
+
+                <a href="#" class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
+                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                    <span class="text-copy-primary">Reply</span>
+                </a>
+                </div>
+            </footer>
+
+        </div>
+
+
+        <!--     Ma naissance -->
+        <div class=" max-w-lg mx-auto my-8 border border-border-color-primary">
+            <div class="bg-background-tertiary p-4 flex border-t border-border-color-primary">
+
+                <div class="w-1/5 pr-4">
+                    <img class="rounded rounded-full mr-4"
+                         src="../assets/img/index/ImageProfil.jpg">
+                </div>
+                <div class="p-2 flex-grow w-4/5">
+                    <div>
+                        <a href="#">
+                            <span class="font-medium text-copy-primary">Albert Lanne</span>
+                            <span class="font-normal text-copy-secondary">@AlbertLanne</span>
+                        </a>
+                        <div class="text-xs text-grey flex items-center my-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                 class="h-4 w-4 mr-1 feather feather-calendar stroke-current text-copy-primary">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2 "></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            <span class="text-copy-primary">13/11/1999</span>
+                        </div>
+                    </div>
+                    <div class="py-4 leading-normal items-stretch text-copy-primary">
+                        Thank's !<a class="no-underline text-blue-300" href="#">@my_mom</a> I was born 🎉🎇🎉✨
+                    </div>
+                    <footer class="border-t border-border-color-primary text-sm flex">
+                        <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                 class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
+                                <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                            </svg>
+                            <span class="text-copy-primary">Liked</span>
+                        </a>
+                        <a href="#" class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                 class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                            </svg>
+                            <span class="text-copy-primary">Reply</span>
+                        </a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div class="bg-white max-w-lg mx-auto my-8 border border-gray-100 rounded-t-lg overflow-hidden w-full">
             <div class="flex flex-wrap no-underline text-black h-64 overflow-hidden">
@@ -438,138 +614,138 @@
 <!--            </div>-->
 <!--        </div>-->
 <!--    </div>-->
-<style scoped>
-    * {
-        box-sizing: border-box;
-    }
+<!--<style scoped>-->
+<!--    * {-->
+<!--        box-sizing: border-box;-->
+<!--    }-->
 
-    body {
-        background-color: #474e5d;
-        font-family: Helvetica, sans-serif;
-    }
+<!--    body {-->
+<!--        background-color: #474e5d;-->
+<!--        font-family: Helvetica, sans-serif;-->
+<!--    }-->
 
-    /* The actual timeline (the vertical ruler) */
-    .timeline {
-        position: relative;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
+<!--    /* The actual timeline (the vertical ruler) */-->
+<!--    .timeline {-->
+<!--        position: relative;-->
+<!--        max-width: 1200px;-->
+<!--        margin: 0 auto;-->
+<!--    }-->
 
-    /* The actual timeline (the vertical ruler) */
-    .timeline::after {
-        content: '';
-        position: absolute;
-        width: 6px;
-        background-color: white;
-        top: 0;
-        bottom: 0;
-        left: 50%;
-        margin-left: -3px;
-    }
+<!--    /* The actual timeline (the vertical ruler) */-->
+<!--    .timeline::after {-->
+<!--        content: '';-->
+<!--        position: absolute;-->
+<!--        width: 6px;-->
+<!--        background-color: white;-->
+<!--        top: 0;-->
+<!--        bottom: 0;-->
+<!--        left: 50%;-->
+<!--        margin-left: -3px;-->
+<!--    }-->
 
-    /* Container around content */
-    .container {
-        padding: 10px 40px;
-        position: relative;
-        background-color: inherit;
-        width: 50%;
-    }
+<!--    /* Container around content */-->
+<!--    .container {-->
+<!--        padding: 10px 40px;-->
+<!--        position: relative;-->
+<!--        background-color: inherit;-->
+<!--        width: 50%;-->
+<!--    }-->
 
-    /* The circles on the timeline */
-    .container::after {
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        right: -12px;
-        background-color: white;
-        border: 4px solid #FF9F55;
-        top: 15px;
-        border-radius: 50%;
-        z-index: 1;
-    }
+<!--    /* The circles on the timeline */-->
+<!--    .container::after {-->
+<!--        content: '';-->
+<!--        position: absolute;-->
+<!--        width: 25px;-->
+<!--        height: 25px;-->
+<!--        right: -12px;-->
+<!--        background-color: white;-->
+<!--        border: 4px solid #FF9F55;-->
+<!--        top: 15px;-->
+<!--        border-radius: 50%;-->
+<!--        z-index: 1;-->
+<!--    }-->
 
-    /* Place the container to the left */
-    .left {
-        left: 0;
-    }
+<!--    /* Place the container to the left */-->
+<!--    .left {-->
+<!--        left: 0;-->
+<!--    }-->
 
-    /* Place the container to the right */
-    .right {
-        left: 50%;
-    }
+<!--    /* Place the container to the right */-->
+<!--    .right {-->
+<!--        left: 50%;-->
+<!--    }-->
 
-    /* Add arrows to the left container (pointing right) */
-    .left::before {
-        content: " ";
-        height: 0;
-        position: absolute;
-        top: 22px;
-        width: 0;
-        z-index: 1;
-        right: 30px;
-        border: medium solid white;
-        border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent white;
-    }
+<!--    /* Add arrows to the left container (pointing right) */-->
+<!--    .left::before {-->
+<!--        content: " ";-->
+<!--        height: 0;-->
+<!--        position: absolute;-->
+<!--        top: 22px;-->
+<!--        width: 0;-->
+<!--        z-index: 1;-->
+<!--        right: 30px;-->
+<!--        border: medium solid white;-->
+<!--        border-width: 10px 0 10px 10px;-->
+<!--        border-color: transparent transparent transparent white;-->
+<!--    }-->
 
-    /* Add arrows to the right container (pointing left) */
-    .right::before {
-        content: " ";
-        height: 0;
-        position: absolute;
-        top: 22px;
-        width: 0;
-        z-index: 1;
-        left: 30px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-    }
+<!--    /* Add arrows to the right container (pointing left) */-->
+<!--    .right::before {-->
+<!--        content: " ";-->
+<!--        height: 0;-->
+<!--        position: absolute;-->
+<!--        top: 22px;-->
+<!--        width: 0;-->
+<!--        z-index: 1;-->
+<!--        left: 30px;-->
+<!--        border: medium solid white;-->
+<!--        border-width: 10px 10px 10px 0;-->
+<!--        border-color: transparent white transparent transparent;-->
+<!--    }-->
 
-    /* Fix the circle for containers on the right side */
-    .right::after {
-        left: -13px;
-    }
+<!--    /* Fix the circle for containers on the right side */-->
+<!--    .right::after {-->
+<!--        left: -13px;-->
+<!--    }-->
 
-    /* The actual content */
-    .content {
-        padding: 20px 30px;
-        background-color: white;
-        position: relative;
-        border-radius: 6px;
-    }
+<!--    /* The actual content */-->
+<!--    .content {-->
+<!--        padding: 20px 30px;-->
+<!--        background-color: white;-->
+<!--        position: relative;-->
+<!--        border-radius: 6px;-->
+<!--    }-->
 
-    /* Media queries - Responsive timeline on screens less than 600px wide */
-    @media screen and (max-width: 600px) {
-        /* Place the timelime to the left */
-        .timeline::after {
-            left: 31px;
-        }
+<!--    /* Media queries - Responsive timeline on screens less than 600px wide */-->
+<!--    @media screen and (max-width: 600px) {-->
+<!--        /* Place the timelime to the left */-->
+<!--        .timeline::after {-->
+<!--            left: 31px;-->
+<!--        }-->
 
-        /* Full-width containers */
-        .container {
-            width: 100%;
-            padding-left: 70px;
-            padding-right: 25px;
-        }
+<!--        /* Full-width containers */-->
+<!--        .container {-->
+<!--            width: 100%;-->
+<!--            padding-left: 70px;-->
+<!--            padding-right: 25px;-->
+<!--        }-->
 
-        /* Make sure that all arrows are pointing leftwards */
-        .container::before {
-            left: 60px;
-            border: medium solid white;
-            border-width: 10px 10px 10px 0;
-            border-color: transparent white transparent transparent;
-        }
+<!--        /* Make sure that all arrows are pointing leftwards */-->
+<!--        .container::before {-->
+<!--            left: 60px;-->
+<!--            border: medium solid white;-->
+<!--            border-width: 10px 10px 10px 0;-->
+<!--            border-color: transparent white transparent transparent;-->
+<!--        }-->
 
-        /* Make sure all circles are at the same spot */
-        .left::after, .right::after {
-            left: 15px;
-        }
+<!--        /* Make sure all circles are at the same spot */-->
+<!--        .left::after, .right::after {-->
+<!--            left: 15px;-->
+<!--        }-->
 
-        /* Make all right containers behave like the left ones */
-        .right {
-            left: 0%;
-        }
-    }
-</style>
+<!--        /* Make all right containers behave like the left ones */-->
+<!--        .right {-->
+<!--            left: 0%;-->
+<!--        }-->
+<!--    }-->
+<!--</style>-->

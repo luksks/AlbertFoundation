@@ -16,7 +16,7 @@
             </a>
 
         </div>
-<i class="text-2xl text-white mt-8 font-mono -mb-4 border-b-2 border-white"> Recent project work</i>
+<i class="text-2xl text-white mt-8 font-mono -mb-4 border-b-2 border-border-color-primary"> Recent project work</i>
     </div>
 </template>
 
