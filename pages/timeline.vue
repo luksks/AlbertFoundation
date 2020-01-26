@@ -1,17 +1,28 @@
 <template>
     <div class="font-sans ">
-        <div class="bg-white max-w-md mx-auto my-8 border border-grey-light rounded-t-lg overflow-hidden w-full">
+
+        <div class=" max-w-lg mx-auto my-8 ">
+        <div class=" text-center">
+            <div class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+                <span class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">New</span>
+                <span class="font-semibold mr-2 text-left flex-auto">The (under construction) timeline of my life !</span>
+                <svg class="fill-current opacity-75 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+            </div>
+        </div>
+        </div>
+
+        <div class="bg-white max-w-lg mx-auto my-8 border border-gray-100 rounded-t-lg overflow-hidden w-full">
             <div class="flex flex-wrap no-underline text-black h-64 overflow-hidden">
                 <div class="w-3/4 h-full">
                     <img class="block pr-px w-full h-full" src="https://pbs.twimg.com/media/DRKabGUW0AA4yzH.jpg:large" alt=""
                          style="object-fit: cover;">
                 </div>
                 <div class="w-1/4 h-full">
-                    <div class="bg-grey-darkest mb-px h-32">
+                    <div class="bg-pink-200 mb-px h-32">
                         <img class="block w-full h-full" src="https://pbs.twimg.com/media/DRKabdIX0AAN-Pa.jpg" alt=""
                              style="object-fit: cover;">
                     </div>
-                    <div class="bg-grey-darkest h-32">
+                    <div class="bg-pink-200 h-32">
                         <img class="block w-full h-full" src="https://pbs.twimg.com/media/DRKacEZWkAAg0-l.jpg" alt=""
                              style="object-fit: cover;">
                     </div>
@@ -43,8 +54,8 @@
                     <article class="py-4 text-grey-darkest">
                         Lorem ipsum sit dolor et amet et cetera og quandum morales.
                     </article>
-                    <footer class="border-t border-grey-lighter text-sm flex">
-                        <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center hover:bg-grey-lighter">
+                    <footer class="border-t border-gray-100 text-sm flex">
+                        <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current">
@@ -52,7 +63,7 @@
                             </svg>
                             <span>Liked</span>
                         </a>
-                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center hover:bg-grey-lighter">
+                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-message-circle h-6 w-6 mr-1">
@@ -64,7 +75,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white max-w-md mx-auto my-8 border border-grey-light">
+        <div class="bg-white max-w-lg mx-auto my-8 border border-gray-100">
             <div class="flex pt-4 px-4">
                 <div class="w-16 mr-2">
                     <img class="p-2 rounded rounded-full"
@@ -91,8 +102,8 @@
                     <article class="py-4 text-grey-darkest">
                         Lorem ipsum sit dolor et amet et cetera og quandum morales.
                     </article>
-                    <footer class="border-t border-grey-lighter text-sm flex">
-                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center hover:bg-grey-lighter">
+                    <footer class="border-t border-gray-100 text-sm flex">
+                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-thumbs-up h-6 w-6 mr-1">
@@ -100,7 +111,7 @@
                             </svg>
                             <span>Like</span>
                         </a>
-                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center hover:bg-grey-lighter">
+                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-message-circle h-6 w-6 mr-1">
@@ -111,7 +122,7 @@
                     </footer>
                 </div>
             </div>
-            <div class="bg-grey-lightest p-4 pl-8 flex border-t border-grey-light">
+            <div class="bg-grey-lightest p-4 pl-8 flex border-t border-gray-100">
                 <div class="w-12 mr-2 flex-no-shrink">
                     <img class="p-2 rounded rounded-full"
                          src="https://scontent-frt3-1.cdninstagram.com/t51.2885-19/s150x150/22638783_1031626323645160_6412994168498421760_n.jpg">
@@ -137,8 +148,8 @@
                     <article class="py-4 text-grey-darkest">
                         Lorem ipsum no lo se dolores ametandum come
                     </article>
-                    <footer class="border-t border-grey-lighter text-sm flex">
-                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center hover:bg-grey-lighter">
+                    <footer class="border-t border-gray-100 text-sm flex">
+                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-thumbs-up h-6 w-6 mr-1">
@@ -146,7 +157,7 @@
                             </svg>
                             <span>Like</span>
                         </a>
-                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center hover:bg-grey-lighter">
+                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-message-circle h-6 w-6 mr-1">
@@ -157,7 +168,7 @@
                     </footer>
                 </div>
             </div>
-            <div class="bg-grey-lightest p-4 pl-8 flex border-t border-grey-lighter">
+            <div class="bg-grey-lightest p-4 pl-8 flex border-t border-gray-100">
                 <div class="w-12 mr-2 flex-no-shrink">
                     <img class="p-2 rounded rounded-full"
                          src="https://scontent-frt3-1.cdninstagram.com/t51.2885-19/s150x150/22638783_1031626323645160_6412994168498421760_n.jpg">
@@ -184,8 +195,8 @@
                         <a class="no-underline text-blue" href="#">@max_the_great</a> Lorem ipsum no lo se dolores ametandum no come,
                         astare pero canime perferme
                     </article>
-                    <footer class="border-t border-grey-lighter text-sm flex">
-                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center hover:bg-grey-lighter">
+                    <footer class="border-t border-gray-100 text-sm flex">
+                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-thumbs-up h-6 w-6 mr-1">
@@ -193,7 +204,7 @@
                             </svg>
                             <span>Like</span>
                         </a>
-                        <a href="#" class="block no-underline text-black flex mr-4 px-4 py-2 items-center hover:bg-grey-lighter">
+                        <a href="#" class="block no-underline text-black flex mr-4 px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-message-circle h-6 w-6 mr-1">
@@ -223,7 +234,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white max-w-md mx-auto my-8 border border-grey-light">
+        <div class="bg-white max-w-lg mx-auto my-8 border border-gray-100">
             <div class="flex pt-4 px-4">
                 <div class="w-16 mr-2">
                     <img class="p-2 rounded rounded-full"
@@ -250,8 +261,8 @@
                     <article class="py-4 text-grey-darkest">
                         Lorem ipsum sit dolor et amet et cetera og quandum morales.
                     </article>
-                    <footer class="border-t border-grey-lighter text-sm flex">
-                        <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center hover:bg-grey-lighter">
+                    <footer class="border-t border-gray-100 text-sm flex">
+                        <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current">
@@ -259,7 +270,7 @@
                             </svg>
                             <span>Liked</span>
                         </a>
-                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center hover:bg-grey-lighter">
+                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-message-circle h-6 w-6 mr-1">
@@ -270,7 +281,7 @@
                     </footer>
                 </div>
             </div>
-            <div class="bg-grey-lightest p-4 pl-8 flex border-t border-grey-lighter">
+            <div class="bg-grey-lightest p-4 pl-8 flex border-t border-gray-100">
                 <div class="w-12 mr-2 flex-no-shrink">
                     <img class="p-2 rounded rounded-full"
                          src="https://scontent-frt3-1.cdninstagram.com/t51.2885-19/s150x150/22638783_1031626323645160_6412994168498421760_n.jpg">
@@ -297,8 +308,8 @@
                         <a class="no-underline text-blue" href="#">@max_the_great</a> Lorem ipsum no lo se dolores ametandum no come,
                         astare pero canime perferme
                     </article>
-                    <footer class="border-t border-grey-lighter text-sm flex">
-                        <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center hover:bg-grey-lighter">
+                    <footer class="border-t border-gray-100 text-sm flex">
+                        <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current">
@@ -306,7 +317,7 @@
                             </svg>
                             <span>Liked</span>
                         </a>
-                        <a href="#" class="block no-underline text-black flex mr-4 px-4 py-2 items-center hover:bg-grey-lighter">
+                        <a href="#" class="block no-underline text-black flex mr-4 px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-message-circle h-6 w-6 mr-1">
@@ -318,9 +329,9 @@
                 </div>
             </div>
         </div>
-        <div class="bg-white max-w-md mx-auto my-8 border border-grey-light">
+        <div class="bg-white max-w-lg mx-auto my-8 border border-gray-100">
             <a href="https://uxplanet.org/redesign-neiman-marcus-ios-app-5a0db3119b36"
-               class="block border-b border-grey-light no-underline text-black">
+               class="block border-b border-gray-100 no-underline text-black">
                 <img src="https://cdn-images-1.medium.com/max/1000/1*0SiPB4-TouBdJCpVwGwLdw.png" alt="">
                 <div class="p-4">
                     <h2 class="font-medium text-lg mb-2">How I Redesign - Neiman Marcus iOS App</h2>
@@ -359,8 +370,8 @@
                     <article class="py-4 text-grey-darkest">
                         Lorem ipsum sit dolor et amet et cetera og quandum morales.
                     </article>
-                    <footer class="border-t border-grey-lighter text-sm flex">
-                        <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center hover:bg-grey-lighter">
+                    <footer class="border-t border-gray-100 text-sm flex">
+                        <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current">
@@ -368,7 +379,7 @@
                             </svg>
                             <span>Liked</span>
                         </a>
-                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center hover:bg-grey-lighter">
+                        <a href="#" class="block no-underline text-black flex px-4 py-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                  class="feather feather-message-circle h-6 w-6 mr-1">
