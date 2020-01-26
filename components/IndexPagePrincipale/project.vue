@@ -15,22 +15,25 @@
                 </div>
             </div>
 
-    <div class="sm:w-1/3 w-full sm:mt-0 mt-16
-                px-4 h-full items-stretch justify-center flex">
-<!--        <a href="https://github.com/AlbertLanne/ThemeJS_TailwindCSS_NuxtJS" class=" shadow-3xl autre justify-center items-center flex rounded-lg -p-4 hover:bg-black-->
-<!--                  border border-gray-800">-->
-<!--            <img src="../../assets/img/test/space_website.png" alt="project">-->
-<!--            <br><br>-->
-<!--        </a>-->
-        <div class="h-full  w-full shadow-3xl autre mx-auto justify-center items-center rounded-lg -p-4 hover:bg-black border border-gray-800">
-                <a href="https://github.com/AlbertLanne/ProductionMonitoringMysql">
-                    <img src="../../assets/img/index/logo_project.jpg" alt="project" class="my-6 h-32 w-auto mx-auto"> </a>
-            <div class="w-full flex">
-                <p class="text-white text-xl text-center flex mx-auto font-mono">BTS SN IR diploma Project</p>
-            </div>
-        </div>
 
+    <div class="sm:w-1/3 w-full sm:mt-0 mt-16 relative px-4 h-full items-stretch justify-center flex">
+        <div class="h-full  w-full shadow-3xl autre mx-auto justify-center items-center rounded-lg -p-4 hover:bg-black border border-gray-800">
+            <img src="../../assets/img/index/chart.png" alt="project" class="flex bg-cover items-stretch h-48   w-auto">
+<!--            <a href="https://github.com/AlbertLanne/ProductionMonitoringMysql">-->
+<!--            <img src="../../assets/img/index/logo_project.jpg" alt="project" class="absolute bg-cover"> -->
+<!--            </a>-->
+
+        </div>
+        <div class= "absolute">
+
+            <p class="text-white text-xl text-center flex mx-auto font-mono mt-2">BTS SN IR diploma Project</p>
+                        <a href="https://github.com/AlbertLanne/ProductionMonitoringMysql">
+                        <img src="../../assets/img/index/logo_project.jpg" alt="project" class=" mt-2 absolute bg-cover h-32 w-auto ">
+                        </a>
+
+        </div>
     </div>
+
 
     <div class="sm:w-1/3 w-full sm:mt-0 mt-16
                 px-4 items-stretch justify-center flex">

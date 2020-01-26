@@ -16,13 +16,31 @@
 
 ---
 
-
 ## Installation
 
--You need to have NodeJS,Vue.js
+It's a nodejs project you need to have NodeJS, Nuxt.JS, webpack, Vue.js
 ```shell
 $ npm run build
 $ npm run dev
 ```
 
-## the defaut port is 1234
+The defaut port is 8080
+
+
+## Contributing
+
+1. [Create a fork](https://help.github.com/en/articles/fork-a-repo) of this project
+2. Clone the project:
+```bash
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/AlbertFoundation
+```
+2. Create your Feature Branch (`git checkout -b AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Useful link and ressources
+* [Nuxt.JS](https://nuxtjs.org/guide/installation/)
+* [Vue.JS](vuejs.org)
+
+

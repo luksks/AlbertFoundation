@@ -31,7 +31,7 @@
 
                 <p class="flex sm:justify-start justify-center sm:mb-0 mb-4
                  sm:p-0 sm:px-0 p-1 px-2 rounded my-2 hover:text-blue-700">
-                    - Theme Dark
+                    - ( ͡° ͜ʖ ͡°)
                 </p>
                 <p class="sm:text-left text-center cursor-pointer sm:p-0 sm:px-0 p-1 px-3 my-2 hover:text-blue-700"
                    title="The opensource repo of the website !"><a
