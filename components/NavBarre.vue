@@ -13,10 +13,10 @@
         <!--        Div pour les élément de droite-->
 
         <div class=" align-baseline flex justify-end  text-copy-primary sm:mx-0 mx-auto">
-<!--            <nuxt-link to="/pagechart"-->
-<!--                       class="button zoom hover:text-pink-700">-->
-<!--                chart-->
-<!--            </nuxt-link>-->
+            <nuxt-link to="/timeline"
+                       class="button zoom hover:text-pink-700 BackgroundIndex5">
+                Timeline
+            </nuxt-link>
             <nuxt-link to="/presentation"
                        class=" button zoom hover:text-purple-700 BackgroundIndex5">
                 Presentation
