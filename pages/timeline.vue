@@ -94,7 +94,23 @@
 
 
         <!--        internship + navy diploma    -->
+
         <div class="bg-background-tertiary max-w-lg mx-auto my-8 border border-border-color-primary overflow-hidden w-full">
+            <div class="flex flex-wrap no-underline text-copy-primary h-32 overflow-hidden">
+                <div class="w-1/2 h-full">
+                    <a  href="https://jdmmedical.fr/">
+                    <img class="block pr-px w-full h-full" src="../assets/img/timeline/EMERYA_main_illustration.JPG" alt="Project of website during my internship"
+                         style="object-fit: cover;">
+                    </a>
+                </div>
+                <div class="w-1/2 h-full">
+                    <div class="bg-pink-200 mb-px h-32">
+                        <img class="block w-full h-full" src="../assets/img/timeline/EMERYA_second_illustration.JPG" alt="Other of website during my internship"
+                             style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+
             <div class="p-4 text-copy-primary">
                 <h2 class="font-medium text-lg mb-2">Internship - EMERYA Thailande, (๘๓๑๐๐, ประเทศไทย)</h2>
                 <div class="text-xs text-copy-secondary flex items-center my-1 pl-4 ">
