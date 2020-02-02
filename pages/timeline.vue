@@ -91,7 +91,7 @@
                             <p class="text-blue-500">Liked !</p>
                     </a>
                     <!--                    Reply                    -->
-                    <a class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                    <a class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center" v-on:click="isNinja = !isNinja">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
@@ -102,9 +102,9 @@
                 </div>
             </footer>
                 <!-- REPLY FORM-->
-            <div class="bg-grey-lighter p-4 pl-8 text-copy-primary">
+            <siv class="bg-grey-lighter p-4 pl-8 text-copy-primary" v-show="!isNinja">
                 <textarea class="px-2 w-full border border-blue rounded hover:bg-background-primary bg-background-tertiary italic font-mono  focus:outline-none focus:shadow-outline"></textarea>
-                <div class="flex justify-between items-center mt-2">
+                <span class="flex justify-between items-center mt-2">
                     <button class="p-2 text-blue leading-none rounded border border-transparent hover:border-blue">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -117,8 +117,8 @@
                     <button class="py-2 px-4 text-copy-primary bg-background-secondary border border-border-color-primary rounded-full  focus:outline-none focus:shadow-outline">
                         Reply
                     </button>
-                </div>
-            </div>
+                </span>
+            </siv>
 
 
 
@@ -994,6 +994,7 @@
         },
         data() {
             return {
+            isNinja: true,
             counter1: '',
             counter2: '',
             counter3: '',
