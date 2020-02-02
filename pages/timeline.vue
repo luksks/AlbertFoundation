@@ -65,22 +65,33 @@
     <a class="text-s" href="https://github.com/AlbertLanne/ProductionMonitoringMysql">https://github.com/AlbertLanne/ProductionMonitoringMysql</a>
 </div>
             </div>
+
             <footer class=" text-sm flex pb-6">
                 <div class="w-32 ">
-
                 </div>
-
                 <div class="w-4/5 flex mr-6 border-t border-border-color-primary">
-                    <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    <!--                    Counter text                    -->
+
+                    <p class="text-blue-500 items-center flex text-2xl"> {{ counter8 }}</p>
+                    <!--                    Counter text                    -->
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-on:click="counter8 += 1" v-if="counter8 === ''">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
                             <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
-                        </svg>
-                        <span class="text-copy-primary">Liked</span>
+                          </svg>
+                            <p class="text-copy-primary">Liked</p>
                     </a>
-
-                    <a href="#" class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-else>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-blue-500">
+                            <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                        </svg>
+                            <p class="text-blue-500">Liked !</p>
+                    </a>
+                    <!--                    Reply                    -->
+                    <a class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
@@ -90,6 +101,27 @@
                     </a>
                 </div>
             </footer>
+                <!-- REPLY FORM-->
+            <div class="bg-grey-lighter p-4 pl-8 text-copy-primary">
+                <textarea class="px-2 w-full border border-blue rounded hover:bg-background-primary bg-background-tertiary italic font-mono  focus:outline-none focus:shadow-outline"></textarea>
+                <div class="flex justify-between items-center mt-2">
+                    <button class="p-2 text-blue leading-none rounded border border-transparent hover:border-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="feather feather-image stroke-current text-copy-primary ">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                    </button>
+                    <button class="py-2 px-4 text-copy-primary bg-background-secondary border border-border-color-primary rounded-full  focus:outline-none focus:shadow-outline">
+                        Reply
+                    </button>
+                </div>
+            </div>
+
+
+
         </div>
 
 
@@ -131,20 +163,30 @@
             </div>
             <footer class=" text-sm flex pb-6">
                 <div class="w-32 ">
-
                 </div>
-
                 <div class="w-4/5 flex mr-6 border-t border-border-color-primary">
-                    <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
+                    <!--                    Counter text                    -->
+
+                    <p class="text-blue-500 items-center flex text-2xl"> {{ counter7 }}</p>
+                    <!--                    Counter text                    -->
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-on:click="counter7 += 1" v-if="counter7 === ''">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
                             <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
                         </svg>
-                        <span class="text-copy-primary">Liked</span>
+                        <p class="text-copy-primary">Liked</p>
                     </a>
-
-                    <a href="#" class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-else>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-blue-500">
+                            <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                        </svg>
+                        <p class="text-blue-500">Liked !</p>
+                    </a>
+                    <!--                    Reply                    -->
+                    <a class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
@@ -195,20 +237,30 @@
             </div>
             <footer class=" text-sm flex pb-6">
                 <div class="w-32 ">
-
                 </div>
-
                 <div class="w-4/5 flex mr-6 border-t border-border-color-primary">
-                    <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
+                    <!--                    Counter text                    -->
+
+                    <p class="text-blue-500 items-center flex text-2xl"> {{ counter6 }}</p>
+                    <!--                    Counter text                    -->
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-on:click="counter6 += 1" v-if="counter6 === ''">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
                             <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
                         </svg>
-                        <span class="text-copy-primary">Liked</span>
+                        <p class="text-copy-primary">Liked</p>
                     </a>
-
-                    <a href="#" class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-else>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-blue-500">
+                            <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                        </svg>
+                        <p class="text-blue-500">Liked !</p>
+                    </a>
+                    <!--                    Reply                    -->
+                    <a class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
@@ -261,20 +313,30 @@
             </div>
             <footer class=" text-sm flex pb-6">
                 <div class="w-32 ">
-
                 </div>
-
                 <div class="w-4/5 flex mr-6 border-t border-border-color-primary">
-                    <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
+                    <!--                    Counter text                    -->
+
+                    <p class="text-blue-500 items-center flex text-2xl"> {{ counter5 }}</p>
+                    <!--                    Counter text                    -->
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-on:click="counter5 += 1" v-if="counter5 === ''">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
                             <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
                         </svg>
-                        <span class="text-copy-primary">Liked</span>
+                        <p class="text-copy-primary">Liked</p>
                     </a>
-
-                    <a href="#" class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-else>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-blue-500">
+                            <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                        </svg>
+                        <p class="text-blue-500">Liked !</p>
+                    </a>
+                    <!--                    Reply                    -->
+                    <a class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
@@ -285,6 +347,9 @@
                 </div>
             </footer>
         </div>
+
+
+
 
 
         <div class="bg-background-tertiary max-w-lg mx-auto my-8 border border-border-color-primary overflow-hidden w-full">
@@ -307,20 +372,30 @@
             </div>
             <footer class=" text-sm flex pb-6">
                 <div class="w-32 ">
-
                 </div>
-
                 <div class="w-4/5 flex mr-6 border-t border-border-color-primary">
-                    <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
+                    <!--                    Counter text                    -->
+
+                    <p class="text-blue-500 items-center flex text-2xl"> {{ counter4 }}</p>
+                    <!--                    Counter text                    -->
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-on:click="counter4 += 1" v-if="counter4 === ''">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
                             <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
                         </svg>
-                        <span class="text-copy-primary">Liked</span>
+                        <p class="text-copy-primary">Liked</p>
                     </a>
-
-                    <a href="#" class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-else>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-blue-500">
+                            <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                        </svg>
+                        <p class="text-blue-500">Liked !</p>
+                    </a>
+                    <!--                    Reply                    -->
+                    <a class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
@@ -331,9 +406,6 @@
                 </div>
             </footer>
         </div>
-
-
-
 
         <div class="bg-background-tertiary max-w-lg mx-auto my-8 border border-border-color-primary overflow-hidden w-full">
             <div class="p-4 text-copy-primary">
@@ -355,20 +427,30 @@
             </div>
             <footer class=" text-sm flex pb-6">
                 <div class="w-32 ">
-
                 </div>
-
                 <div class="w-4/5 flex mr-6 border-t border-border-color-primary">
-                    <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
+                    <!--                    Counter text                    -->
+
+                    <p class="text-blue-500 items-center flex text-2xl"> {{ counter3 }}</p>
+                    <!--                    Counter text                    -->
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-on:click="counter3 += 1" v-if="counter3 === ''">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
                             <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
                         </svg>
-                        <span class="text-copy-primary">Liked</span>
+                        <p class="text-copy-primary">Liked</p>
                     </a>
-
-                    <a href="#" class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-else>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-blue-500">
+                            <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                        </svg>
+                        <p class="text-blue-500">Liked !</p>
+                    </a>
+                    <!--                    Reply                    -->
+                    <a class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
@@ -379,12 +461,6 @@
                 </div>
             </footer>
         </div>
-
-
-
-
-
-
 
         <!--     National diploma -->
         <div class="bg-background-tertiary max-w-lg mx-auto my-8 border border-border-color-primary">
@@ -412,34 +488,42 @@
 
             <footer class=" text-sm flex pb-6">
                 <div class="w-32 ">
-
                 </div>
-
                 <div class="w-4/5 flex mr-6 border-t border-border-color-primary">
-                <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                         class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
-                        <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
-                    </svg>
-                    <span class="text-copy-primary">Liked</span>
-                </a>
+                    <!--                    Counter text                    -->
 
-                <a href="#" class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                         class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
-                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
-                    </svg>
-                    <span class="text-copy-primary">Reply</span>
-                </a>
+                    <p class="text-blue-500 items-center flex text-2xl"> {{ counter2 }}</p>
+                    <!--                    Counter text                    -->
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-on:click="counter2 += 1" v-if="counter2 === ''">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
+                            <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                        </svg>
+                        <p class="text-copy-primary">Liked</p>
+                    </a>
+                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-else>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-blue-500">
+                            <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                        </svg>
+                        <p class="text-blue-500">Liked !</p>
+                    </a>
+                    <!--                    Reply                    -->
+                    <a class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                        </svg>
+                        <span class="text-copy-primary">Reply</span>
+                    </a>
                 </div>
             </footer>
 
         </div>
-
-
-        <!--     Ma naissance -->
+        <!--     Born -->
         <div class=" max-w-lg mx-auto my-8 border border-border-color-primary">
             <div class="bg-background-tertiary p-4 flex border-t border-border-color-primary">
 
@@ -468,42 +552,44 @@
                     <div class="py-4 leading-normal items-stretch text-copy-primary">
                         Thank's !<a class="no-underline text-blue-300" href="#">@my_mom</a> I was born 🎉🎇🎉✨
                     </div>
-                    <footer class="border-t border-border-color-primary text-sm flex">
-                        <a href="#" class="block no-underline text-blue flex px-4 py-2 items-center ">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                 class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
-                                <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
-                            </svg>
-                            <span class="text-copy-primary">Liked</span>
-                        </a>
-                        <a href="#" class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                 class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
-                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
-                            </svg>
-                            <span class="text-copy-primary">Reply</span>
-                        </a>
+                    <footer class=" text-sm flex pb-6">
+                        <div class="w-32 ">
+                        </div>
+                        <div class="w-4/5 flex mr-6 border-t border-border-color-primary">
+                            <!--                    Counter text                    -->
+
+                            <p class="text-blue-500 items-center flex text-2xl"> {{ counter1 }}</p>
+                            <!--                    Counter text                    -->
+                            <a class="block no-underline text-blue flex px-4 py-2 items-center" v-on:click="counter1 += 1" v-if="counter1 === ''">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                     class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
+                                    <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                                </svg>
+                                <p class="text-copy-primary">Liked</p>
+                            </a>
+                            <a class="block no-underline text-blue flex px-4 py-2 items-center" v-else>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                     class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-blue-500">
+                                    <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                                </svg>
+                                <p class="text-blue-500">Liked !</p>
+                            </a>
+                            <!--                    Reply                    -->
+                            <a class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                     class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                                </svg>
+                                <span class="text-copy-primary">Reply</span>
+                            </a>
+                        </div>
                     </footer>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -897,7 +983,28 @@
 </template>
 
 <script>
+
     export default {
-        name: "Timeline"
-    }
+        // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-metav
+        head() {
+            return {
+                title: "Timeline",
+            };
+
+        },
+        data() {
+            return {
+            counter1: '',
+            counter2: '',
+            counter3: '',
+            counter4: '',
+            counter5: '',
+            counter6: '',
+            counter7: '',
+            counter8: '',
+            }
+        },
+        components: {}
+    };
+
 </script>
