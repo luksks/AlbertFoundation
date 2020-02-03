@@ -1093,6 +1093,7 @@
                 text: '',
                 category: null,
             }
+
         },
         async created() {
             try {
