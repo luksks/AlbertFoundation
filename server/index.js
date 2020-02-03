@@ -7,6 +7,14 @@ const app = express()
 const config = require('../nuxt.config.js')
 config.dev = process.env.NODE_ENV !== 'production'
 
+
+
+app.get('/', function (req, res) {
+  res.send('GET request to the homepage')
+})
+
+
+
 async function start () {
   // Init Nuxt.js
   const nuxt = new Nuxt(config)
