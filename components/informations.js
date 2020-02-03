@@ -4,6 +4,7 @@ const url = "http://localhost:4000/api/products";
 
 class ProductsService {
   // initialise the data at the url string
+
     static getProducts() {
         return new Promise(async (resolve, reject) => {
             try {
@@ -13,6 +14,7 @@ class ProductsService {
                     data.map(post => ({
                         ...post,
                         createdAt: new Date(post.createdAt)
+
                     }))
                 );
             }

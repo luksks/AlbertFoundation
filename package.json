@@ -5,9 +5,9 @@
   "author": "albert.lanne",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "dev": "node server/index.js",
     "build": "nuxt build",
-    "start": "cross-env NODE_ENV=production node start",
+    "start": "node start",
     "generate": "nuxt generate"
   },
   "dependencies": {
