@@ -16,7 +16,7 @@
                 <p class=" mb-4 hover:text-green-600 sm:text-xl text-2xl ">Ressources</p>
 
                 <a class="sm:p-0 sm:px-0 p-1 px-2  my-2 hover:text-blue-700" download
-                   href="CV_LANNE_Albert.pdf">- CV</a>
+                   href="EN_FR_LANNE_A_CV.pdf">- CV</a>
 
                 <nuxt-link to="/presentation">
                     <p class="sm:p-0 sm:px-0 p-1 px-2  my-2 hover:text-blue-700">

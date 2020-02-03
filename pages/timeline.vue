@@ -102,7 +102,7 @@
                 </div>
             </footer>
                 <!-- REPLY FORM-->
-            <siv class="bg-grey-lighter p-4 pl-8 text-copy-primary" v-show="!isNinja">
+            <div class="bg-grey-lighter p-4 pl-8 text-copy-primary" v-show="!isNinja">
                 <textarea class="px-2 w-full border border-blue rounded hover:bg-background-primary bg-background-tertiary italic font-mono  focus:outline-none focus:shadow-outline"></textarea>
                 <span class="flex justify-between items-center mt-2">
                     <button class="p-2 text-blue leading-none rounded border border-transparent hover:border-blue">
@@ -118,11 +118,16 @@
                         Reply
                     </button>
                 </span>
-            </siv>
+            </div>
 
 
 
-        </div>
+
+
+
+
+
+    </div>
 
 
         <!--        internship + navy diploma    -->
@@ -169,10 +174,10 @@
 
                     <p class="text-blue-500 items-center flex text-2xl"> {{ counter7 }}</p>
                     <!--                    Counter text                    -->
-                    <a class="block no-underline text-blue flex px-4 py-2 items-center" v-on:click="counter7 += 1" v-if="counter7 === ''">
+                    <a class=" block no-underline text-blue flex px-4 py-2 items-center" v-on:click="counter7 += 1" v-if="counter7 === ''">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                             class="feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
+                             class=" feather feather-thumbs-up h-6 w-6 mr-1 stroke-current text-copy-primary">
                             <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
                         </svg>
                         <p class="text-copy-primary">Liked</p>
@@ -186,10 +191,10 @@
                         <p class="text-blue-500">Liked !</p>
                     </a>
                     <!--                    Reply                    -->
-                    <a class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center ">
+                    <a class="block no-underline text-copy-primary flex mr-4 px-4 py-2 items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                             class="feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
+                             class="cursor-pointer feather feather-message-circle h-6 w-6 mr-1 stroke-current text-copy-primary ">
                             <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
                         </svg>
                         <span class="text-copy-primary">Reply</span>
