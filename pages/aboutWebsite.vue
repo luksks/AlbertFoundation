@@ -3,7 +3,7 @@
         <div class="text-justify mt-4 flex-col lg:flex-row h-full w-full flex items text-copy-primary bg-background-primary">
             <div class="mx-4 my-4  flex-wrap bg-background-secondary align-baseline items-center  hover:shadow-xl px-3 py-2 m-2 rounded ">
                 <p class="lg:text-2xl sm:text-3xl  text-2xl  my-4">The structure of the website</p>
-
+<!--SPA/VUEX/le créateur du logo/blender/ -->
                 <div class="mx-4 ">
                     <div class=" mb-12 align-baseline flex sm:text-xl text-xl">
                         <div class="my-auto rounded-lg justify-start w-full">
