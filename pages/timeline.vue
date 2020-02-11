@@ -678,7 +678,7 @@
 
 
 
-
+<!--
         <div class="bg-white max-w-lg mx-auto my-8 border border-border-color-primary  overflow-hidden w-full">
             <div class="flex flex-wrap no-underline text-black h-64 overflow-hidden">
                 <div class="w-3/4 h-full">
@@ -743,7 +743,6 @@
                 </div>
             </div>
         </div>
-
         <div class="bg-white max-w-lg mx-auto my-8 border border-border-color-primary">
             <div class="flex pt-4 px-4">
                 <div class="w-16 mr-2">
@@ -1060,7 +1059,7 @@
                 </div>
             </div>
         </div>
-
+-->
 
     </div>
 
