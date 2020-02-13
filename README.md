@@ -1,6 +1,4 @@
-<a><img src="https://cdnb.artstation.com/p/assets/images/images/021/487/207/large/albert-l-mac-albertfoundation.jpg" title="c++ app made in qt" alt="docker container SQL"></a>
-
-
+![Alt Text](https://i.imgur.com/5DLXteD.gif)
 # AlbertFoundation
 
 > My personnal website create with VueJS, NuxtJS and TailwindCSS.
