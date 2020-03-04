@@ -1,7 +1,6 @@
 <template>
 
 
-
     <header class="flex flex-wrap items-center justify-between flex bg-background-tertiary">
         <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto BackgroundIndex5">
             <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "
@@ -12,7 +11,9 @@
 
         <!--        Div pour les élément de droite-->
 
-        <div class=" align-baseline flex justify-end  text-copy-primary sm:mx-0 mx-auto">
+<!--        flex -mt-3 m-3 text-copy-primary mt-4 flex-wrap  justify-center-->
+        <div class="items-center align-baseline flex flex-wrap sm:justify-end justify-center text-copy-primary sm:mx-0 mx-auto">
+<!--        <div class="flex -mt-3 m-3 text-copy-primary mt-4 flex-wrap  justify-center">-->
             <nuxt-link to="/timeline"
                        class="button zoom hover:text-pink-700 BackgroundIndex5">
                 Timeline

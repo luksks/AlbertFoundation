@@ -21,7 +21,7 @@
             </a>
             <a
                     class="button zoom  hover:text-red-600"
-                    href="mailto:albert.lanne@gmail.com"
+                    href="mailto:albert.lanne@albertfoundation.com"
                     title="Send me an e-mail!"
             >
                 Email
