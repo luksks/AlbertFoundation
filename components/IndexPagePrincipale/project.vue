@@ -81,38 +81,7 @@
                     </a>
                 </div>
             </div>
-
-            <!--    <div class="sm:w-1/3 w-full sm:mt-0 mt-16 relative px-4 h-full items-stretch justify-center flex">-->
-            <!--        <div class="h-full  w-full shadow-3xl autre mx-auto justify-center items-center rounded-lg -p-4 hover:bg-black border border-gray-800">-->
-            <!--            <img src="https://jdmmedical.fr/img/specialiste-handicap-maintien-domicile-jdm-medical-xl.jpg" alt="project" class="h-48 w-full bg-right-bottom flex object-fill bg-cover">-->
-            <!--        </div>-->
-            <!--        <div class= "absolute">-->
-
-            <!--            <p class="text-white text-xl text-center flex mx-auto font-mono mt-2">MEVN stack project</p>-->
-            <!--            <a href="https://github.com/AlbertLanne/MEVN-stack-boilerplate">-->
-            <!--                <img src="../../assets/img/index/Octocat.png" alt="project" class=" mt-2 absolute bg-cover h-32 w-auto ">-->
-            <!--            </a>-->
-
-            <!--        </div>-->
-            <!--    </div>-->
-
-
         </div>
-        <!--        <div class=" p-6 autre rounded-lg text-justify justify-around items-center  -mx-6  pb-8 w-1/3 ">-->
-        <!--            <a href="https://github.com/AlbertLanne/ProductionMonitoringMysql" class="text-justify leading-normal text-copy-primary hover:text-copy-secondary">-->
-        <!--                PROJECT BTS Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto asperiores, corporis dignissimos dolorum eveniet impedit ipsum minima molestias, quas quasi quibusdam rem sunt totam vitae. At eum facilis officia.-->
-        <!--                <br><br>-->
-
-        <!--            </a>-->
-        <!--        </div>-->
-        <!--        <div class=" p-6 autre rounded-lg text-justify justify-around items-center  -mx-6  pb-8 w-1/3 ">-->
-        <!--            <a href="https://github.com/AlbertLanne/MEVN_herokuApp_mlab_boilerplate" class="text-justify leading-normal text-copy-primary hover:text-copy-secondary">-->
-        <!--                MEVN API project Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto asperiores, corporis dignissimos dolorum eveniet impedit ipsum minima molestias, quas quasi quibusdam rem sunt totam vitae. At eum facilis officia.-->
-        <!--                <br><br>-->
-
-        <!--            </a>-->
-        <!--        </div>-->
-
     </div>
 </template>
 

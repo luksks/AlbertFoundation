@@ -27,7 +27,7 @@
         height: 300%;
         left: -50%;
         /*opacity: 0.5;*/
-        opacity: 0.09;
+        opacity: 0.08;
         position: fixed;
         top: -110%;
         width: 300%;
