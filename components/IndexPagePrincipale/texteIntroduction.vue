@@ -14,9 +14,10 @@
                 <br><br>
 
             </p>
-
+<!--            <iframe allowfullscreen src="victory_day_2015/victory_day_2015.html&autorotate" width="800" height="500"></iframe>-->
         </div>
-<i class="text-2xl text-white mt-8 font-mono -mb-4 border-b-2 border-border-color-primary"> Recent project work</i>
+        <i class="text-2xl text-white mt-8 font-mono -mb-4 border-b-2 border-border-color-primary"> Recent project
+            work</i>
     </div>
 </template>
 
@@ -30,6 +31,6 @@
 <style scoped>
 
     .autre {
-        background-color: rgba(0, 0, 0, 0.8);  /* 50% transparent */
+        background-color: rgba(0, 0, 0, 0.8); /* 50% transparent */
     }
 </style>
