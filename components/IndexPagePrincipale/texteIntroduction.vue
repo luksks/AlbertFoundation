@@ -14,8 +14,7 @@
                 <br><br>
 
             </p>
-            <iframe allowfullscreen src="webplayer/webplayer.html?load=../model.json&fallback_image=img.jpg&compressed_textures&no_social&alpha&show_fps"
-                    class="mb-6 rounded-lg h-64 flex flex-wrap w-full "></iframe>
+
         </div>
         <i class="text-2xl text-white mt-8 font-mono -mb-4 border-b-2 border-border-color-primary"> Recent project
             work</i>
