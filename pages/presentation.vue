@@ -36,7 +36,7 @@
             </p>
 
             <p class="sm:text-2xl text-lg ">I am a French student in the second year of programming at the Paul Cornu College in Lisieux in Normandy
-                I have 20 year's old. By nature, I am really curious and passionate about what I do.
+                I am 20 year's old. By nature, I am really curious and passionate about what I do.
                 I spend a lot of time training on programming, my GitHub account will confirm this.
                 In class people often choose me to manage groups because I'm always one step ahead and I always know how
                 to make the most of each different profile. I love open source project, work with agile methodology, and
@@ -67,7 +67,7 @@
                 pursuing a Higher
                 Technician Certificate in C++ programming and network science. I had to do an internship during this 2
                 years. For this one, I was go to Emerya Thailande in Thailande to improve my skill to web technology
-                programming directly near to the expert. I have work on Bootstrap, PrimerStyle, TailwindCSS, vue.js,
+                programming directly near to the expert. I have been working on Bootstrap, PrimerStyle, TailwindCSS, vue.js,
                 nuxt.js, node.js. which gave me the skills to make my own website. </p><br>
 
             <p class="font-normal font-normal sm:text-2xl  text-lg py-4">
