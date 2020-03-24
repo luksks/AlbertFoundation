@@ -90,8 +90,6 @@
                     </div>
                 </div>
 
-        <iframe allowfullscreen src="webplayer/webplayer.html?load=albert.json" width="800" height="500"></iframe>
-        <iframe allowfullscreen src="webplayer/webplayer.html?load=webplayer/webplayer.json" width="800" height="500"></iframe>
 
     </div>
 </template>
