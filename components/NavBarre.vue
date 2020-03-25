@@ -3,17 +3,13 @@
 
     <header class=" flex flex-wrap items-center justify-between flex bg-background-tertiary
 ">
-        <!--        <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto BackgroundIndex5">-->
-        <!--            <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "-->
-        <!--                 src="../assets/img/logo_site_dark_mod.svg"-->
-        <!--                 title="The white version logo of my website"-->
-        <!--                 alt="The white version logo of my website">-->
-        <!--        </nuxt-link>-->
-        <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto BackgroundIndex5">
-            <div id="main_canvas_container">
-
-            </div>
-        </nuxt-link>
+                <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto BackgroundIndex5">
+                    <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "
+                         src="../assets/img/logo_site_dark_mod.svg"
+                         title="The white version logo of my website"
+                         alt="The white version logo of my website">
+                </nuxt-link>
+<!---->
         <!--        Div pour les élément de droite-->
 
         <!--        flex -mt-3 m-3 text-copy-primary mt-4 flex-wrap  justify-center-->
@@ -61,11 +57,11 @@
 <script>
     import analytics from "~/pages/privacy.vue"
     import aboutWebsite from "~/pages/aboutWebsite.vue"
-    import { init } from '../components/b4w';
+
 
     export default {
         name: "NavBarre",
-        components: {aboutWebsite, analytics,init},
+        components: {aboutWebsite, analytics},
     }
 
 </script>
