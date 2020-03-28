@@ -84,16 +84,18 @@
             </div>
         </div>
 
-        <!--
-
         <div class="w-full flex items-center pt-4 px-12">
             <div class="h-full w-full sm:mt-0 mt-16 relative h-full items-stretch justify-center flex">
-                <iframe allowfullscreen autorotate
-                        src="Webplayer/webplayer.html?load=../Cube.json&fallback_image=img.jpg&compressed_textures&no_social&alpha"
-                        class="mb-6 rounded-lg h-64 flex flex-wrap w-full "></iframe>
+<!--                <iframe allowfullscreen autorotate-->
+<!--                        src="Webplayer/webplayer.html?load=../Cube.json&fallback_image=img.jpg&compressed_textures&no_social&alpha"-->
+<!--                        class="mb-6 rounded-lg h-64 flex flex-wrap w-full "></iframe>-->
 
-                <div class="absolute pointer-events-none">
+                                <iframe allowfullscreen autorotate
+                                        src="work/newindex.html"
+                                        class="mb-6 rounded-lg h-64 flex flex-wrap w-full "></iframe>
 
+
+                                <div class="absolute pointer-events-none">
                     <div class="object-center items-center w-full items-center py-16 flex-grow text-center">
                         <svg class=" h-32 w-auto icon" viewBox="0 0 3595 1024" xmlns="http://www.w3.org/2000/svg">
                             <defs>
@@ -114,7 +116,6 @@
             </div>
 
         </div>
--->
     </div>
 
 </template>
