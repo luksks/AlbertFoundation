@@ -125,7 +125,6 @@
 </script>
 
 <style>
-    @import './my_project.css';
 
     audio::-webkit-media-controls-timeline,
     video::-webkit-media-controls-timeline {
