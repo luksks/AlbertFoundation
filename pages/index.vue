@@ -2,43 +2,29 @@
     <!--    Page principale du site, donc avec ma photo, les bouttons de redirection et une présentation.-->
     <div>
 
-        <!--        <video controls playsinline="" loop="" autoplay="" class="bg-fixed w-full h-full absolute flex inline-flex pointer-events-none">-->
-        <!--            <source src="../assets/img/animd.mp4" type="video/mp4" autostart="true">-->
-        <!--        </video>-->
-
-        <!--        <div class="absolute inset-0  ">-->
-
-
-        <!--        </div>-->
         <div class="bg-background-primary antialiased">
-            <!--                <header class="header relative lg:overflow-hidden">-->
-            <!--        <div class="absolute inset-0  ">-->
             <video autoplay muted loop id="myVideo" class="w-full h-auto object-cover object-left pointer-events-none ">
                 <source src="../assets/img/anime.webm" type="video/webm" autostart="true">
             </video>
         </div>
-
-<!--        <NavBarre/>-->
-        <!--                </header>-->
-
 
         <div class="relative ">
             <Photo/>
             <NetworkBouton/>
             <texte-introduction/>
             <project/>
+<!--            <skill/>-->
         </div>
     </div>
-
 </template>
 
 <script>
 
     import texteIntroduction from "~/components/IndexPagePrincipale/texteIntroduction.vue";
     import project from "~/components/IndexPagePrincipale/project.vue";
+    import skill from "~/components/IndexPagePrincipale/skill.vue";
     import Photo from "~/components/IndexPagePrincipale/Photo.vue";
     import NetworkBouton from "~/components/IndexPagePrincipale/NetworkBouton.vue";
-    import paper from "~/components/SpecialComponents/grain_effect.vue";
     import NavBarre from "~/components/NavBarre.vue";
 
 
@@ -49,7 +35,7 @@
                 title: "Home page"
             };
         },
-        components: {NavBarre, Photo,texteIntroduction, project , NetworkBouton}
+        components: {NavBarre, Photo,texteIntroduction, project , NetworkBouton,skill}
 
     };
 </script>

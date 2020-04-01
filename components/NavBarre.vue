@@ -59,7 +59,7 @@
             </div>
         </div>
         -->
-            <header class=" flex flex-wrap items-center justify-between flex bg-background-tertiary
+            <header class=" flex flex-wrap items-center justify-between bg-background-tertiary
         ">
                         <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto BackgroundIndex5">
                             <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "
