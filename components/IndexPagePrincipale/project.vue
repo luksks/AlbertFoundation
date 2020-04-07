@@ -227,9 +227,9 @@
                                 src="Webplayer/webplayer.html?load=../model.json&fallback_image=img.jpg&compressed_textures&no_social&alpha"
                                 class="mb-6 rounded-lg h-64 flex flex-wrap w-full "></iframe>
 
-<!--                                        <iframe allowfullscreen autorotate-->
-<!--                                                src="work/newindex.html"-->
-<!--                                                class="mb-6 rounded-lg h-64 flex flex-wrap w-full "></iframe>-->
+<!--                        <iframe allowfullscreen autorotate-->
+<!--                                src="morphing/newindex.html"-->
+<!--                                class="mb-6 rounded-lg h-64 flex flex-wrap w-full "></iframe>-->
 
 
                                         <div class="absolute pointer-events-none">
