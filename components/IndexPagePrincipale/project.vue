@@ -224,8 +224,9 @@
                 <div class="w-full flex items-center pt-4 px-12">
                     <div class="h-full w-full sm:mt-0 mt-16 relative h-full items-stretch justify-center flex">
                         <iframe allowfullscreen autorotate
-                                src="Webplayer/webplayer.html?load=../model.json&fallback_image=img.jpg&compressed_textures&no_social&alpha"
+                                src="morphing/newindex.html?load=../model.json&fallback_image=img.jpg&compressed_textures&no_social&alpha"
                                 class="mb-6 rounded-lg h-64 flex flex-wrap w-full "></iframe>
+                        <!--                  src="pitchumi/snore-stopper/newindex.html?load=../model.json&fallback_image=img.jpg&compressed_textures&no_social&alpha"-->
 
 <!--                        <iframe allowfullscreen autorotate-->
 <!--                                src="morphing/newindex.html"-->
