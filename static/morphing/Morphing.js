@@ -36,7 +36,7 @@ function init_cb(canvas_elem, success) {
 }
 
 function load() {
-    m_data.load(APP_ASSETS_PATH + "morphing.json", load_cb);
+    m_data.load(APP_ASSETS_PATH + "pitchumi.json", load_cb);
 }
 
 function load_cb(data_id) {
