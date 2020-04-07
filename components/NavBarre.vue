@@ -73,6 +73,16 @@
                 <!--        flex -mt-3 m-3 text-copy-primary mt-4 flex-wrap  justify-center-->
                 <div class="items-center align-baseline flex flex-wrap sm:justify-end justify-center text-copy-primary sm:mx-0 mx-auto">
                     <!--        <div class="flex -mt-3 m-3 text-copy-primary mt-4 flex-wrap  justify-center">-->
+
+
+
+                    <nuxt-link to="/projectBTS"
+                               class="button zoom hover:text-green-700  text-sm sm:text-base ">
+                        BTS
+                    </nuxt-link>
+
+
+
                     <nuxt-link to="/timeline"
                                class="button zoom hover:text-pink-700 BackgroundIndex5">
                         Timeline
@@ -86,6 +96,8 @@
                                class="button zoom hover:text-green-700  text-sm sm:text-base BackgroundIndex5">
                         About the website
                     </nuxt-link>
+
+
                 </div>
 
 
