@@ -222,7 +222,7 @@
         </div>
 
 
-        <div class="w-full flex items-center pt-4 px-12">
+        <div class="w-full flex items-center pt-4 px-12 hidden">
             <div class="h-full w-full sm:mt-0 mt-16 relative h-full items-stretch justify-center flex">
 
                 <iframe allowfullscreen autorotate

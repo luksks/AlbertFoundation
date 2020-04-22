@@ -77,7 +77,7 @@
 
 
                     <nuxt-link to="/projectBTS"
-                               class="button zoom hover:text-green-700  text-sm sm:text-base ">
+                               class="hidden button zoom hover:text-green-700  text-sm sm:text-base ">
                         BTS
                     </nuxt-link>
 
