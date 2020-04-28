@@ -458,7 +458,7 @@
                                     <line x1="8" y1="2" x2="8" y2="6"></line>
                                     <line x1="3" y1="10" x2="21" y2="10"></line>
                                 </svg>
-                                <span class="text-copy-primary">13/11/1999 <i>(8 weeks)</i></span>
+                                <span class="text-copy-primary">??/??/???? <i>(8 weeks)</i></span>
                             </div>
                             <p class="leading-normal mb-4 text-copy-secondary text-justify">
                                 Training in SITEL (specialist in information and telecommunication systems of
