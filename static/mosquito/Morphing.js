@@ -18,7 +18,6 @@ export function init() {
     m_app.init({
         canvas_container_id: "main_canvas_container",
         callback: init_cb,
-        show_fps: true,
         autoresize: true,
         assets_dds_available: !DEBUG,
         assets_min50_available: !DEBUG,
