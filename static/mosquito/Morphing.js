@@ -18,12 +18,10 @@ export function init() {
     m_app.init({
         canvas_container_id: "main_canvas_container",
         callback: init_cb,
-        autoresize: true,
-        assets_dds_available: !DEBUG,
-        assets_min50_available: !DEBUG,
-        console_verbose: true
+        autoresize: true
     });
 }
+
 
 function init_cb(canvas_elem, success) {
 
