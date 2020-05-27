@@ -1,45 +1,44 @@
 <template>
-    <div>
+<!--    <div>-->
 
 
-        <div class="w-full justify-center  text-center mx-auto">
-            <h2>HOW IT WORKS</h2>
-            <div class="justify-center  text-center mx-auto">
-                <div class="w-1/2 justify-center mx-auto">
-   <img src="https://i.imgur.com/AVL1VjX.png">
-   <img src="https://i.imgur.com/xcX51Gk.png">
-   <img src="https://i.imgur.com/fMbSoR4.png">
-   <img src="https://i.imgur.com/43p1V9D.png">
-   <img src="https://i.imgur.com/mmMAG3s.png">
-                </div>
-        </div>
-        </div>
-        <div class="w-full justify-center  text-center mx-auto">
+<!--        <div class="w-full justify-center  text-center mx-auto">-->
+<!--            <h2>HOW IT WORKS</h2>-->
+<!--            <div class="justify-center  text-center mx-auto">-->
+<!--                <div class="w-1/2 justify-center mx-auto">-->
+<!--   <img src="https://i.imgur.com/AVL1VjX.png">-->
+<!--   <img src="https://i.imgur.com/xcX51Gk.png">-->
+<!--   <img src="https://i.imgur.com/fMbSoR4.png">-->
+<!--   <img src="https://i.imgur.com/43p1V9D.png">-->
+<!--   <img src="https://i.imgur.com/mmMAG3s.png">-->
+<!--                </div>-->
+<!--        </div>-->
+<!--        </div>-->
+<!--        <div class="w-full justify-center  text-center mx-auto">-->
 
 
-            <h2>HOW MANY DO I NEED</h2>
-            <p> For homes that often have mosquitoes inside, we recommend purchasing 2 or more,a unit for each living
-                room and bedroom to maximize the area of protection for a typical household. If you infrequently have
-                mosquitoes in the house, we recommend starting with a unit near each main entrance to the home.
-            </p>
-            <h2> SHIPPING & DELIVERY</h2>
-            <p>
-                All orders are expertly packaged, prepared, and shipped within one business day of ordering. We offer
-                FREE shipping worldwide and the typical delivery time frame is between 12-22 business days. Depending on
-                your location, you may receive items much earlier.
-                All orders are shipped with the tracking number so you can track it every step of the way! Occasionally,
-                packages may be faced with delays beyond our control such as customs or postal delays.
-            </p>
-            <h2>30 DAY RISK-FREE GUARANTEE</h2>
-            <p>
-                We have an iron-clad risk-free 30-day guarantee that begins only when you receive the product!
-                If you don't have a positive experience for any reason, we will do whatever it takes to make sure you
-                are 100% satisfied with your purchase.
-            </p>
+<!--            <h2>HOW MANY DO I NEED</h2>-->
+<!--            <p> For homes that often have mosquitoes inside, we recommend purchasing 2 or more,a unit for each living-->
+<!--                room and bedroom to maximize the area of protection for a typical household. If you infrequently have-->
+<!--                mosquitoes in the house, we recommend starting with a unit near each main entrance to the home.-->
+<!--            </p>-->
+<!--            <h2> SHIPPING & DELIVERY</h2>-->
+<!--            <p>-->
+<!--                All orders are expertly packaged, prepared, and shipped within one business day of ordering. We offer-->
+<!--                FREE shipping worldwide and the typical delivery time frame is between 12-22 business days. Depending on-->
+<!--                your location, you may receive items much earlier.-->
+<!--                All orders are shipped with the tracking number so you can track it every step of the way! Occasionally,-->
+<!--                packages may be faced with delays beyond our control such as customs or postal delays.-->
+<!--            </p>-->
+<!--            <h2>30 DAY RISK-FREE GUARANTEE</h2>-->
+<!--            <p>-->
+<!--                We have an iron-clad risk-free 30-day guarantee that begins only when you receive the product!-->
+<!--                If you don't have a positive experience for any reason, we will do whatever it takes to make sure you-->
+<!--                are 100% satisfied with your purchase.-->
+<!--            </p>-->
+<!--        </div>-->
 
-        </div>
-
-    </div>
+<!--    </div>-->
 
 
     <!--    <div class="page-width bg-orange-200">-->
