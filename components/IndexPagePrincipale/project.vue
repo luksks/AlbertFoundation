@@ -143,24 +143,24 @@
 
             <a href="https://mosquitokillerprototype3d.myshopify.com/">
 
-            <div class="h-full w-full sm:mt-0 mt-16 relative h-full items-stretch justify-center flex">
-                <div class="h-full  w-full shadow-3xl autre mx-auto justify-center items-center rounded-lg -p-4 hover:bg-black border border-gray-800">
-                    <img src="https://cdn.shopify.com/s/files/1/0373/9038/5288/files/rendu-checkout.jpg?573"
-                         alt="project" class="h-48 w-full"
-                         style="object-fit: cover;">
-                </div>
+                <div class="h-full w-full sm:mt-0 mt-16 relative h-full items-stretch justify-center flex">
+                    <div class="h-full  w-full shadow-3xl autre mx-auto justify-center items-center rounded-lg -p-4 hover:bg-black border border-gray-800">
+                        <img src="https://cdn.shopify.com/s/files/1/0373/9038/5288/files/rendu-checkout.jpg?573"
+                             alt="project" class="h-48 w-full"
+                             style="object-fit: cover;">
+                    </div>
 
                     <div class="absolute pointer-events-none">
-                        <p class="text-purple-800 px-2 bg-white rounded-lg text-xl text-center flex mx-auto font-mono mt-2 flex">
-                           Photo-realistic renderings for international marketing</p>
-                            <img src="https://cdn.shopify.com/s/files/1/0400/6448/3493/files/logo_mosquitoKiller_d_180x.png?v=1590607149" class="h-24 w-auto z-40">
-
+                        <p class="flex text-purple-800 bg-white rounded-t-lg justify-center text-xl  flex mx-auto font-mono mt-2 flex text-center">
+                            Photo-realistic renderings for international marketing </p>
+                        <p class="text-lg font-mono text-white autre rounded-b-l ">
+                            2D Photoshop/illustrator - Advanced 3D Render - Mockup product design - Real time 3D modeling
+                        </p>
 
                     </div>
-            </div>
-</a>
+                </div>
+            </a>
         </div>
-
 
 
         <div class="w-full flex  items-center pt-16 flex-grow">
