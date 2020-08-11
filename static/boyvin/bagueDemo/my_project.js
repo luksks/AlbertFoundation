@@ -44,9 +44,9 @@ function init_cb(canvas_elem, success) {
     }
 
     m_preloader.create_preloader({
-        container_color:"#3D1A6E", // background color of the container
+        container_color:"#000000", // background color of the container
         bar_color:"#f9f5e6", // background color of the bar
-        frame_color: "#3D1A6E", // color of the frame border
+        frame_color: "#000000", // color of the frame border
         font_color: "#f9f5e6" // color of the font
     });
 
