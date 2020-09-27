@@ -1,256 +1,239 @@
 <template>
     <div>
 
-
-        <!--        <div class="w-full align-baseline">-->
-        <!--        <body class="font-mono bg-gray-400 w-1/2">-->
-        <!--        &lt;!&ndash; Container &ndash;&gt;-->
-        <!--        <div class="container mx-auto">-->
-        <!--            <div class="flex justify-center px-6 my-12">-->
-        <!--                &lt;!&ndash; Row &ndash;&gt;-->
-        <!--                <div class="w-full xl:w-3/4 lg:w-11/12 flex">-->
-        <!--                    &lt;!&ndash; Col &ndash;&gt;-->
-        <!--                    <div-->
-        <!--                            class="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"-->
-        <!--                            style="background-image: url('https://source.unsplash.com/oWTW-jNGl9I/600x800')"-->
-        <!--                    ></div>-->
-        <!--                    &lt;!&ndash; Col &ndash;&gt;-->
-        <!--                    <div class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">-->
-        <!--                        <div class="px-8 mb-4 text-center">-->
-        <!--                            <h3 class="pt-4 mb-2 text-2xl">Forgot Your Password?</h3>-->
-        <!--                            <p class="mb-4 text-sm text-gray-700">-->
-        <!--                                We get it, stuff happens. Just enter your email address below and we'll send you a-->
-        <!--                                link to reset your password!-->
-        <!--                            </p>-->
-        <!--                        </div>-->
-        <!--                        <form class="px-8 pt-6 pb-8 mb-4 bg-white rounded">-->
-        <!--                            <div class="mb-4">-->
-        <!--                                <label class="block mb-2 text-sm font-bold text-gray-700" for="email">-->
-        <!--                                    Email-->
-        <!--                                </label>-->
-        <!--                                <input-->
-        <!--                                        class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"-->
-        <!--                                        id="email"-->
-        <!--                                        type="email"-->
-        <!--                                        placeholder="Enter Email Address..."-->
-        <!--                                />-->
-        <!--                            </div>-->
-        <!--                            <div class="mb-6 text-center">-->
-        <!--                                <button-->
-        <!--                                        class="w-full px-4 py-2 font-bold text-white bg-red-500 rounded-full hover:bg-red-700 focus:outline-none focus:shadow-outline"-->
-        <!--                                        type="button"-->
-        <!--                                >-->
-        <!--                                    Reset Password-->
-        <!--                                </button>-->
-        <!--                            </div>-->
-        <!--                            <hr class="mb-6 border-t" />-->
-        <!--                            <div class="text-center">-->
-        <!--                                <a-->
-        <!--                                        class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"-->
-        <!--                                        href="./register.html"-->
-        <!--                                >-->
-        <!--                                    Create an Account!-->
-        <!--                                </a>-->
-        <!--                            </div>-->
-        <!--                            <div class="text-center">-->
-        <!--                                <a-->
-        <!--                                        class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"-->
-        <!--                                        href="./index.html"-->
-        <!--                                >-->
-        <!--                                    Already have an account? Login!-->
-        <!--                                </a>-->
-        <!--                            </div>-->
-        <!--                        </form>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--        </body>-->
-        <!--        <body class="font-mono bg-gray-400 w-1/2">-->
-        <!--        &lt;!&ndash; Container &ndash;&gt;-->
-        <!--        <div class="container mx-auto">-->
-        <!--            <div class="flex justify-center px-6 my-12">-->
-        <!--                &lt;!&ndash; Row &ndash;&gt;-->
-        <!--                <div class="w-full xl:w-3/4 lg:w-11/12 flex">-->
-        <!--                    &lt;!&ndash; Col &ndash;&gt;-->
-        <!--                    <div-->
-        <!--                            class="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"-->
-        <!--                            style="background-image: url('https://source.unsplash.com/oWTW-jNGl9I/600x800')"-->
-        <!--                    ></div>-->
-        <!--                    &lt;!&ndash; Col &ndash;&gt;-->
-        <!--                    <div class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">-->
-        <!--                        <div class="px-8 mb-4 text-center">-->
-        <!--                            <h3 class="pt-4 mb-2 text-2xl">Forgot Your Password?</h3>-->
-        <!--                            <p class="mb-4 text-sm text-gray-700">-->
-        <!--                                We get it, stuff happens. Just enter your email address below and we'll send you a-->
-        <!--                                link to reset your password!-->
-        <!--                            </p>-->
-        <!--                        </div>-->
-        <!--                        <form class="px-8 pt-6 pb-8 mb-4 bg-white rounded">-->
-        <!--                            <div class="mb-4">-->
-        <!--                                <label class="block mb-2 text-sm font-bold text-gray-700" for="email">-->
-        <!--                                    Email-->
-        <!--                                </label>-->
-        <!--                                <input-->
-        <!--                                        class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"-->
-        <!--                                        id="email"-->
-        <!--                                        type="email"-->
-        <!--                                        placeholder="Enter Email Address..."-->
-        <!--                                />-->
-        <!--                            </div>-->
-        <!--                            <div class="mb-6 text-center">-->
-        <!--                                <button-->
-        <!--                                        class="w-full px-4 py-2 font-bold text-white bg-red-500 rounded-full hover:bg-red-700 focus:outline-none focus:shadow-outline"-->
-        <!--                                        type="button"-->
-        <!--                                >-->
-        <!--                                    Reset Password-->
-        <!--                                </button>-->
-        <!--                            </div>-->
-        <!--                            <hr class="mb-6 border-t" />-->
-        <!--                            <div class="text-center">-->
-        <!--                                <a-->
-        <!--                                        class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"-->
-        <!--                                        href="./register.html"-->
-        <!--                                >-->
-        <!--                                    Create an Account!-->
-        <!--                                </a>-->
-        <!--                            </div>-->
-        <!--                            <div class="text-center">-->
-        <!--                                <a-->
-        <!--                                        class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"-->
-        <!--                                        href="./index.html"-->
-        <!--                                >-->
-        <!--                                    Already have an account? Login!-->
-        <!--                                </a>-->
-        <!--                            </div>-->
-        <!--                        </form>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--        </body>-->
-        <!--        </div>-->
-
-        <div class="w-full flex justify-center text-center">
-            <h2 class="italic text-2xl text-white mt-8 font-mono -mb-4 border-b-2 border-border-color-primary">
-                Recent
-                project
-                work</h2></div>
-
-
-        <div class="w-full flex items-center pt-4 px-12 pt-8">
-
-
-            <a href="https://mosquitokillerprototype3d.myshopify.com/">
-
-                <div class="h-full w-full sm:mt-0 mt-16 relative h-full items-stretch justify-center flex">
-                    <div class="h-full  w-full shadow-3xl autre mx-auto justify-center items-center rounded-lg -p-4 hover:bg-black border border-gray-800">
-                        <img src="https://cdn.shopify.com/s/files/1/0373/9038/5288/files/rendu-checkout.jpg?573"
-                             alt="project" class="h-48 w-full"
-                             style="object-fit: cover;">
-                    </div>
-
-                    <div class="absolute pointer-events-none">
-                        <p class="flex text-purple-800 bg-white rounded-t-lg justify-center text-xl  flex mx-auto font-mono mt-2 flex text-center">
-                            Photo-realistic renderings for international marketing </p>
-                        <p class="text-lg font-mono text-white autre rounded-b-l ">
-                            2D Photoshop/illustrator - Advanced 3D Render - Mockup product design - Real time 3D modeling
-                        </p>
-
-                    </div>
-
-                </div>
-            </a>
-        </div>
-
-
-        <div class="w-full flex  items-center pt-16 flex-grow">
-
-
-            <div class="mx-8 sm:align-baseline  align-middle items-center sm:flex w-full">
-
-
-                <div class="sm:w-1/3 w-full sm:mt-0 mt-16 relative px-4 h-full items-stretch justify-center flex">
-                    <div class="h-full  w-full shadow-3xl autre mx-auto justify-center items-center rounded-lg -p-4 hover:bg-black border border-gray-800">
-                        <img src="../../assets/img/index/specialiste-handicap-maintien-domicile-jdm-medical.jpg"
-                             alt="project" class="h-48 w-full bg-right-bottom flex object-fill bg-cover">
-                    </div>
-                    <div class="absolute">
-
-                        <p class="text-white text-xl text-center flex mx-auto font-mono mt-2">JDM Médical</p>
-                        <a href="https://jdmmedical.fr/">
-                            <svg class="fill-current text-white" version="1.1" id="svg849"
-                                 xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 90.7 101.1"
-                                 xml:space="preserve"><g id="layer1" transform="translate(0 -266.573)"><g id="g1440" transform="matrix(.23728 0 0 .23722 .486 228.93)"><g id="g5814" transform="matrix(1.1414 0 0 1.14263 31.259 -61.685)"><g id="g868"><g id="g849" transform="translate(-8.985)"><g id="g4728" transform="matrix(.33092 0 0 .33151 718.741 204.589)"><path id="path4701" class="st0" d="M-1470.4 1079.6c-5.1-2.7-11.7-8.9-14.8-13.9-5.2-8.4-6.1-16-11.3-95.1-3.1-47.3-7-109.7-8.6-138.8l-3-52.8 10.4-45.3c15.6-68 24.9-108.3 30.6-132.7 5.4-22.8 5.2-26.5-1.4-49.7-2.4-8.3-4-23.5-4-37.9v-24.1l8.2-4c16.2-7.8 139.5-125.6 145.6-139.1 6-13.1 6-34.7 0-47.8-10.9-23.9-41.4-39.8-65.4-34.1-15.8 3.8-19.5 6.5-56 40.1l-31.1 28.7-.8-14.4c-1.4-27 13.1-62 34.2-82.7 49.7-48.7 125.7-49.1 174.3-1 8.3 8.3 18.5 21.7 22.6 29.7 14.5 28.7 14.9 33.2 14.9 154.8 0 71.1-1 116.1-2.8 124.6-1.5 7.3-7.2 22.5-12.5 33.6-5.4 11.2-11.5 28.5-13.6 38.5-2.1 10-10.6 47.9-19 84.1-8.3 36.3-16 69.9-17.1 74.7-2 8.6-.4 40.8 9.5 191.8 5.1 78.6 4.9 83.3-5.3 97.9-6.1 8.8-21.1 15.6-33.8 15.4-13.5-.2-30.2-8.8-36.2-18.8-7.1-11.7-5.6 5.1-19.2-215.9l-4.2-69.2 8.2-36.5c4.5-20.1 11.3-50.1 15-66.7l6.8-30.2-12.8-1.5c-7-.8-15.2-2.3-18.1-3.2-4.2-1.4-5.6-.5-6.5 4-.7 3.2-8.3 36.9-17.1 74.9l-15.9 69.2 3.1 56.6c1.7 31.1 5.3 89.5 7.9 129.6 5.1 76.4 4.7 82.9-5 96.5-10.6 15.5-37.4 20.4-55.8 10.7z"/><path
-                                    id="path4703" class="st0"
-                                    d="M-1434.5 153.3c-28.5-8.2-54.6-37.1-62.5-69.2-8.6-34.9 5.7-74 35-95.5 24.6-18.1 57.9-23.3 86.2-13.6 79.5 27.4 86.1 136.4 10.3 172.8-15.9 7.6-19.6 8.4-39 8.2-11.9-.1-25.4-1.3-30-2.7z"/><path
-                                    id="path4705" class="st0"
-                                    d="M-1434.5 153.3c-28.5-8.2-54.6-37.1-62.5-69.2-8.6-34.9 5.7-74 35-95.5 24.6-18.1 57.9-23.3 86.2-13.6 79.5 27.4 86.1 136.4 10.3 172.8-15.9 7.6-19.6 8.4-39 8.2-11.9-.1-25.4-1.3-30-2.7z"/><path
-                                    id="path4707" class="st0"
-                                    d="M-1945.5 543c-10.5-3.6-20.2-17.1-20.2-27.9 0-10.8 8.6-23.8 18.3-27.8 4.9-2 41.4-5.6 91.2-8.9 77.4-5.3 84.3-6.1 101.9-12.7 10.4-3.9 36.4-13.4 57.9-21.3 21.5-7.8 47.7-17.5 58.4-21.6s22.6-7.4 26.4-7.4c10.3 0 23.1 8.9 27.3 18.9 2 4.8 4 8.8 4.5 8.8 4.5 0 77.1-39.2 80.9-43.7 2.8-3.3 29-28 58.3-55 56.6-52.2 60-54.3 78.2-49.2 15.2 4.2 24 30.5 14.6 43.6-2 2.7-31.7 30.8-66 62.3l-62.5 57.4-76.9 37.8c-71.9 35.4-77.5 37.7-86.8 36-13.6-2.6-23.8-13.2-23.8-24.8 0-5-.5-9-1.1-9s-22.4 7.9-48.4 17.5l-47.3 17.5-78 5.2c-42.9 2.9-82.5 5.7-88.1 6.3-5.6.5-14-.4-18.8-2z"/><path
-                                    id="path4709" class="st0"
-                                    d="M-1710.3 994.4c-17.9-11.1-22.2-20.7-26.3-58.2-1.6-14.5-5.1-41.1-7.8-59.1s-7.8-53.7-11.3-79.3c-8.8-64.3-6.2-57.9-23.7-57.9h-14.8l-11.3-15.7c-14.5-20.3-44.5-50.3-62.1-62.3-17.9-12.2-45.7-26.1-64.5-32.3-28.4-9.5-44.3-11.7-83.7-11.6l-38.7.1 1.2-59.2c1-51.5 1.9-61.4 6.5-75.8 10.1-31.3 36.2-62.8 63.4-76.6 37.4-19 87.3-17.9 122.3 2.6 12.7 7.4 38.7 30.5 38.7 34.3 0 1.2-8.2 2.2-18.2 2.2-33.1.2-108.7 6.8-116.4 10.2-21.2 9.4-34.6 25.9-38.5 47.4-6 33.1 15.6 65.8 47.5 71.8 7.9 1.5 71-1.1 128.8-5.4l22-1.6v81.2h44.2c48.3 0 53.1 1.1 64.7 14.9 4.9 5.8 7 12.4 9.3 29.7 5.7 42.4 17.9 133.2 24.1 178.2 11 80.2 11.4 84.5 8.6 94.6-3.3 12.1-13.7 24.6-24.3 29-11.7 5-30.7 4.4-39.7-1.2z"/><path
-                                    id="path4711" class="st0"
-                                    d="M-2166.5 564.5c.7-100.7.9-105.4 5.9-113.8 15.8-27 53.6-26.9 67.2 0 3.9 7.8 4.4 17.8 4.4 93.2v84.4l-21.2 9.6c-11.7 5.3-28.8 14.6-38.1 20.7s-17.3 11.1-17.9 11.1-.7-47.5-.3-105.2z"/><path
-                                    id="path4713" class="st0"
-                                    d="M-1894.4 365c-26.6-5.3-54.1-27.2-66.1-52.7-5.6-12-6.5-17.2-6.5-39 0-22 .8-27 6.7-39.4 13.3-28.5 37.7-47 69.5-52.9 43.7-8.1 87.7 17.5 103.9 60.5 4.4 11.6 5.2 18.2 4.3 35.6-2.1 43.1-25.3 72.7-66.9 85.6-16.9 5.1-27.6 5.7-44.9 2.3z"/><path
-                                    id="path4715" class="st0"
-                                    d="M-1894.4 365c-26.6-5.3-54.1-27.2-66.1-52.7-5.6-12-6.5-17.2-6.5-39 0-22 .8-27 6.7-39.4 13.3-28.5 37.7-47 69.5-52.9 43.7-8.1 87.7 17.5 103.9 60.5 4.4 11.6 5.2 18.2 4.3 35.6-2.1 43.1-25.3 72.7-66.9 85.6-16.9 5.1-27.6 5.7-44.9 2.3z"/><path
-                                    id="path4717" class="st0"
-                                    d="M-2040 1082.4c-73.3-9.3-142-61.5-170.3-129.3-13-31.3-17.2-52.1-17.2-85.8 0-37.9 5.9-64.3 21.3-96.1 58.3-120.2 209.7-159.8 319.9-83.7 75.5 52.2 110.7 149.8 85.4 236.9-21.9 75.5-75.9 129.7-150.6 151.3-23.4 6.8-63.7 9.8-88.5 6.7zm13.9-101.9v-53.9l-8.1-2.8-8.1-2.8-37.8 37.9-37.8 37.9 6.3 4.9c17.1 13.2 63.3 32 79.9 32.5l5.7.2v-53.9zm57.9 48.7c18.6-5.2 45.7-18 57.9-27.5l6.3-4.9-37.9-38c-37-37.1-38.1-37.9-44.7-34.9l-6.8 3.1v53.7c0 41.7.7 53.7 3.2 53.7 1.7 0 11.6-2.4 22-5.2zm107-85.9c7.8-14.8 18.8-49.4 18.8-59 0-2.7-10.5-3.4-53.6-3.4h-53.6l-3.3 9.1-3.3 9.1 37.4 37.5 37.4 37.5 5.7-7c3-3.8 9.6-14.6 14.5-23.8zm-240.6-8.1c36.1-36.1 36.2-36.3 33.8-44.7l-2.4-8.4h-108l.7 7.5c1.5 16.2 11.5 43.7 22.6 62.3 6.4 10.7 12.9 19.5 14.3 19.5s19.1-16.3 39-36.2zm99.5-47.8c11.9-5 17.7-16.6 13.9-28.1-5.5-16.5-25.5-21.2-37.9-8.8-14.3 14.3-6.5 35.5 14.7 40.3.4.1 4.6-1.5 9.3-3.4zm-65.9-45.2c2.3-6.9 1-8.6-35-44.7l-37.4-37.5-5.8 7c-12.1 14.6-25.1 46-31.8 76.9l-1.5 7 54.6-.7 54.6-.7 2.3-7.3zm225.8 5.5c0-15.7-20.3-67.2-32.6-82.6l-5-6.3-37.8 37.8-37.8 37.8 3.1 8.2 3.1 8.2h53.5c39.5-.1 53.5-.9 53.5-3.1zm-184.3-95.9l.7-54-12 2.2c-19.6 3.6-41.9 11.9-57.6 21.3-25.8 15.5-27 11.4 15.2 53.6l37.4 37.5 7.8-3.3 7.8-3.3.7-54zm118.2-20c-11.3-8.9-51.4-26.8-67.9-30.4l-17-3.7v107.6l6.9 3.7 6.9 3.7 38.4-38.2 38.4-38.2-5.7-4.5z"/></g></g></g></g></g></g></svg>
-                        </a>
-
-                    </div>
-                </div>
-
-                <div class="sm:w-1/3 w-full sm:mt-0 mt-16 relative px-4 h-full items-stretch justify-center flex">
-                    <div class="h-full  w-full shadow-3xl autre mx-auto justify-center items-center rounded-lg -p-4 hover:bg-black border border-gray-800">
-                        <img src="../../assets/img/index/statistic-curve.jpg" alt="project"
-                             class="flex bg-cover items-stretch h-48   w-auto">
-                    </div>
-                    <div class="absolute">
-
-                        <p class="text-white text-xl text-center flex mx-auto font-mono mt-2">BTS SN IR diploma
-                            Project</p>
-                        <a href="https://github.com/AlbertLanne/ProductionMonitoringMysql">
-                            <img src="../../assets/img/index/logo_project.jpg" alt="project"
-                                 class=" mt-2 absolute bg-cover h-32 w-auto ">
-                        </a>
-
-                    </div>
-                </div>
-
-                <div class="sm:w-1/3 w-full sm:mt-0 mt-16 relative px-4 h-full items-stretch justify-center flex">
-                    <div class="h-full  w-full shadow-3xl autre mx-auto justify-center items-center rounded-lg -p-4 hover:bg-black border border-gray-800">
-                        <img src="../../assets/img/index/residencefrance.jpg" alt="project" class="h-48 w-full"
-                             style="object-fit: cover;">
-                    </div>
-                    <div class="absolute">
-                        <p class="text-yellow-800 px-2 bg-white rounded-lg text-xl text-center flex mx-auto font-mono mt-2 ">
-                            Residence France</p>
-                        <a href="https://residencefrance.fr/"
-                           class="mx-auto justify-center w-full  mt-2 absolute bg-cover h-32 w-auto">
-                            <svg viewBox="0 0 2724 2019" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                 xmlns:xlink="http://www.w3.org/1999/xlink" class="logo mr-2">
-                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g id="Group" transform="translate(-194.000000, 75.000000)" stroke="#ED8936"
-                                       stroke-width="150">
-                                        <g id="Rectangle">
-                                            <g>
-                                                <path d="M547.255781,782.797361 C550.48306,569.008448 610.0396,375.903672 704.711788,235.045698 C802.081536,90.1741613 1348.55783,0.569252787 1497.13906,0.569252787 L1573.79732,0.569252787 C1722.37855,0.569252787 2306.43037,90.1741613 2403.80012,235.045698 C2498.27225,375.60602 2557.77699,568.192568 2561.23491,781.442344 C2722.67771,840.494463 2842.45617,1057.82624 2842.45617,1316.89616 C2842.45617,1621.36504 2677.01996,1868.18583 2472.94405,1868.18583 L639.171212,1868.18583 C435.095303,1868.18583 269.659091,1621.36504 269.659091,1316.89616 C269.659091,1059.76882 387.648019,843.75604 547.255781,782.797361 Z M822.807605,922.369251 C1154.27734,992.433167 1404.68215,1025.72214 1574.02202,1022.23617 C1796.1213,1017.66412 2066.9531,990.584899 2263.11692,922.369251"
-                                                      id="Combined-Shape"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </g>
-                            </svg>
-
-                        </a>
-                    </div>
-                </div>
+        <div class="w-full justify-center flex">
+            <div class=" w-1/3">
+                <div class=" flex justify-center">
+                    <h2 class=" text-center italic text-2xl text-white mt-8 font-mono -mb-4 button">
+                        Recent
+                        project
+                        work</h2></div>
             </div>
         </div>
 
+
+        <div class="w-full justify-center flex mt-8 justify-around sm:flex-wrap">
+            <div class="mx-2  max-w-sm bg-white shadow-lg rounded-lg overflow-hidden my-4">
+                <img class="w-full h-56 object-cover object-center"
+                     src="https://cdnb.artstation.com/p/assets/images/images/027/445/053/large/albert-l-leld.jpg?1591564036"
+                     alt="avatar">
+                <div class="flex items-center px-6 py-3 bg-gray-900">
+                    <svg class="h-6 w-6 text-white fill-current"
+                         viewBox="0 0 1024 1024" width="200" height="200">
+                        <path d="M512 128a384 384 0 10384 384 384 384 0 00-384-384zm0 563.2A179.2 179.2 0 11691.2 512 179.2 179.2 0 01512 691.2z"
+                              fill="#fff"/>
+                        <path d="M614.4 168.448L588.8 0H435.2l-25.6 168.448a358.4 358.4 0 01204.8 0zM409.6 855.552L435.2 1024h153.6l25.6-168.448a358.4 358.4 0 01-204.8 0zm417.792-514.048l102.4-137.216L819.2 95.744l-137.216 102.4A358.4 358.4 0 01826.88 343.04zM196.608 682.496L95.744 819.2 204.8 928.256l137.216-102.4A358.4 358.4 0 01197.12 680.96zM855.552 614.4L1024 588.8V435.2l-168.448-25.6a358.4 358.4 0 010 204.8zM168.448 409.6L0 435.2v153.6l168.448 25.6a358.4 358.4 0 010-204.8zm514.048 417.792l137.216 102.4L928.256 819.2l-102.4-137.216A358.4 358.4 0 01680.96 826.88zM341.504 196.608L204.8 95.744 95.744 204.8l102.4 137.216a358.4 358.4 0 01143.36-145.408z"
+                              fill="#fff"/>
+                    </svg>
+                    <h2 class="mx-3 text-white font-semibold text-lg">Mosquito
+                        Killer X</h2>
+                </div>
+                <div class="py-4 px-6">
+                    <h3 class="text-xl font-semibold text-gray-800">
+                        E-market. Photo-realistic renderings for international
+                        marketing</h3>
+
+
+                    <p class="py-2 text-lg text-gray-700">2D
+                        Photoshop/illustrator - Advanced 3D Render -
+                        Mockup product design - Real time 3D modeling.</p>
+                    <div class="flex items-center mt-4 text-gray-700">
+                        <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
+                             height="200">
+                            <path d="M948.2 796.4L459.6 335.6S477.2 220.2 512 192c35-28.4 96-64 96-64V64c-64 0-117.6 16.6-193.8 54.6-76 37.8-133.6 95.6-148.8 110.8-15.2 15.2-36.2 39-49.4 57.8s-10.6 40.2-10.6 40.2l-39.4 34-8-8c-4.6-4.6-12.4-4.6-17 0L67.4 427c-4.6 4.6-4.6 12.4 0 17l118.8 118.8c4.6 4.6 12.4 4.6 17 0l73.6-73.6c4.6-4.6 4.6-12.4 0-17l-20.6-20.6 29.2-28.6c13.6-7.4 50.8-17.8 78.2-10.2l429.8 534.6c16.2 16.4 40.6 16.4 57 0l93.6-94.2c20.6-16 20.6-44.6 4.2-56.8z"
+                                  fill="#515151"/>
+                        </svg>
+                        <h1 class="px-2 text-sm">Shopify - JS - CSS 💻</h1>
+                    </div>
+                    <div class="flex items-center mt-4 text-gray-700">
+                        <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
+                             height="200">
+                            <path d="M825.6 820.48a520.96 520.96 0 00-85.333-54.187 730.88 730.88 0 0042.666-232.106H953.6a438.187 438.187 0 01-128 286.293zM629.333 936.107A349.44 349.44 0 00709.973 832a444.587 444.587 0 0159.307 35.84 438.613 438.613 0 01-139.52 68.267zM554.667 902.4V786.773a441.173 441.173 0 0193.013 18.774 206.933 206.933 0 01-93.013 96.853zm0-368.213h156.586a696.747 696.747 0 01-34.986 205.226 512 512 0 00-121.6-24.746zm0-224.427a506.027 506.027 0 00121.6-24.747 674.987 674.987 0 0133.706 177.494H554.667zm0-187.733a206.933 206.933 0 0193.013 96.426 439.893 439.893 0 01-93.013 18.774zm217.6 34.56a438.187 438.187 0 01-59.307 35.84A350.72 350.72 0 00632.32 88.32a436.48 436.48 0 01138.24 67.84zm178.773 305.92H780.373a721.067 721.067 0 00-42.666-203.947 512 512 0 0085.333-54.187A438.187 438.187 0 01949.333 462.08zm-469.333-224A437.76 437.76 0 01378.88 218.88a194.987 194.987 0 01102.827-100.267zm0 224h-166.4a682.667 682.667 0 0133.706-177.494 512 512 0 00131.84 25.6v151.894zm0 251.733a508.16 508.16 0 00-131.84 25.6 696.747 696.747 0 01-34.987-205.227h166.827zm0 192A195.84 195.84 0 01378.88 805.973a437.76 437.76 0 01102.827-19.626zm-227.414-37.973H256a438.187 438.187 0 0159.307-35.84 350.72 350.72 0 0080.64 104.106A436.48 436.48 0 01253.44 867.84zm-181.76-334.08H243.2a733.44 733.44 0 0042.667 232.106 512 512 0 00-85.334 54.187 438.187 438.187 0 01-128-286.293zM198.4 203.52A520.96 520.96 0 00284.587 256a721.067 721.067 0 00-42.667 203.947H71.253A438.187 438.187 0 01198.4 203.52zM394.667 87.893A349.44 349.44 0 00314.027 192 444.587 444.587 0 01256 156.16a438.613 438.613 0 01138.24-68.267zM512 0a512 512 0 10512 512A512 512 0 00512 0z"
+                                  fill="#515151"/>
+                        </svg>
+                        <h3 class="px-2 text-sm border-b"><a
+                                href="https://mosquitokillerprototype3d.myshopify.com/">Demo
+                            here. 🚀</a></h3>
+                    </div>
+                    <div class="flex items-center mt-4 ">
+                        <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
+                             height="200">
+                            <path d="M972.8 25.6H51.2a25.6 25.6 0 00-25.6 25.6v921.6a25.6 25.6 0 0025.6 25.6h921.6a25.6 25.6 0 0025.6-25.6V51.2a25.6 25.6 0 00-25.6-25.6zm-25.6 921.6H76.8V76.8h870.4v870.4z"
+                                  fill="#515151"/>
+                            <path d="M723.008 451.2c84.736 0 153.6-68.864 153.6-153.6S807.744 144 723.008 144s-153.6 68.864-153.6 153.6 68.928 153.6 153.6 153.6zm0-256c56.448 0 102.4 45.952 102.4 102.4S779.456 400 723.008 400s-102.4-45.952-102.4-102.4 45.952-102.4 102.4-102.4zm36.224 534.592l84.288-84.288a25.6 25.6 0 00-36.224-36.224l-84.288 84.288-84.288-84.288a25.6 25.6 0 00-36.224 36.224l84.288 84.288-84.288 84.288a25.6 25.6 0 0036.224 36.224l84.288-84.288 84.288 84.288a25.472 25.472 0 0036.224 0 25.6 25.6 0 000-36.224l-84.288-84.288zM173.44 275.968h192a25.6 25.6 0 100-51.2h-192a25.6 25.6 0 100 51.2zm0 115.2h281.6a25.6 25.6 0 100-51.2h-281.6a25.6 25.6 0 100 51.2zm0 315.2h192a25.6 25.6 0 100-51.2h-192a25.6 25.6 0 100 51.2zm281.6 64.064h-281.6a25.6 25.6 0 100 51.2h281.6a25.6 25.6 0 100-51.2z"
+                                  fill="#515151"/>
+                        </svg>
+                        <h3 class="px-2 text-sm border-b">Covered 100% 🍻👌</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-2  max-w-sm bg-white shadow-lg rounded-lg overflow-hidden my-4">
+                <img class="w-full h-56 object-cover object-right"
+                     src="https://i.imgur.com/3gBoHGU.png"
+                     alt="avatar">
+                <div class="flex items-center px-6 py-3 bg-gray-900">
+                    <svg t="1601233169005"
+                         class="h-6 w-6 text-white fill-current"
+                         viewBox="0 0 1024 1024"
+                         version="1.1" xmlns="http://www.w3.org/2000/svg"
+                         p-id="4141" width="200" height="200">
+                        <path d="M202.66008 885.33784A10.66632 10.66632 0 0 0 213.3264 874.67152v-85.33056a42.66528 42.66528 0 0 0-42.66528-42.66528H85.33056a42.66528 42.66528 0 0 0-42.66528 42.66528v85.33056a10.66632 10.66632 0 0 0 10.66632 10.66632zM458.65176 885.33784a10.66632 10.66632 0 0 0 10.66632-10.66632v-298.65696a42.66528 42.66528 0 0 0-42.66528-42.665281H341.32224a42.66528 42.66528 0 0 0-42.66528 42.665281v298.65696a10.66632 10.66632 0 0 0 10.66632 10.66632zM714.643441 885.33784a10.66632 10.66632 0 0 0 10.66632-10.66632v-213.3264a42.66528 42.66528 0 0 0-42.66528-42.66528h-85.33056a42.66528 42.66528 0 0 0-42.66528 42.66528v213.3264a10.66632 10.66632 0 0 0 10.66632 10.66632zM970.635121 885.33784a10.66632 10.66632 0 0 0 10.66632-10.66632v-511.983361a42.66528 42.66528 0 0 0-42.66528-42.66528h-85.33056a42.66528 42.66528 0 0 0-42.66528 42.66528v511.983361a10.66632 10.66632 0 0 0 10.66632 10.66632z"
+                              p-id="4142"></path>
+                        <path d="M149.32848 576.01456a85.33056 85.33056 0 0 0 85.33056-85.330561 84.51992 84.51992 0 0 0-4.266528-25.599168l135.120942-112.636339a83.410622 83.410622 0 0 0 104.273945-19.626029l106.6632 35.582844A85.33056 85.33056 0 0 0 746.642401 362.688159a83.79461 83.79461 0 0 0-9.85568-38.910735l140.240776-163.621349A85.074568 85.074568 0 1 0 831.972961 85.363839a83.709279 83.709279 0 0 0 3.967871 24.361875L688.190967 282.136111a82.429321 82.429321 0 0 0-91.346364 25.300511l-106.663201-35.540179A85.117234 85.117234 0 1 0 324.256128 302.956767L189.263182 415.763768A84.263928 84.263928 0 0 0 149.32848 405.353439a85.33056 85.33056 0 0 0 0 170.661121zM981.301441 938.66944H42.66528a43.347925 43.347925 0 0 0-42.66528 42.66528 42.66528 42.66528 0 0 0 42.66528 42.66528h938.636161a42.66528 42.66528 0 0 0 42.66528-42.66528 43.305259 43.305259 0 0 0-42.66528-42.66528z"
+                              p-id="4143"></path>
+                    </svg>
+                    <h2 class="mx-3 text-white font-semibold text-lg">Production
+                        Monitoring Mysql</h2>
+                </div>
+                <div class="py-4 px-6">
+                    <h3 class="text-xl font-semibold text-gray-800"> Higher
+                        Techncical certificate (BTS) Project</h3>
+
+
+                    <p class="py-2 text-lg text-gray-700">4-person project for a
+                        company. Create a website using database, vpn and a mobile application to communicate.</p>
+                    <div class="flex items-center mt-4 text-gray-700">
+                        <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
+                             height="200">
+                            <path d="M948.2 796.4L459.6 335.6S477.2 220.2 512 192c35-28.4 96-64 96-64V64c-64 0-117.6 16.6-193.8 54.6-76 37.8-133.6 95.6-148.8 110.8-15.2 15.2-36.2 39-49.4 57.8s-10.6 40.2-10.6 40.2l-39.4 34-8-8c-4.6-4.6-12.4-4.6-17 0L67.4 427c-4.6 4.6-4.6 12.4 0 17l118.8 118.8c4.6 4.6 12.4 4.6 17 0l73.6-73.6c4.6-4.6 4.6-12.4 0-17l-20.6-20.6 29.2-28.6c13.6-7.4 50.8-17.8 78.2-10.2l429.8 534.6c16.2 16.4 40.6 16.4 57 0l93.6-94.2c20.6-16 20.6-44.6 4.2-56.8z"
+                                  fill="#515151"/>
+                        </svg>
+                        <h1 class="px-2 text-sm">ChartJS - CSS - Node.JS -
+                            SQL</h1>
+                    </div>
+                    <div class="flex items-center mt-4 text-gray-700">
+                        <svg t="1601233876344" class="h-6 w-6"
+                             viewBox="0 0 1024 1024" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg" p-id="5434"
+                             width="200" height="200">
+                            <path d="M512 85.333333c235.648 0 426.666667 191.018667 426.666667 426.666667 0 187.733333-121.216 347.136-289.664 404.181333l-9.642667 3.157334-123.904-322.133334A86.016 86.016 0 0 0 597.333333 512a85.333333 85.333333 0 1 0-88.874666 85.248l-123.861334 322.090667-9.6-3.157334A426.709333 426.709333 0 0 1 85.333333 512C85.333333 276.352 276.352 85.333333 512 85.333333z m0 85.333334a341.333333 341.333333 0 0 0-174.890667 634.538666l63.146667-164.224A170.624 170.624 0 0 1 512 341.333333a170.624 170.624 0 0 1 111.786667 299.648c24.106667 62.890667 45.184 117.632 63.104 164.266667A341.333333 341.333333 0 0 0 512 170.666667z"
+                                  p-id="5435"fill="#515151"></path>
+                        </svg>
+                        <h3 class="px-2 text-sm border-b"><a
+                                href="https://github.com/AlbertLanne/ProductionMonitoringMysql">Open Source ! 😍</a></h3>
+                    </div>
+                    <div class="flex items-center mt-4 ">
+                        <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
+                             height="200">
+                            <path d="M972.8 25.6H51.2a25.6 25.6 0 00-25.6 25.6v921.6a25.6 25.6 0 0025.6 25.6h921.6a25.6 25.6 0 0025.6-25.6V51.2a25.6 25.6 0 00-25.6-25.6zm-25.6 921.6H76.8V76.8h870.4v870.4z"
+                                  fill="#515151"/>
+                            <path d="M723.008 451.2c84.736 0 153.6-68.864 153.6-153.6S807.744 144 723.008 144s-153.6 68.864-153.6 153.6 68.928 153.6 153.6 153.6zm0-256c56.448 0 102.4 45.952 102.4 102.4S779.456 400 723.008 400s-102.4-45.952-102.4-102.4 45.952-102.4 102.4-102.4zm36.224 534.592l84.288-84.288a25.6 25.6 0 00-36.224-36.224l-84.288 84.288-84.288-84.288a25.6 25.6 0 00-36.224 36.224l84.288 84.288-84.288 84.288a25.6 25.6 0 0036.224 36.224l84.288-84.288 84.288 84.288a25.472 25.472 0 0036.224 0 25.6 25.6 0 000-36.224l-84.288-84.288zM173.44 275.968h192a25.6 25.6 0 100-51.2h-192a25.6 25.6 0 100 51.2zm0 115.2h281.6a25.6 25.6 0 100-51.2h-281.6a25.6 25.6 0 100 51.2zm0 315.2h192a25.6 25.6 0 100-51.2h-192a25.6 25.6 0 100 51.2zm281.6 64.064h-281.6a25.6 25.6 0 100 51.2h281.6a25.6 25.6 0 100-51.2z"
+                                  fill="#515151"/>
+                        </svg>
+                        <h3 class="px-2 text-sm border-b">Covered 80% - stop due
+                            to quarantine ☣</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-2  max-w-sm bg-white shadow-lg rounded-lg overflow-hidden my-4">
+                <img class="w-full h-56 object-cover object-center"
+                     src="../../assets/img/index/specialiste-handicap-maintien-domicile-jdm-medical.jpg"
+                     alt="avatar">
+                <div class="flex items-center px-6 py-3 bg-gray-900">
+                    <svg class="h-6 w-6 text-white fill-current"
+                         viewBox="0 0 1024 1024" width="200" height="200">
+                        <path d="M64 64v896h896V64H64zm487.6 698.8c0 87.2-51.2 127-125.8 127-67.4 0-106.4-34.8-126.4-77l68.6-41.4c13.2 23.4 25.2 43.2 54.2 43.2 27.6 0 45.2-10.8 45.2-53V475.4h84.2v287.4zm199.2 127c-78.2 0-128.8-37.2-153.4-86l68.6-39.6c18 29.4 41.6 51.2 83 51.2 34.8 0 57.2-17.4 57.2-41.6 0-28.8-22.8-39-61.4-56l-21-9c-60.8-25.8-101-58.4-101-127 0-63.2 48.2-111.2 123.2-111.2 53.6 0 92 18.6 119.6 67.4L800 580c-14.4-25.8-30-36-54.2-36-24.6 0-40.2 15.6-40.2 36 0 25.2 15.6 35.4 51.8 51.2l21 9c71.6 30.6 111.8 62 111.8 132.4 0 75.6-59.6 117.2-139.4 117.2z"
+                        />
+                    </svg>
+                    <h1 class="mx-3 text-white font-semibold text-lg">JDM
+                        Medical</h1>
+                </div>
+                <div class="py-4 px-6">
+                    <h3 class="text-xl font-semibold text-gray-800">E-market
+                        (now work with shopify)</h3>
+
+
+                    <p class="py-2 text-lg text-gray-700">Work on the back end
+                        and the Front-End. The most important parts of the work
+                        was creating a RESTful API.</p>
+                    <div class="flex items-center mt-4 text-gray-700">
+                        <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
+                             height="200">
+                            <path d="M948.2 796.4L459.6 335.6S477.2 220.2 512 192c35-28.4 96-64 96-64V64c-64 0-117.6 16.6-193.8 54.6-76 37.8-133.6 95.6-148.8 110.8-15.2 15.2-36.2 39-49.4 57.8s-10.6 40.2-10.6 40.2l-39.4 34-8-8c-4.6-4.6-12.4-4.6-17 0L67.4 427c-4.6 4.6-4.6 12.4 0 17l118.8 118.8c4.6 4.6 12.4 4.6 17 0l73.6-73.6c4.6-4.6 4.6-12.4 0-17l-20.6-20.6 29.2-28.6c13.6-7.4 50.8-17.8 78.2-10.2l429.8 534.6c16.2 16.4 40.6 16.4 57 0l93.6-94.2c20.6-16 20.6-44.6 4.2-56.8z"
+                                  fill="#515151"/>
+                        </svg>
+                        <h4 class="px-2 text-sm">Vue.JS Node.JS Express.JS
+                            MongoDB</h4>
+                    </div>
+                    <div class="flex items-center mt-4 text-gray-700">
+                        <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
+                             height="200">
+                            <path d="M825.6 820.48a520.96 520.96 0 00-85.333-54.187 730.88 730.88 0 0042.666-232.106H953.6a438.187 438.187 0 01-128 286.293zM629.333 936.107A349.44 349.44 0 00709.973 832a444.587 444.587 0 0159.307 35.84 438.613 438.613 0 01-139.52 68.267zM554.667 902.4V786.773a441.173 441.173 0 0193.013 18.774 206.933 206.933 0 01-93.013 96.853zm0-368.213h156.586a696.747 696.747 0 01-34.986 205.226 512 512 0 00-121.6-24.746zm0-224.427a506.027 506.027 0 00121.6-24.747 674.987 674.987 0 0133.706 177.494H554.667zm0-187.733a206.933 206.933 0 0193.013 96.426 439.893 439.893 0 01-93.013 18.774zm217.6 34.56a438.187 438.187 0 01-59.307 35.84A350.72 350.72 0 00632.32 88.32a436.48 436.48 0 01138.24 67.84zm178.773 305.92H780.373a721.067 721.067 0 00-42.666-203.947 512 512 0 0085.333-54.187A438.187 438.187 0 01949.333 462.08zm-469.333-224A437.76 437.76 0 01378.88 218.88a194.987 194.987 0 01102.827-100.267zm0 224h-166.4a682.667 682.667 0 0133.706-177.494 512 512 0 00131.84 25.6v151.894zm0 251.733a508.16 508.16 0 00-131.84 25.6 696.747 696.747 0 01-34.987-205.227h166.827zm0 192A195.84 195.84 0 01378.88 805.973a437.76 437.76 0 01102.827-19.626zm-227.414-37.973H256a438.187 438.187 0 0159.307-35.84 350.72 350.72 0 0080.64 104.106A436.48 436.48 0 01253.44 867.84zm-181.76-334.08H243.2a733.44 733.44 0 0042.667 232.106 512 512 0 00-85.334 54.187 438.187 438.187 0 01-128-286.293zM198.4 203.52A520.96 520.96 0 00284.587 256a721.067 721.067 0 00-42.667 203.947H71.253A438.187 438.187 0 01198.4 203.52zM394.667 87.893A349.44 349.44 0 00314.027 192 444.587 444.587 0 01256 156.16a438.613 438.613 0 01138.24-68.267zM512 0a512 512 0 10512 512A512 512 0 00512 0z"
+                                  fill="#515151"/>
+                        </svg>
+                        <h3 class="px-2 text-sm border-b"><a
+                                href="https://jdmmedical.fr/">Demo
+                            here.</a></h3>
+                    </div>
+                    <div class="flex items-center mt-4 ">
+                        <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
+                             height="200">
+                            <path d="M972.8 25.6H51.2a25.6 25.6 0 00-25.6 25.6v921.6a25.6 25.6 0 0025.6 25.6h921.6a25.6 25.6 0 0025.6-25.6V51.2a25.6 25.6 0 00-25.6-25.6zm-25.6 921.6H76.8V76.8h870.4v870.4z"
+                                  fill="#515151"/>
+                            <path d="M723.008 451.2c84.736 0 153.6-68.864 153.6-153.6S807.744 144 723.008 144s-153.6 68.864-153.6 153.6 68.928 153.6 153.6 153.6zm0-256c56.448 0 102.4 45.952 102.4 102.4S779.456 400 723.008 400s-102.4-45.952-102.4-102.4 45.952-102.4 102.4-102.4zm36.224 534.592l84.288-84.288a25.6 25.6 0 00-36.224-36.224l-84.288 84.288-84.288-84.288a25.6 25.6 0 00-36.224 36.224l84.288 84.288-84.288 84.288a25.6 25.6 0 0036.224 36.224l84.288-84.288 84.288 84.288a25.472 25.472 0 0036.224 0 25.6 25.6 0 000-36.224l-84.288-84.288zM173.44 275.968h192a25.6 25.6 0 100-51.2h-192a25.6 25.6 0 100 51.2zm0 115.2h281.6a25.6 25.6 0 100-51.2h-281.6a25.6 25.6 0 100 51.2zm0 315.2h192a25.6 25.6 0 100-51.2h-192a25.6 25.6 0 100 51.2zm281.6 64.064h-281.6a25.6 25.6 0 100 51.2h281.6a25.6 25.6 0 100-51.2z"
+                                  fill="#515151"/>
+                        </svg>
+                        <h3 class="px-2 text-sm border-b"> Still in
+                            development </h3>
+                    </div>
+                </div>
+            </div>
+
+
+<!--            <div class="mx-2  max-w-sm bg-white shadow-lg rounded-lg overflow-hidden my-4">-->
+<!--                <img class="w-full h-56 object-cover object-center"-->
+<!--                     src="../../assets/img/index/specialiste-handicap-maintien-domicile-jdm-medical.jpg"-->
+<!--                     alt="avatar">-->
+<!--                <div class="flex items-center px-6 py-3 bg-gray-900">-->
+<!--                    <svg class="h-6 w-6 text-white fill-current"-->
+<!--                         viewBox="0 0 1024 1024" width="200" height="200">-->
+<!--                        <path d="M64 64v896h896V64H64zm487.6 698.8c0 87.2-51.2 127-125.8 127-67.4 0-106.4-34.8-126.4-77l68.6-41.4c13.2 23.4 25.2 43.2 54.2 43.2 27.6 0 45.2-10.8 45.2-53V475.4h84.2v287.4zm199.2 127c-78.2 0-128.8-37.2-153.4-86l68.6-39.6c18 29.4 41.6 51.2 83 51.2 34.8 0 57.2-17.4 57.2-41.6 0-28.8-22.8-39-61.4-56l-21-9c-60.8-25.8-101-58.4-101-127 0-63.2 48.2-111.2 123.2-111.2 53.6 0 92 18.6 119.6 67.4L800 580c-14.4-25.8-30-36-54.2-36-24.6 0-40.2 15.6-40.2 36 0 25.2 15.6 35.4 51.8 51.2l21 9c71.6 30.6 111.8 62 111.8 132.4 0 75.6-59.6 117.2-139.4 117.2z"-->
+<!--                        />-->
+<!--                    </svg>-->
+<!--                    <h1 class="mx-3 text-white font-semibold text-lg">AlbertFoundation</h1>-->
+<!--                </div>-->
+<!--                <div class="py-4 px-6">-->
+<!--                    <h3 class="text-xl font-semibold text-gray-800">E-market-->
+<!--                        (now work with shopify)</h3>-->
+
+
+<!--                    <p class="py-2 text-lg text-gray-700">Work on the back end-->
+<!--                        and the Front-End. The most important parts of the work-->
+<!--                        was creating a RESTful API.</p>-->
+<!--                    <div class="flex items-center mt-4 text-gray-700">-->
+<!--                        <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"-->
+<!--                             height="200">-->
+<!--                            <path d="M948.2 796.4L459.6 335.6S477.2 220.2 512 192c35-28.4 96-64 96-64V64c-64 0-117.6 16.6-193.8 54.6-76 37.8-133.6 95.6-148.8 110.8-15.2 15.2-36.2 39-49.4 57.8s-10.6 40.2-10.6 40.2l-39.4 34-8-8c-4.6-4.6-12.4-4.6-17 0L67.4 427c-4.6 4.6-4.6 12.4 0 17l118.8 118.8c4.6 4.6 12.4 4.6 17 0l73.6-73.6c4.6-4.6 4.6-12.4 0-17l-20.6-20.6 29.2-28.6c13.6-7.4 50.8-17.8 78.2-10.2l429.8 534.6c16.2 16.4 40.6 16.4 57 0l93.6-94.2c20.6-16 20.6-44.6 4.2-56.8z"-->
+<!--                                  fill="#515151"/>-->
+<!--                        </svg>-->
+<!--                        <h4 class="px-2 text-sm">Vue.JS Node.JS Express.JS-->
+<!--                            MongoDB</h4>-->
+<!--                    </div>-->
+<!--                    <div class="flex items-center mt-4 text-gray-700">-->
+<!--                        <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"-->
+<!--                             height="200">-->
+<!--                            <path d="M825.6 820.48a520.96 520.96 0 00-85.333-54.187 730.88 730.88 0 0042.666-232.106H953.6a438.187 438.187 0 01-128 286.293zM629.333 936.107A349.44 349.44 0 00709.973 832a444.587 444.587 0 0159.307 35.84 438.613 438.613 0 01-139.52 68.267zM554.667 902.4V786.773a441.173 441.173 0 0193.013 18.774 206.933 206.933 0 01-93.013 96.853zm0-368.213h156.586a696.747 696.747 0 01-34.986 205.226 512 512 0 00-121.6-24.746zm0-224.427a506.027 506.027 0 00121.6-24.747 674.987 674.987 0 0133.706 177.494H554.667zm0-187.733a206.933 206.933 0 0193.013 96.426 439.893 439.893 0 01-93.013 18.774zm217.6 34.56a438.187 438.187 0 01-59.307 35.84A350.72 350.72 0 00632.32 88.32a436.48 436.48 0 01138.24 67.84zm178.773 305.92H780.373a721.067 721.067 0 00-42.666-203.947 512 512 0 0085.333-54.187A438.187 438.187 0 01949.333 462.08zm-469.333-224A437.76 437.76 0 01378.88 218.88a194.987 194.987 0 01102.827-100.267zm0 224h-166.4a682.667 682.667 0 0133.706-177.494 512 512 0 00131.84 25.6v151.894zm0 251.733a508.16 508.16 0 00-131.84 25.6 696.747 696.747 0 01-34.987-205.227h166.827zm0 192A195.84 195.84 0 01378.88 805.973a437.76 437.76 0 01102.827-19.626zm-227.414-37.973H256a438.187 438.187 0 0159.307-35.84 350.72 350.72 0 0080.64 104.106A436.48 436.48 0 01253.44 867.84zm-181.76-334.08H243.2a733.44 733.44 0 0042.667 232.106 512 512 0 00-85.334 54.187 438.187 438.187 0 01-128-286.293zM198.4 203.52A520.96 520.96 0 00284.587 256a721.067 721.067 0 00-42.667 203.947H71.253A438.187 438.187 0 01198.4 203.52zM394.667 87.893A349.44 349.44 0 00314.027 192 444.587 444.587 0 01256 156.16a438.613 438.613 0 01138.24-68.267zM512 0a512 512 0 10512 512A512 512 0 00512 0z"-->
+<!--                                  fill="#515151"/>-->
+<!--                        </svg>-->
+<!--                        <h3 class="px-2 text-sm border-b"><a-->
+<!--                                href="https://jdmmedical.fr/">Demo-->
+<!--                            here.</a></h3>-->
+<!--                    </div>-->
+<!--                    <div class="flex items-center mt-4 ">-->
+<!--                        <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"-->
+<!--                             height="200">-->
+<!--                            <path d="M972.8 25.6H51.2a25.6 25.6 0 00-25.6 25.6v921.6a25.6 25.6 0 0025.6 25.6h921.6a25.6 25.6 0 0025.6-25.6V51.2a25.6 25.6 0 00-25.6-25.6zm-25.6 921.6H76.8V76.8h870.4v870.4z"-->
+<!--                                  fill="#515151"/>-->
+<!--                            <path d="M723.008 451.2c84.736 0 153.6-68.864 153.6-153.6S807.744 144 723.008 144s-153.6 68.864-153.6 153.6 68.928 153.6 153.6 153.6zm0-256c56.448 0 102.4 45.952 102.4 102.4S779.456 400 723.008 400s-102.4-45.952-102.4-102.4 45.952-102.4 102.4-102.4zm36.224 534.592l84.288-84.288a25.6 25.6 0 00-36.224-36.224l-84.288 84.288-84.288-84.288a25.6 25.6 0 00-36.224 36.224l84.288 84.288-84.288 84.288a25.6 25.6 0 0036.224 36.224l84.288-84.288 84.288 84.288a25.472 25.472 0 0036.224 0 25.6 25.6 0 000-36.224l-84.288-84.288zM173.44 275.968h192a25.6 25.6 0 100-51.2h-192a25.6 25.6 0 100 51.2zm0 115.2h281.6a25.6 25.6 0 100-51.2h-281.6a25.6 25.6 0 100 51.2zm0 315.2h192a25.6 25.6 0 100-51.2h-192a25.6 25.6 0 100 51.2zm281.6 64.064h-281.6a25.6 25.6 0 100 51.2h281.6a25.6 25.6 0 100-51.2z"-->
+<!--                                  fill="#515151"/>-->
+<!--                        </svg>-->
+<!--                        <h3 class="px-2 text-sm border-b"> Still in-->
+<!--                            development </h3>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+        </div>
 
     </div>
 

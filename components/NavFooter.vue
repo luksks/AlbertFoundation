@@ -1,62 +1,25 @@
 <template>
-    <footer class="mt-12 bg-background-tertiary flex">
+    <footer class="mt-12 flex justify-center px-4 text-copy-primary bg-background-tertiary">
+        <div class="container py-6">
 
-        <div class="items-center flex  container mx-auto text-copy-primary flex-wrap">
+            <hr class="h-px mt-6 bg-gray-700 border-none">
 
-            <div class="xl:w-1/4 sm:w-2/4 w-full
-                        sm:justify-start justify-center
-                        flex m-3 mx-auto">
-                <nuxt-link to="/" class="sm:text-2xl text-3xl flex text-center">
-                    Albertfoundation 📡
-                </nuxt-link>
-
-            </div>
-
-            <div class="sm:w-2/4 xl:w-1/4 w-full my-3 sm:text-left text-center ">
-                <p class=" mb-4 hover:text-green-600 sm:text-xl text-2xl ">Ressources</p>
-
-                <a class="sm:p-0 sm:px-0 p-1 px-2  my-2 hover:text-blue-700" download
-                   href="EN_FR_LANNE_A_CV.pdf">- CV</a>
-
-                <nuxt-link to="/presentation">
-                    <p class="sm:p-0 sm:px-0 p-1 px-2  my-2 hover:text-blue-700">
-                        - Presentation</p>
-                </nuxt-link>
-
-                <!--          <p class="cursor-pointer hover:text-red-900 my-2 my-2">- Incoming</p>-->
-            </div>
-
-            <div class="sm:w-2/4 xl:w-1/4 w-full my-3 sm:text-left text-center">
-                <p class=" mb-4 hover:text-green-600 sm:text-xl text-2xl ">More</p>
-
-                <p class="flex sm:justify-start justify-center sm:mb-0 mb-4
-                 sm:p-0 sm:px-0 p-1 px-2 rounded my-2 hover:text-blue-700">
-                    - ( ͡° ͜ʖ ͡°)
-                </p>
-                <p class="sm:text-left text-center cursor-pointer sm:p-0 sm:px-0 p-1 px-3 my-2 hover:text-blue-700"
-                   title="The opensource repo of the website !"><a
-                        href="https://github.com/AlbertLanne/AlbertFoundation"
-                        target="_blank">- GitHub repo</a></p>
-                <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
-            </div>
-
-            <div class="sm:w-2/4 xl:w-1/4 w-full my-3 sm:text-left text-center">
-                <p class=" mb-4 hover:text-green-600 sm:text-xl text-2xl ">Contact</p>
-
-                <nuxt-link to="/privacy">
-                    <p class="sm:mb-0 mb-4
-                                sm:text-left text-center sm:p-0 sm:px-0 p-1 px-2 my-2 hover:text-blue-700">
-                        - Privacy policy</p>
-                </nuxt-link>
-                <nuxt-link to="/aboutWebsite">
-                    <p class="sm:text-left text-center sm:p-0 sm:px-0 p-1 px-2 my-2 hover:text-blue-700">
-                        - About the website</p>
-                </nuxt-link>
-
-                <!--          <p class="cursor-pointer hover:text-red-900 my-2">- Incoming</p>-->
+            <div class="flex flex-col items-center justify-between mt-6 md:flex-row ">
+                <div>
+                    <a href="#" class="sm:text-xl text-2xl font-bold">Albertfoundation  📡</a>
+                </div>
+                <div class="flex mt-4 md:m-0">
+                    <div class="-mx-4">
+                        <a title="The opensource repo of the website !" href="https://github.com/AlbertLanne/AlbertFoundation" class="px-4 sm:text-sm text-xl" target="_blank">GitHub repo</a>
+                        <a download href="EN_FR_LANNE_A_CV.pdf" class="px-4 sm:text-sm text-xl">CV</a>
+                        <a href="/privacy" class="px-4 sm:text-sm text-xl">Privacy policy</a>
+                        <a href="/aboutWebsite" class="px-4 sm:text-sm text-xl">About the website</a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
+
 </template>
 
 <script>
