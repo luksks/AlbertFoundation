@@ -1,26 +1,6 @@
 <template>
 <div>
-<!--    <header class=" flex flex-wrap items-center justify-between flex">-->
-<!--        <nuxt-link to="/" class="sm:px-6 sm:mx-0 mx-auto">-->
-<!--            <img class="-pt-8  fill-current stroke-current sm:h-26 sm:w-26 h-24 w-24 zoom  "-->
-<!--                 src="../assets/img/logo_site_dark_mod.svg"-->
-<!--                 title="The white version logo of my website"-->
-<!--                 alt="The white version logo of my website">-->
-<!--        </nuxt-link>-->
 
-<!--        &lt;!&ndash;        Div pour les élément de droite&ndash;&gt;-->
-
-<!--        <div class=" align-baseline flex justify-end  text-copy-primary sm:mx-0 mx-auto">-->
-
-<!--            <nuxt-link to="/presentation"-->
-<!--                       class=" button zoom hover:text-purple-700 ">-->
-<!--                Presentation-->
-<!--            </nuxt-link>-->
-<!--            <nuxt-link to="/aboutWebsite" class="button zoom hover:text-green-700  text-sm sm:text-base ">-->
-<!--                About the website-->
-<!--            </nuxt-link>-->
-<!--        </div>-->
-<!--    </header>-->
     <div class="flex flex-col  items-center flex-wrap bg-background-primary pt-8 animated fade-in">
         <div class="-my-8">
             <Photo/>
@@ -35,7 +15,7 @@
                 Introduction
             </p>
 
-            <p class="sm:text-2xl text-lg ">I am a French student in the second year of programming at the Paul Cornu College in Lisieux in Normandy
+            <p class="sm:text-2xl text-lg ">I am a French student in Pre-Master of Science (MS) at Epitech Paris
                 I am 20 year's old. By nature, I am really curious and passionate about what I do.
                 I spend a lot of time training on programming, my GitHub account will confirm this.
                 In class people often choose me to manage groups because I'm always one step ahead and I always know how
