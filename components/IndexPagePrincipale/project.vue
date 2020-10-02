@@ -15,7 +15,7 @@
         <div class="w-full justify-center flex mt-8 justify-around flex-wrap xs:flex-col">
             <div class="mx-2  max-w-sm bg-white shadow-lg rounded-lg overflow-hidden my-4">
                 <img class="w-full h-56 object-cover object-center"
-                     src="https://cdnb.artstation.com/p/assets/images/images/027/445/053/large/albert-l-leld.jpg?1591564036"
+                     src="../../assets/img/index/BanniereMoustique.jpg"
                      alt="avatar">
                 <div class="flex items-center px-6 py-3 bg-gray-900">
                     <svg class="h-6 w-6 text-white fill-current"
@@ -69,7 +69,7 @@
             </div>
             <div class="mx-2  max-w-sm bg-white shadow-lg rounded-lg overflow-hidden my-4">
                 <img class="w-full h-56 object-cover object-right"
-                     src="https://i.imgur.com/3gBoHGU.png"
+                     src="../../assets/img/index/BTSSNIR.jpg"
                      alt="avatar">
                 <div class="flex items-center px-6 py-3 bg-gray-900">
                     <svg t="1601233169005"
