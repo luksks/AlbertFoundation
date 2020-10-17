@@ -16,7 +16,6 @@ module.exports = {
         secondary: 'var(--bg-background-secondary)',
         tertiary: 'var(--bg-background-tertiary)',
         clicked: 'var(--bg-background-clicked)',
-        // button: 'var(--border-color-primary)',
 
         form: 'var(--bg-background-form)',
       },
