@@ -2,6 +2,8 @@ import axios from "axios";
 
 const url = "http://localhost:4000/api/products";
 
+
+
 class ProductsService {
   // initialise the data at the url string
     static getProducts() {
