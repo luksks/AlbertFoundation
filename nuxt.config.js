@@ -45,7 +45,7 @@ module.exports = {
     */
     modules: [
         '@nuxtjs/sitemap',
-        '@nuxtjs/',
+        '@nuxtjs/axios',
         '@nuxtjs/proxy'
     ],
 
@@ -58,7 +58,7 @@ module.exports = {
                 res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept')
             }
         }
-        },
+    },
 
     /*
     ** Build configuration
