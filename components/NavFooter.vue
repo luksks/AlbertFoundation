@@ -8,6 +8,7 @@
                 <div>
                     <a href="#" class="sm:text-xl text-2xl font-bold">Albertfoundation  📡</a>
                 </div>
+
                 <div class="flex mt-4 md:m-0">
                     <div class="-mx-4">
                         <a title="The opensource repo of the website !" href="https://github.com/AlbertLanne/AlbertFoundation" class="px-4 sm:text-sm text-xl" target="_blank">GitHub repo</a>
