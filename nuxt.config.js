@@ -54,6 +54,9 @@ module.exports = {
     optimizedImages: {
         optimizeImages: true
     },
+    sitemap: {
+        generate: true,
+    },
     render: {
         static: {
             setHeaders(res) {
