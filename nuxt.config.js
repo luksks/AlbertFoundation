@@ -45,11 +45,15 @@ module.exports = {
     ** Nuxt.js modules
     */
     modules: [
+        '@aceforth/nuxt-optimized-images',
+        '@nuxt/content',
         '@nuxtjs/sitemap',
         '@nuxtjs/axios',
         '@nuxtjs/proxy'
     ],
-
+    optimizedImages: {
+        optimizeImages: true
+    },
     render: {
         static: {
             setHeaders(res) {

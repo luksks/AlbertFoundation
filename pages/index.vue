@@ -30,11 +30,16 @@
 
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-metav
-        head() {
-            return {
-                title: "Home page"
-            };
-        },
+      head: {
+        title: 'Home page',
+        meta: [
+          {
+            hid: 'Albert Lanne Website',
+            name: 'Albert portfolio',
+            content: 'Home page description'
+          }
+        ],
+      },
         components: {NavBarre, Photo,texteIntroduction, project , NetworkBouton,skill}
 
     };

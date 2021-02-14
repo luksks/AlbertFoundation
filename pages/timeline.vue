@@ -1522,13 +1522,17 @@
     import ProductsService from '../components/informations';
 
     export default {
-        // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-metav
-        head() {
-            return {
-                title: "Timeline",
-            };
-
-        },
+        // https://nuxtjs.org/docs/2.x/features/meta-tags-seo
+      head: {
+        title: 'Timeline page',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Home page description'
+          }
+        ],
+      },
         data() {
             return {
                 isNinja: true,

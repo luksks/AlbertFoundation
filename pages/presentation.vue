@@ -72,11 +72,16 @@
 
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-metav
-        head() {
-            return {
-                title: "Presentation"
-            };
-        },
+      head: {
+        title: 'Presentation',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Home page description'
+          }
+        ],
+      },
         components: {
             Photo, NavBarre
         }

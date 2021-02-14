@@ -102,11 +102,16 @@
     import {version} from '../package.json'
     export default {
         name: "about",
-        head() {
-            return {
-                title: "About"
-            };
-        },
+      head: {
+        title: 'About the website',
+        meta: [
+          {
+            hid: 'description',
+            name: 'About website',
+            content: 'the about page of the website'
+          }
+        ],
+      },
         components: {NavBarre,},
         version
     }
