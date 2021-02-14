@@ -55,7 +55,11 @@ module.exports = {
         optimizeImages: true
     },
     sitemap: {
-        generate: true,
+        path: '/sitemap.xml',
+        hostname: 'http://albertfoundation.com/',
+        generate: true, // Enable me when using nuxt generate
+        exclude: [],
+        routes: []
     },
     render: {
         static: {
