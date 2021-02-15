@@ -34,19 +34,12 @@ module.exports = {
         {src: '~plugins/ga.js', mode: 'client'}
     ],
     /*
-    ** Nuxt.js dev-modules
-    */
-    devModules: [
-        // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-        '@nuxtjs/tailwindcss',
-    ],
-    /*
     ** Nuxt.js modules
     */
     modules: [
+        '@nuxtjs/tailwindcss',
         '@aceforth/nuxt-optimized-images',
         '@nuxt/content',
-        '@nuxtjs/sitemap',
         '@nuxtjs/axios',
         '@nuxtjs/proxy'
     ],
