@@ -45,22 +45,10 @@ module.exports = {
     ** Nuxt.js modules
     */
     modules: [
-        '@aceforth/nuxt-optimized-images',
-        '@nuxt/content',
         '@nuxtjs/sitemap',
         '@nuxtjs/axios',
         '@nuxtjs/proxy'
     ],
-    optimizedImages: {
-        optimizeImages: true
-    },
-    sitemap: {
-        path: '/sitemap.xml',
-        hostname: 'http://albertfoundation.com/',
-        generate: true, // Enable me when using nuxt generate
-        exclude: [],
-        routes: []
-    },
     render: {
         static: {
             setHeaders(res) {
