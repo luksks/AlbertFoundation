@@ -1,6 +1,5 @@
 module.exports = {
-    mode: 'static',
-    ssr: 'false',
+    ssr: false,
     server: {
         port: 8080, // default: 3000
     },
