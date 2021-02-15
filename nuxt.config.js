@@ -37,7 +37,7 @@ module.exports = {
     /*
     ** Nuxt.js dev-modules
     */
-    devModules: [
+    buildModules: [
         // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
         '@nuxtjs/tailwindcss',
     ],
