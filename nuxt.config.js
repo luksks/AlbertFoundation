@@ -41,13 +41,21 @@ module.exports = {
         // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
         '@nuxtjs/tailwindcss',
     ],
-    /*
-    ** Nuxt.js modules
+   /*
+    *
+    * https://marquez.co/docs/nuxt-optimized-images/
+    * Nuxt.js modules
     */
+
     modules: [
+        '@aceforth/nuxt-optimized-images',
         '@nuxtjs/axios',
         '@nuxtjs/proxy'
     ],
+
+    optimizedImages: {
+        optimizeImages: true
+    },
     render: {
         static: {
             setHeaders(res) {
