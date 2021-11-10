@@ -1519,7 +1519,6 @@
 
 <script>
 
-    import ProductsService from '../components/informations';
 
     export default {
         // https://nuxtjs.org/docs/2.x/features/meta-tags-seo
@@ -1549,23 +1548,6 @@
                 text: '',
                 category: null,
             }
-        },
-        async created() {
-            try {
-                this.products = await ProductsService.getProducts();
-            } catch (err) {
-                // this.error = err.message;
-            }
-        },
-        methods: {
-            async createProducts() {
-                await ProductsService.insertProducts(this.text);
-                this.products = await ProductsService.getProducts();
-            },
-            async removeProducts(id) {
-                await ProductsService.deleteProducts(id);
-                this.products = await ProductsService.getProducts();
-            },
         },
         components: {}
     };
