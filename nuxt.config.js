@@ -1,6 +1,6 @@
 module.exports = {
     mode: 'universal',
-    ssr: false,
+    ssr: true,
     server: {
         port: 8080, // default: 3000
     },
@@ -49,7 +49,6 @@ module.exports = {
 
     modules: [
         '@aceforth/nuxt-optimized-images',
-        '@nuxtjs/axios',
         '@nuxtjs/proxy'
     ],
 
