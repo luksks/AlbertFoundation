@@ -29,99 +29,98 @@
                 1. INTRODUCTION
             </h1>
 
-            <p>The data controller pursuant to the General Data Protection Directive (“GDPR”) in respect of any Personal
-                Information that you submit to us via my website
-                Personal Information you submit to us via the AlbertFoundation website (or otherwise) will be processed
-                by us or by data processors appointed by us to undertake processing on our behalf. AlbertFoundation
-                respects your privacy rights and recognizes the importance of protecting the information collected
-                about you. We have adopted this Privacy Policy to explain how we collect, use and store your personal
-                and non-personal information as set forth in the GDPR. If you want to know what Personal Informati²on or
-                Non-Personal Information we hold about you or if you have any other queries in relation to this Privacy
-                Policy, please contact us by emailing us at albert.lanne@gmail.com .
-                We will require you to verify your identity before releasing any information to you.</p>
+            <p>Le contrôleur de données conformément à la directive générale sur la protection des données ("GDPR") en ce qui concerne toute information personnelle que vous nous soumettez via mon site Web.
+              personnelles que vous nous soumettez via mon site web.
+              Les informations personnelles que vous nous soumettez via le site Internet de la Fondation Albert (ou autrement) seront traitées
+              par nous ou par des processeurs de données désignés par nous pour entreprendre le traitement en notre nom. AlbertFoundation
+              respecte votre droit à la vie privée et reconnaît l'importance de la protection des informations recueillies
+              sur vous. Nous avons adopté cette politique de confidentialité afin d'expliquer comment nous recueillons, utilisons et conservons vos informations personnelles et non personnelles, comme indiqué dans le présent document.
+              personnelles et non personnelles, comme le prévoit le GDPR. Si vous souhaitez savoir quelles sont les informations personnelles ou les
+              informations non personnelles que nous détenons à votre sujet ou si vous avez d'autres questions relatives à la présente politique de confidentialité, veuillez nous contacter par courriel.
+              politique de confidentialité, veuillez nous contacter en nous envoyant un courriel à albert.lanne@gmail.com .
+              Nous vous demanderons de vérifier votre identité avant de vous communiquer toute information.</p>
 
 
             <h1 class="font-normal sm:text-2xl text-1xl py-4">
-                2. What Is Personal And Non-Personal Information?
+              2. Qu'est-ce qu'une information personnelle et non personnelle ?
             </h1>
-            “Personal Information” is information that we have collected from you that identifies you, or which, in
-            conjunction with other information that is in our possession, or is likely to come into our possession, may
-            be used by us to identify you.
+          Les "informations personnelles" sont les informations que nous avons recueillies auprès de vous et qui vous identifient ou qui, en
+          d'autres informations qui sont en notre possession ou qui sont susceptibles d'être en notre possession, peuvent être utilisées par nous pour vous identifier.
+          être utilisées par nous pour vous identifier.
 
-            “Non-Personal Information”, is information that we have collected from you which cannot be used by us to
-            identify you.
+          Les "informations non personnelles" sont des informations que nous avons recueillies auprès de vous et qui ne peuvent pas être utilisées par nous pour
+          vous identifier.
             <h1 class="font-normal sm:text-2xl text-1xl py-4">
-                3. Which Data Does AlbertFoundation Collect And Use At Which Stage?
+              3. Quelles sont les données collectées et utilisées par AlbertFoundation à quel stade ?
             </h1>
             <h1 class="font-normal sm:text-2xl text-1xl py-4">
-                3.1. Use Of Our Website
+              3.1. Utilisation de notre site Web
             </h1>
             <h1 class="font-normal text-1xl py-4">
                 3.1.1. General
             </h1>
 
 
-            If you access or use our Website we may collect the following Non-Personal Information:
+          Si vous accédez à notre site Web ou l'utilisez, nous pouvons recueillir les informations non personnelles suivantes :
 
-            Request (Name of the requested file)
-            Browser type/version (e.g.: Internet Explorer 11.0)
-            Browser language (e.g.: English)
-            Operating System (e.g.: Windows 7)
-            Resolution of the Browser window
-            Screen resolution
-            Javascript active
-            Java On /Off
-            Cookies On / Off
-            Color settings
-            Referral URL (the previously visited page)
-            Time of Access
-            Clicks
+          Demande (nom du fichier demandé)
+          Type/version du navigateur (par exemple : Internet Explorer 11.0)
+          Langue du navigateur (par ex. : anglais)
+          Système d'exploitation (par exemple : Windows 7)
+          Résolution de la fenêtre du navigateur
+          Résolution de l'écran
+          Javascript actif
+          Java activé / désactivé
+          Cookies activés / désactivés
+          Paramètres de couleur
+          URL de référence (la page précédemment visitée)
+          Heure d'accès
+          Clics
 
             <h1 class="font-normal text-1xl py-4">
                 3.1.2. Cookies
             </h1>
 
 
-            We use cookies to ensure that you get the most out of my website Services. Cookies are small text files that
-            are applied to your Internet enabled device by websites. Cookies allow us to store and then retrieve
-            information on your computer about your visit to our Website (e.g. when you accessed the Website). We may
-            use cookies to deliver content specific to your interest and to monitor Website usage or to simplify your
-            visits to the website Services(for example, by remembering your data details).
+          Nous utilisons des cookies pour vous permettre de tirer le meilleur parti des services de mon site web. Les cookies sont de petits fichiers texte qui
+          sont appliqués à votre appareil connecté à Internet par les sites Web. Les cookies nous permettent de stocker puis de récupérer
+          des informations sur votre ordinateur concernant votre visite sur notre site web (par exemple, quand vous avez accédé au site web). Nous pouvons
+          utiliser des cookies pour fournir un contenu spécifique à votre intérêt et pour surveiller l'utilisation du site Web ou pour simplifier vos visites sur les services du site Web (par exemple, le site Web de l'entreprise).
+          simplifier vos visites sur les services du site Web (par exemple, en mémorisant les détails de vos données).
 
-            We may also store flash cookies, also known as “local shared objects,” on your Internet enabled device if
-            the Website uses Adobe Flash. Flash cookies are small files similar to cookies and are used to remember the
-            Website’s settings to personalize the look and feel of the Website. Flash cookies only collect data in the
-            aggregate. Like normal cookies, Flash cookies are represented as small text files on your internet enabled
-            device.
+          Nous pouvons également stocker des cookies flash, également appelés "objets locaux partagés", sur votre appareil connecté à Internet si
+          le site Web utilise Adobe Flash. Les cookies flash sont de petits fichiers similaires aux cookies et sont utilisés pour mémoriser les paramètres du site Web afin de personnaliser le site Web.
+          Les cookies Flash sont de petits fichiers similaires aux cookies et sont utilisés pour mémoriser les paramètres du site Web afin de personnaliser l'aspect et la convivialité du site Web. Les cookies Flash ne collectent des données que dans
+          agrégat. Comme les cookies normaux, les cookies Flash sont représentés par de petits fichiers texte sur votre appareil compatible avec Internet.
+          Internet.
 
-            The collection of information is not mandatory. Most browsers are automatically set to
-            accept cookies whenever you visit a website. You can disable cookies or set your browser to alert you when
-            cookies are being sent. However, your web experience may be less satisfying without the use of cookies. For
-            more information about how to reject cookies using your internet browser settings please consult the “Help”
-            section of your internet browser (or alternatively visit http://www.aboutcookies.org).
+          La collecte d'informations n'est pas obligatoire. La plupart des navigateurs sont automatiquement configurés pour
+          accepter les cookies lorsque vous visitez un site web. Vous pouvez désactiver les cookies ou paramétrer votre navigateur pour qu'il vous avertisse lorsque
+          lorsque des cookies sont envoyés. Toutefois, votre expérience du web peut être moins satisfaisante sans l'utilisation de cookies. Pour
+          Pour plus d'informations sur la manière de rejeter les cookies en utilisant les paramètres de votre navigateur Internet, veuillez consulter la section "Aide" de votre navigateur Internet (ou une alternative).
+          de votre navigateur Internet (ou visitez le site http://www.aboutcookies.org).
 
-            The first time you visit the Website you will be presented with a notification that we use cookies. By
-            proceeding to use the Website you are consenting to our use of cookies as described in this Privacy Policy.
+          Lors de votre première visite sur le site web, une notification vous indiquera que nous utilisons des cookies. En
+          En continuant à utiliser le site Web, vous consentez à ce que nous utilisions des cookies comme décrit dans la présente politique de confidentialité.
             <p class="font-normal text-1xl py-4">
                 3.1.3. Analytic Metrics Tools And Other Technologies
             </p>
             <p>
-                AlbertFoundation may also use its own or third-party proprietary analytic metrics tools and other
-                analytics technologies to collect the information
-                referred to in this Privacy Policy. We may use such technology to deliver content specific
-                to your interest and to monitor usage of the AlbertFoundation Services.
-                Our website uses Google Analytics. To learn how Google uses your data and how you can opt out click here:
-                https://www.google.com/policies/privacy/partners/. The collection of the information set forth in this
-                Section 3.1.3 is not mandatory.
+              AlbertFoundation peut également utiliser ses propres outils de mesure analytique ou ceux de tiers, ainsi que d'autres technologies d'analyse pour collecter les informations.
+              technologies d'analyse pour collecter les informations
+              mentionnées dans la présente politique de confidentialité. Nous pouvons utiliser ces technologies pour fournir un contenu spécifique
+              contenu spécifique à vos intérêts et pour surveiller l'utilisation des services d'AlbertFoundation.
+              Notre site Internet utilise Google Analytics. Pour savoir comment Google utilise vos données et comment vous pouvez les désactiver, cliquez ici :
+              https://www.google.com/policies/privacy/partners/. La collecte des informations énoncées dans la présente
             </p>
 
             <p class="font-normal text-1xl py-4">
                 3.2 Marketing Information
             </p>
             <p class="mb-8">
-                Subject to your approval we may also use the information collected under Section 3.1 to 3.3 to provide
-                marketing information and special offers to you. This use of the information collected under Sections
-                3.1 to 3.2 is not mandatory. You can opt-out of this use of your data at any time here.
+              Sous réserve de votre approbation, nous pouvons également utiliser les informations recueillies en vertu des sections 3.1 à 3.3 pour vous fournir
+              des informations marketing et des offres spéciales. Cette utilisation des informations recueillies en vertu des sections
+              3.1 à 3.2 n'est pas obligatoire. Vous pouvez vous opposer à cette utilisation de vos données à tout moment ici.
             </p>
         </div>
     </div>

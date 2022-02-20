@@ -15,48 +15,48 @@
                 Introduction
             </p>
 
-            <p class="sm:text-2xl text-lg ">I am a French student in Pre-Master of Science (MS) at Epitech Paris
-                I am 20 year's old. By nature, I am really curious and passionate about what I do.
-                I spend a lot of time training on programming, my GitHub account will confirm this.
-                In class people often choose me to manage groups because I'm always one step ahead and I always know how
-                to make the most of each different profile. I love open source project, work with agile methodology, and
-                I'm a real DevOps technician.</p>
+            <p class="sm:text-2xl text-lg ">Je suis un étudiant français en Pré-Master of Science (MS) à Epitech Paris.
+              J'ai 20 ans. De nature, je suis vraiment curieux et passionné par ce que je fais.
+              Je passe beaucoup de temps à me former à la programmation, mon compte GitHub vous le confirmera.
+              En classe, on me choisit souvent pour gérer les groupes car j'ai toujours une longueur d'avance et je sais toujours comment tirer le meilleur parti de chaque profil.
+              comment tirer le meilleur parti de chaque profil différent. J'adore les projets open source, je travaille avec la méthodologie agile, et
+              Je suis un vrai technicien DevOps.</p>
 
             <p class="font-normal sm:text-2xl  text-1xl py-4">
                 Career
             </p>
             <i class="font-normal sm:text-2xl  text-lg">Baccalaureate</i><br>
-            <p class="font-normal sm:text-2xl  text-lg"> For my baccalaureat, I decided to study at Paris in the "Lycée Galilée" in partnership with the French
-                Navy.
-                I was trained during my internships by soldiers specialized in advanced computer communications.
-                I also had two internships to perform into a enterprise.The first year at Affix Formation
-                where I was in charge of the network service and in second year at Astone Technology where I
-                was working on the programming of interactive touch terminals. I did two internships in the French
-                Navy and thus I was able to study industrial electronics directly on board the frigates of the French
-                Navy. In particular, internal communication, radio links, as well as equipment on submarines have opened
-                up new opportunities for me. My desire to deepen my knowledge has been strengthened in the various
-                applications offered by the programming and network as well as a more pragmatic approach to the world of
-                work.
-                I had about 5 months of internship during this 3 years.
+            <p class="font-normal sm:text-2xl  text-lg"> Pour mon baccalauréat, j'ai décidé d'étudier à Paris au "Lycée Galilée" en partenariat avec la Marine nationale.
+              Marine Nationale.
+              J'ai été formé pendant mes stages par des militaires spécialisés dans les communications informatiques avancées.
+              J'ai également effectué deux stages en entreprise, la première année chez Affix Formation où j'étais responsable du réseau.
+              où j'étais en charge du service réseau et en deuxième année chez Astone Technology où je
+              travaillais sur la programmation de bornes tactiles interactives. J'ai effectué deux stages dans la Marine nationale.
+              Marine Nationale et j'ai ainsi pu étudier l'électronique industrielle directement à bord des frégates de la Marine Nationale.
+              Marine Nationale. En particulier, la communication interne, les liaisons radio, ainsi que l'équipement des sous-marins m'ont ouvert de nouvelles opportunités.
+              de nouvelles opportunités pour moi. Mon désir d'approfondir mes connaissances s'est renforcé dans les diverses applications offertes par la programmation et les réseaux en tant qu'ingénieur.
+              applications offertes par la programmation et le réseau ainsi qu'une approche plus pragmatique du monde du travail.
+              travail.
+              J'ai effectué environ 5 mois de stage au cours de ces 3 années.
             </p><br>
 
-            <i class="font-normal sm:text-2xl  text-lg">BTS(Brevet de Techicien Supérieur)<br>
-                Electronic system programming option and Network</i><br><br>
+            <i class="font-normal sm:text-2xl  text-lg">BTS(Brevet de Technicien Supérieur)<br>
+              Option programmation des systèmes électroniques et réseau</i><br><br>
 
-            <p class="font-normal sm:text-2xl  text-lg">After obtaining my baccalaureate with honours in embedded industrial electronics in the navy, I am
-                pursuing a Higher
-                Technician Certificate in C++ programming and network science. I had to do an internship during this 2
-                years. For this one, I was go to Emerya Thailande in Thailande to improve my skill to web technology
-                programming directly near to the expert. I have been working on Bootstrap, PrimerStyle, TailwindCSS, vue.js,
-                nuxt.js, node.js. which gave me the skills to make my own website. </p><br>
+            <p class="font-normal sm:text-2xl  text-lg">Après avoir obtenu mon baccalauréat avec mention en électronique industrielle embarquée dans la marine, je suis
+              je poursuis un brevet de technicien supérieur
+              de technicien supérieur en programmation C++ et science des réseaux. J'ai dû effectuer un stage pendant ces 2
+              années. Pour celui-ci, je me suis rendu à Emerya Thailande en Thailande pour améliorer mes compétences en matière de technologie web.
+              programmation directement auprès de l'expert. J'ai travaillé sur Bootstrap, PrimerStyle, TailwindCSS, vue.js,
+              nuxt.js, node.js. qui m'ont donné les compétences nécessaires pour créer mon propre site web.</p><br>
 
             <p class="font-normal font-normal sm:text-2xl  text-lg py-4">
                 Further studies
             </p>
             <div class="mb-12">
-            <p class="font-normal sm:text-2xl  text-lg">After the BTS I want to continue studies until master in programming and network science
-                and continue by multiplying my professional experiences abroad and certifications to specialize always
-                more.<a href="https://www.linkedin.com/in/albertlanne/"
+            <p class="font-normal sm:text-2xl  text-lg">Après le BTS je veux continuer les études jusqu'au master en programmation et science des réseaux
+              et continuer en multipliant mes expériences professionnelles à l'étranger et mes certifications pour me spécialiser toujours
+              plus.<a href="https://www.linkedin.com/in/albertlanne/"
                         target="_blank"
                         title="My online Curriculum vitae ♟"> My Linkedin.</a></p>
         </div>

@@ -24,11 +24,11 @@
         </div>
         <div class="py-4 px-6">
           <h3 class="text-xl font-semibold text-gray-800">
-            3D configurator for online jewelery sales </h3>
+            Configurateur 3D pour la vente de bijoux en ligne  </h3>
 
 
 
-          <p class="py-2 text-lg text-gray-700"> Personalisation and engraving of rings in real time for online sales. 3D modeling & optimization. </p>
+          <p class="py-2 text-lg text-gray-700"> Personnalisation et gravure de bagues en temps réel pour la vente en ligne. Modélisation et optimisation 3D. </p>
 
           <div class="flex items-center mt-4 text-gray-700">
             <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
@@ -79,12 +79,12 @@
         </div>
         <div class="py-4 px-6">
           <h3 class="text-xl font-semibold text-gray-800">
-            Website to list and monitor jobs </h3>
+            Site web pour répertorier et suivre les emplois </h3>
 
 
-          <p class="py-2 text-lg text-gray-700">Job Board using a restful API
-            CRUD made with express.JS with an mysql database.
-            Created in team of 2 students, for the 3rd year at Epitech!</p>
+          <p class="py-2 text-lg text-gray-700">Job Board utilisant une API restful
+            CRUD réalisé avec express.JS avec une base de données mysql.
+            Réalisé en équipe de 2 étudiants, pour la 3ème année à Epitech !</p>
           <div class="flex items-center mt-4 text-gray-700">
             <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
                  height="200">
@@ -144,13 +144,13 @@
         </div>
         <div class="py-4 px-6">
           <h3 class="text-xl font-semibold text-gray-800">
-            E-market. Photo-realistic renderings for international
-            marketing</h3>
+            Rendu photo-réaliste pour le marketing international
+            marketing international</h3>
 
 
             <p class="py-2 text-lg text-gray-700"> 2D
-            Photoshop/illustrator - Advanced infography -
-            Mockup product design - Real time 3D modeling & render.</p>
+              Photoshop/illustrator - infographie avancée -
+              Conception de maquettes de produits - Modélisation et rendu 3D en temps réel.</p>
           <div class="flex items-center mt-4 text-gray-700">
             <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
                  height="200">
@@ -198,16 +198,16 @@
                 p-id="4143"></path>
           </svg>
           <h2 class="mx-3 text-white font-semibold text-lg">Production
-            Monitoring Mysql</h2>
+            Surveillance de Mysql</h2>
         </div>
         <div class="py-4 px-6">
-          <h3 class="text-xl font-semibold text-gray-800"> Higher
-            Techncical certificate (BTS) Project</h3>
+          <h3 class="text-xl font-semibold text-gray-800"> Supérieur
+            Projet de brevet de technicien supérieur (BTS)</h3>
 
 
-          <p class="py-2 text-lg text-gray-700">4-person project for a
-            company. Create a website using database, vpn and a mobile
-            application to communicate.</p>
+          <p class="py-2 text-lg text-gray-700">Projet de 4 personnes pour une
+            entreprise. Créez un site Web en utilisant une base de données, un réseau privé virtuel et une application mobile pour communiquer.
+            application mobile pour communiquer.</p>
           <div class="flex items-center mt-4 text-gray-700">
             <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
                  height="200">
@@ -241,8 +241,8 @@
                   d="M723.008 451.2c84.736 0 153.6-68.864 153.6-153.6S807.744 144 723.008 144s-153.6 68.864-153.6 153.6 68.928 153.6 153.6 153.6zm0-256c56.448 0 102.4 45.952 102.4 102.4S779.456 400 723.008 400s-102.4-45.952-102.4-102.4 45.952-102.4 102.4-102.4zm36.224 534.592l84.288-84.288a25.6 25.6 0 00-36.224-36.224l-84.288 84.288-84.288-84.288a25.6 25.6 0 00-36.224 36.224l84.288 84.288-84.288 84.288a25.6 25.6 0 0036.224 36.224l84.288-84.288 84.288 84.288a25.472 25.472 0 0036.224 0 25.6 25.6 0 000-36.224l-84.288-84.288zM173.44 275.968h192a25.6 25.6 0 100-51.2h-192a25.6 25.6 0 100 51.2zm0 115.2h281.6a25.6 25.6 0 100-51.2h-281.6a25.6 25.6 0 100 51.2zm0 315.2h192a25.6 25.6 0 100-51.2h-192a25.6 25.6 0 100 51.2zm281.6 64.064h-281.6a25.6 25.6 0 100 51.2h281.6a25.6 25.6 0 100-51.2z"
                   fill="#515151"/>
             </svg>
-            <h3 class="px-2 text-sm border-b">Covered 80% - stop due
-              to quarantine ☣</h3>
+            <h3 class="px-2 text-sm border-b">Couvert à 80% - arrêt dû
+              pour cause de quarantaine ☣</h3>
           </div>
         </div>
       </div>
@@ -263,12 +263,12 @@
         </div>
         <div class="py-4 px-6">
           <h3 class="text-xl font-semibold text-gray-800">E-market
-            (now work with shopify)</h3>
+            (fonctionne maintenant avec shopify)</h3>
 
 
-          <p class="py-2 text-lg text-gray-700">Work on the back end
-            and the Front-End. The most important parts of the work
-            was creating a RESTful API.</p>
+          <p class="py-2 text-lg text-gray-700">Travailler sur le back-end
+            et le Front-End. La partie la plus importante du travail
+            était de créer une API RESTful.</p>
           <div class="flex items-center mt-4 text-gray-700">
             <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
                  height="200">
@@ -327,9 +327,9 @@
           <h3 class="text-xl font-semibold text-gray-800">My portfolio</h3>
 
 
-          <p class="py-2 text-lg text-gray-700">Front-end, and a small API &
-            database for the timeline page! Used for testing and hosted on
-            CleverCloud like a real DevOps dev !</p>
+          <p class="py-2 text-lg text-gray-700">Front-end, et une petite API &
+            pour la page de la ligne du temps ! Utilisé pour les tests et hébergé sur
+            CleverCloud comme un vrai DevOps dev !</p>
           <div class="flex items-center mt-4 text-gray-700">
             <svg class="h-6 w-6" viewBox="0 0 1024 1024" width="200"
                  height="200">

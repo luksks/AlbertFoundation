@@ -5,7 +5,7 @@
                 <div class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
                      role="alert">
                     <span class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">New</span>
-                    <span class="font-semibold mr-2 text-left flex-auto">The (under construction) timeline of my life !</span>
+                    <span class="font-semibold mr-2 text-left flex-auto">La ligne du temps (en construction) de ma vie !</span>
                     <svg class="fill-current opacity-75 h-4 w-4"
                          xmlns="http://www.w3.org/2000/svg"
                          viewBox="0 0 20 20">
@@ -153,13 +153,13 @@
                     <span class="text-copy-primary">20/05/2020 - now <i></i></span>
                 </div>
                 <p class="leading-normal mb-4 text-copy-secondary">
-                <p>My company on e-market. I work on 3 steps. Programming to
-                    improve webdesign, marketing for the communication, and
-                    webdesign with
+                <p>Mon entreprise sur le marché électronique. Je travaille sur 3 étapes. La programmation pour
+              améliorer le webdesign, marketing pour la communication, et
+              webdesign avec
 
-                    ainsi que les technologies de
-                    rendu 3D pour les publicités et vidéo commercial sur
-                    facebook et youtube ads.</p>
+              ainsi que les technologies de
+              rendu 3D pour les publicités et vidéo commercial sur
+              facebook et youtube ads.</p>
             </div>
             <footer class=" text-sm flex pb-6">
                 <div class="w-32 ">
@@ -736,13 +736,13 @@
                     <span class="text-copy-primary">??/??/???? <i>(8 weeks)</i></span>
                 </div>
                 <p class="leading-normal mb-4 text-copy-secondary text-justify">
-                    Training in SITEL (specialist in information and
-                    telecommunication systems of
-                    the French Navy). Followed by an assignment on the
-                    Anti-Aircraft Frigate “Le Cassard”
-                    as a network technician. I'm on the middle on the main
-                    picture, the picture of right are
-                    the Cassard.
+                  Formation au SITEL (spécialiste des systèmes d'information et
+                  systèmes de télécommunication de la
+                  la Marine nationale). Suivi d'une affectation sur la
+                  Frégate anti-aérienne " Le Cassard ".
+                  en tant que technicien réseau. Je suis au milieu sur la photo principale
+                  photo, les photos de droite sont
+                  le Cassard.
                 </p>
             </div>
             <footer class=" text-sm flex pb-6">

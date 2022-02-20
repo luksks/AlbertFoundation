@@ -15,9 +15,21 @@
                         <a download href="EN_FR_LANNE_A_CV.pdf" class="px-4 sm:text-sm text-xl">CV</a>
                         <a href="/privacy" class="px-4 sm:text-sm text-xl">Privacy policy</a>
                         <a href="/aboutWebsite" class="px-4 sm:text-sm text-xl">About the website</a>
+
                     </div>
+
                 </div>
+
+
             </div>
+          <div >
+            consultant SEO - Webmaster freelance - Création et référencement Ads<br>
+            Normandie, France, France et 14100 Lisieux, France<br>
+            Tel = 06 17 03 03 08<br>
+            Webmaster freelance - consultant SEO & Expert Shopify<br>
+            1 Sq. Michelet, 95100 Argenteuil<br>
+            Tel = 06 17 03 03 08<br>
+          </div>
         </div>
     </footer>
 

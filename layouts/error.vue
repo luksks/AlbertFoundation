@@ -16,7 +16,7 @@
             <div class="title flex h-full w-full justify-center items-center">
             <p v-if="statusCode === 404">
                 <nuxt-link to="/" class=" mx-auto button zoom  ">
-                    Return to homepage
+                  Retour à la page d'accueil
                 </nuxt-link>
             </p>
             </div>

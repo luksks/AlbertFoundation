@@ -31,12 +31,12 @@
     export default {
         // https://www.vuemastery.com/courses/scaling-vue-with-nuxt-js/seo-vue-metav
       head: {
-        title: 'Home page',
+        title: 'Consultant SEO - Rendez-vous 15 Minutes Offert ✅',
         meta: [
           {
-            hid: 'Albert Lanne Website',
-            name: 'Albert portfolio',
-            content: 'Home page description'
+            hid: 'description',
+            name: 'description',
+            content: '✅ Référencement Manuel Garantit - Découvrez notre Méthode de Travail en Vidéo -Cliquez Ici ! Une Véritable Stratégie de Référencement SEO Clé en Main au Service de votre Site Web !'
           }
         ],
       },

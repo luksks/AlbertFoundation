@@ -45,10 +45,10 @@
 
                 <div class="mt-4">
                     <h1 class=" text-2xl md:text-3xl text-xl text-copy-primary hover:text-green-300">
-                        Albert Lanne
+                        Consultant SEO à Paris
                     </h1>
                     <h2 class="text-copy-secondary -mt-1 text-base md:text-xl">
-                        Developer &bull; Student &bull; Network Technician
+                    Albert Lanne
                     </h2>
                     <!--                    https://video.twimg.com/tweet_video/EMKjC97WsAMc7Dn.mp4-->
                 </div>
