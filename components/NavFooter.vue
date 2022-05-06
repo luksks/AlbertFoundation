@@ -15,6 +15,9 @@
                         <a download href="EN_FR_LANNE_A_CV.pdf" class="px-4 sm:text-sm text-xl">CV</a>
                         <a href="/privacy" class="px-4 sm:text-sm text-xl">Privacy policy</a>
                         <a href="/aboutWebsite" class="px-4 sm:text-sm text-xl">About the website</a>
+                        <a href="https://www.google.com/partners/agency?id=9496056996" rel="nofollow" target="_blank">
+                        <img src="https://www.gstatic.com/partners/badge/images/2022/PartnerBadgeClickable.svg"/> </a>
+
 
                     </div>
 
@@ -29,6 +32,7 @@
             Webmaster freelance - consultant SEO & Expert Shopify<br>
             1 Sq. Michelet, 95100 Argenteuil<br>
             Tel = 06 17 03 03 08<br>
+            
           </div>
         </div>
     </footer>
